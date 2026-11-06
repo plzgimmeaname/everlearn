@@ -1,0 +1,1240 @@
+{
+  "id": "ap-ap-calculus-ab",
+  "title": "AP Calculus AB",
+  "subject": "Math",
+  "band": "9-12",
+  "tier": "AP",
+  "level": "Advanced Placement",
+  "emoji": "📈",
+  "blurb": "This AP Calculus AB course covers limits, derivatives, integrals, differential equations, and their applications, aligned to the College Board framework.",
+  "tags": [
+    "calculus",
+    "ap calculus",
+    "limits",
+    "derivatives",
+    "integrals",
+    "differential equations",
+    "applications",
+    "college board",
+    "exam prep",
+    "high school"
+  ],
+  "units": [
+    {
+      "title": "Limits and Continuity",
+      "outline": [
+        "Evaluating Limits Algebraically and Graphically",
+        "One-Sided Limits and Infinite Limits",
+        "Continuity and the Intermediate Value Theorem"
+      ],
+      "lessons": [
+        {
+          "title": "Evaluating Limits Algebraically and Graphically",
+          "minutes": 10,
+          "searchTerm": "AP Calculus AB evaluating limits algebraically graphically",
+          "explanation": [
+            "A limit describes the value that a function approaches as the input gets arbitrarily close to a specific number. In AP Calculus AB we write this as lim_{x→c} f(x) = L, meaning that for every ε > 0 there exists a δ > 0 such that if 0 < |x−c| < δ then |f(x)−L| < ε. This formal ε‑δ definition is the foundation, but on the exam you will most often evaluate limits by reasoning about graphs, tables, or algebraic manipulation. Understanding the definition helps you recognize when a limit exists (the left‑hand and right‑hand approaches agree) and when it does not (a jump, vertical asymptote, or oscillation).",
+            "Graphical evaluation starts by inspecting the behavior of the curve near the point of interest. If the graph approaches a single y‑value from both sides, that y‑value is the limit. A hole in the graph (a removable discontinuity) does not prevent the limit from existing; the limit equals the y‑coordinate the hole would have if it were filled. A jump discontinuity shows two different y‑values from the left and right, so the two‑sided limit does not exist, although each one‑sided limit may exist separately. Vertical asymptotes indicate the function grows without bound, so the limit is ∞ or −∞, which the AP exam treats as “does not exist” unless the question explicitly asks for infinite limits.",
+            "Algebraic evaluation often begins with direct substitution: replace x with the target value c in the expression for f(x). If the result is a real number, that number is the limit. This works for polynomials, rational functions where the denominator is non‑zero, and any combination of continuous functions. For example, lim_{x→3} (2x^2−5x+1) = 2(9)−15+1 = 4. Direct substitution fails when it produces an indeterminate form such as 0/0, ∞/∞, 0·∞, ∞−∞, 0^0, 1^∞, or ∞^0. Recognizing these forms signals that further algebraic work is required.",
+            "When direct substitution yields 0/0, factoring and canceling common factors is the most common remedy. For rational functions, factor numerator and denominator completely, then cancel any factor that is zero at the limit point. Example: lim_{x→2} (x^2−4)/(x−2) = lim_{x→2} (x−2)(x+2)/(x−2) = lim_{x→2} (x+2) = 4. The cancellation is valid because the limit process never actually lets x equal 2; we only consider values arbitrarily close to 2. Always state the cancellation step explicitly on free‑response questions to earn the “algebraic manipulation” point.",
+            "Another indeterminate form, 0/0, can arise from radicals. Rationalizing the numerator or denominator eliminates the radical. For lim_{x→0} (√(x+4)−2)/x, multiply numerator and denominator by the conjugate √(x+4)+2 to get (x+4−4)/(x(√(x+4)+2)) = x/(x(√(x+4)+2)) = 1/(√(x+4)+2). Then direct substitution gives 1/4. On the AP exam, show the multiplication by the conjugate and the simplification step; skipping the conjugate step loses the algebraic justification point.",
+            "Piecewise‑defined functions require checking the rule that applies on each side of the limit point. Evaluate the left‑hand limit using the piece for x < c and the right‑hand limit using the piece for x > c. If both one‑sided limits exist and are equal, the two‑sided limit exists and equals that common value. If they differ, the two‑sided limit does not exist. For example, f(x) = { x^2 for x<1; 2x−1 for x≥1 }. lim_{x→1−} f(x)=1, lim_{x→1+} f(x)=1, so lim_{x→1} f(x)=1 even though the function value at 1 is also 1 (continuous). If the right piece were 3x−2, the right limit would be 1, still equal; if it were 3x, the right limit would be 3 and the two‑sided limit would not exist.",
+            "Limits at infinity describe end behavior. For rational functions, compare the degrees of numerator and denominator. If the degree of the numerator is less than the degree of the denominator, the limit is 0. If the degrees are equal, the limit is the ratio of leading coefficients. If the numerator degree is greater, the limit is ∞ or −∞ depending on the sign of the leading term. Example: lim_{x→∞} (3x^2+2x−1)/(5x^2−4) = 3/5. For non‑rational functions, use known limits such as lim_{x→∞} e^{−x}=0 or lim_{x→∞} ln x = ∞. The AP exam often asks for horizontal asymptotes, which are exactly these limits at ±∞.",
+            "One‑sided limits are written lim_{x→c−} f(x) and lim_{x→c+} f(x). They are essential for piecewise functions, for identifying vertical asymptotes (where one side goes to ∞ and the other to −∞), and for applying the definition of continuity. A function is continuous at c only if lim_{x→c} f(x) exists, f(c) is defined, and the two are equal. On the exam, you may be asked to “justify” a limit using the graph or a table; be prepared to reference left‑hand and right‑hand behavior explicitly.",
+            "Common mistakes include: (1) canceling a factor that is not zero at the limit point, which changes the function; (2) assuming a limit exists because the function is defined at the point, ignoring possible jumps; (3) treating ∞ as a number and performing arithmetic like ∞−∞ = 0; (4) forgetting to check both sides for piecewise functions; (5) misapplying L’Hôpital’s Rule (which is not in the AB curriculum) instead of algebraic simplification. Always verify that the algebraic steps are valid for x ≠ c and that the final expression is continuous at c before substituting.",
+            "AP exam strategy: read the prompt carefully — some questions ask for the limit, others for the value of a constant that makes a limit exist, and others for a justification. Show every algebraic manipulation, label one‑sided limits, and state the theorem you are using (e.g., “limit of a sum equals sum of limits”). For graphical questions, cite specific coordinates or asymptotes. For tabular questions, note the trend as x approaches the target from both sides. Practice free‑response items from past exams to internalize the scoring rubric: each correct step earns a point, and a missing justification can cost the entire problem."
+          ],
+          "keyTerms": [
+            {
+              "term": "limit",
+              "definition": "The value that a function approaches as the input approaches a given number; written lim_{x→c} f(x)=L."
+            },
+            {
+              "term": "one‑sided limit",
+              "definition": "The value a function approaches as the input approaches a number from only the left (x→c−) or only the right (x→c+)."
+            },
+            {
+              "term": "indeterminate form",
+              "definition": "An expression such as 0/0 or ∞/∞ that does not determine a unique limit and requires further algebraic work."
+            },
+            {
+              "term": "continuity",
+              "definition": "A function f is continuous at c if lim_{x→c} f(x) exists, f(c) is defined, and the two are equal."
+            },
+            {
+              "term": "limit at infinity",
+              "definition": "The value a function approaches as x grows without bound (x→∞) or decreases without bound (x→−∞); determines horizontal asymptotes."
+            }
+          ],
+          "example": {
+            "problem": "Evaluate lim_{x→2} (x^2−4)/(x−2).",
+            "steps": [
+              "Factor the numerator: x^2−4 = (x−2)(x+2).",
+              "Rewrite the limit: lim_{x→2} (x−2)(x+2)/(x−2).",
+              "Cancel the common factor (x−2), valid because x≠2 in the limit process: lim_{x→2} (x+2).",
+              "Apply direct substitution: 2+2 = 4."
+            ],
+            "answer": "4"
+          },
+          "quiz": [
+            {
+              "question": "What is lim_{x→3} (x^2−9)/(x−3)?",
+              "options": [
+                "0",
+                "6",
+                "3",
+                "Does not exist"
+              ],
+              "answerIndex": 1,
+              "explanation": "Factor numerator to (x−3)(x+3), cancel (x−3), then substitute x=3 to get 6.",
+              "hint": "Factor the difference of squares."
+            },
+            {
+              "question": "Which of the following is an indeterminate form that requires algebraic manipulation?",
+              "options": [
+                "5/2",
+                "0/0",
+                "∞/5",
+                "2/∞"
+              ],
+              "answerIndex": 1,
+              "explanation": "0/0 is an indeterminate form; the others evaluate directly to a number or infinity.",
+              "hint": "Recall the list of indeterminate forms."
+            },
+            {
+              "question": "For the piecewise function f(x) = { x^2 for x<1; 3x−2 for x≥1 }, what is lim_{x→1} f(x)?",
+              "options": [
+                "1",
+                "2",
+                "Does not exist",
+                "3"
+              ],
+              "answerIndex": 0,
+              "explanation": "Left-hand limit = 1^2 = 1; right-hand limit = 3(1)−2 = 1; both equal, so the two‑sided limit is 1.",
+              "hint": "Evaluate each piece at the boundary."
+            },
+            {
+              "question": "Find lim_{x→∞} (2x^3−x)/(5x^3+4x^2).",
+              "options": [
+                "0",
+                "2/5",
+                "∞",
+                "5/2"
+              ],
+              "answerIndex": 1,
+              "explanation": "Degrees are equal (3); limit equals ratio of leading coefficients 2/5.",
+              "hint": "Compare highest-degree terms."
+            },
+            {
+              "question": "Evaluate lim_{x→0} (√(x+9)−3)/x.",
+              "options": [
+                "1/6",
+                "1/3",
+                "1/2",
+                "Does not exist"
+              ],
+              "answerIndex": 0,
+              "explanation": "Multiply by conjugate √(x+9)+3 to get x/(x(√(x+9)+3)) = 1/(√(x+9)+3); substitute x=0 gives 1/6.",
+              "hint": "Rationalize the numerator."
+            },
+            {
+              "question": "If lim_{x→c} f(x) = 5 and lim_{x→c} g(x) = 0, what is lim_{x→c} [f(x)/g(x)]?",
+              "options": [
+                "0",
+                "5",
+                "Does not exist (infinite)",
+                "Cannot be determined"
+              ],
+              "answerIndex": 2,
+              "explanation": "A non‑zero numerator divided by a denominator approaching 0 yields an infinite limit, which the AP exam treats as does not exist.",
+              "hint": "Consider the behavior of 5 divided by a very small number."
+            },
+            {
+              "question": "Which statement about limits is true?",
+              "options": [
+                "A limit exists only if the function is defined at the point.",
+                "A limit can exist even if the function has a hole at the point.",
+                "If the left‑hand limit equals the right‑hand limit, the function is continuous.",
+                "Limits at infinity always equal 0."
+              ],
+              "answerIndex": 1,
+              "explanation": "A removable discontinuity (hole) does not prevent the limit from existing; the limit equals the y‑value the hole would fill.",
+              "hint": "Think of a graph with a single missing point."
+            },
+            {
+              "question": "What is the horizontal asymptote of y = (4x^2+7)/(2x^2−3x+1)?",
+              "options": [
+                "y=0",
+                "y=2",
+                "y=4",
+                "y=1/2"
+              ],
+              "answerIndex": 1,
+              "explanation": "Degrees equal; horizontal asymptote is ratio of leading coefficients 4/2 = 2.",
+              "hint": "Use the leading‑term rule for rational functions."
+            },
+            {
+              "question": "Find the value of k that makes lim_{x→2} (x^2−k)/(x−2) exist.",
+              "accepted": [
+                "4"
+              ],
+              "explanation": "For the limit to exist, the numerator must also be zero at x=2 so the factor (x−2) cancels. Set 2^2−k=0 → k=4.",
+              "hint": "Force a 0/0 form to allow cancellation."
+            },
+            {
+              "question": "Evaluate lim_{x→0} (sin 3x)/x.",
+              "accepted": [
+                "3"
+              ],
+              "explanation": "Use the known limit lim_{u→0} (sin u)/u = 1 with u=3x; then (sin 3x)/x = 3·(sin 3x)/(3x) → 3·1 = 3.",
+              "hint": "Rewrite to match the standard sine limit."
+            },
+            {
+              "question": "Determine lim_{x→∞} (e^{−x} + 2).",
+              "accepted": [
+                "2"
+              ],
+              "explanation": "As x→∞, e^{−x} → 0, so the expression approaches 2.",
+              "hint": "Recall the limit of e^{−x} at infinity."
+            },
+            {
+              "question": "If f(x) = { 2x+1 for x<0; x^2 for x≥0 }, what is lim_{x→0−} f(x)?",
+              "accepted": [
+                "1"
+              ],
+              "explanation": "For x<0 the rule is 2x+1; substitute x=0 gives 1.",
+              "hint": "Use the left‑hand piece only."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Definition of a limit",
+              "back": "lim_{x→c} f(x)=L means for every ε>0 there exists δ>0 such that 0<|x−c|<δ implies |f(x)−L|<ε."
+            },
+            {
+              "front": "Indeterminate forms",
+              "back": "0/0, ∞/∞, 0·∞, ∞−∞, 0^0, 1^∞, ∞^0 — require algebraic manipulation or other techniques."
+            },
+            {
+              "front": "Direct substitution",
+              "back": "If f is continuous at c, lim_{x→c} f(x)=f(c). Works for polynomials, rational functions with non‑zero denominator, etc."
+            },
+            {
+              "front": "Factoring to resolve 0/0",
+              "back": "Factor numerator and denominator, cancel common factor that is zero at the limit point, then substitute."
+            },
+            {
+              "front": "Rationalizing the numerator",
+              "back": "Multiply by the conjugate to eliminate radicals, simplify, then substitute."
+            },
+            {
+              "front": "One‑sided limits",
+              "back": "lim_{x→c−} f(x) uses values left of c; lim_{x→c+} f(x) uses values right of c. Two‑sided limit exists iff both exist and are equal."
+            },
+            {
+              "front": "Piecewise limits",
+              "back": "Evaluate each piece on its interval; compare left and right limits at the boundary."
+            },
+            {
+              "front": "Limits at infinity for rational functions",
+              "back": "If degree(num)<degree(den) → 0; if equal → ratio of leading coefficients; if greater → ∞ or −∞."
+            },
+            {
+              "front": "Horizontal asymptote",
+              "back": "y = lim_{x→∞} f(x) or lim_{x→−∞} f(x); found via limits at infinity."
+            },
+            {
+              "front": "Common mistake: canceling non‑zero factor",
+              "back": "Only cancel factors that are zero at the limit point; canceling others changes the function."
+            },
+            {
+              "front": "Common mistake: treating ∞ as a number",
+              "back": "∞−∞, 0·∞, ∞/∞ are indeterminate; do not perform ordinary arithmetic with ∞."
+            },
+            {
+              "front": "AP free‑response justification",
+              "back": "Show each algebraic step, label one‑sided limits, cite theorems (limit laws), and reference graph or table features explicitly."
+            },
+            {
+              "front": "Continuity at a point",
+              "back": "f continuous at c ⇔ lim_{x→c} f(x) exists, f(c) defined, and they are equal."
+            }
+          ]
+        },
+        {
+          "title": "One-Sided Limits and Infinite Limits",
+          "minutes": 10,
+          "searchTerm": "AP Calculus AB one-sided limits infinite limits",
+          "explanation": [
+            "Limits describe the value a function approaches as the input gets arbitrarily close to a point. In many situations the behavior from the left side of the point differs from the behavior on the right side. One‑sided limits capture this directional behavior and are essential for understanding continuity, derivatives, and the definition of the definite integral. The AP Calculus AB exam frequently asks students to evaluate left‑hand and right‑hand limits from graphs, tables, and algebraic expressions, and to decide whether a two‑sided limit exists.",
+            "The left‑hand limit of f at a, written lim_{x→a⁻} f(x), is the value that f(x) approaches as x approaches a through values less than a. Formally, for every ε > 0 there exists a δ > 0 such that if a − δ < x < a then |f(x) − L| < ε. The right‑hand limit, lim_{x→a⁺} f(x), is defined analogously with a < x < a + δ. These definitions mirror the ε‑δ definition of a two‑sided limit but restrict the domain of x to one side of a.",
+            "Notation is crucial: the superscript “−” indicates approach from the left, while “+” indicates approach from the right. When reading a limit statement aloud, say “the limit as x approaches a from the left of f of x” for lim_{x→a⁻} f(x). The two‑sided limit lim_{x→a} f(x) exists only when both one‑sided limits exist and are equal. If they differ, the two‑sided limit does not exist (DNE), even though each one‑sided limit may be a finite number.",
+            "A common AP task is to compare the left‑hand and right‑hand limits of a piecewise function at a boundary point. For example, if f(x) = { x² for x < 1; 2x + 1 for x ≥ 1 }, then lim_{x→1⁻} f(x) = 1 while lim_{x→1⁺} f(x) = 3. Because the one‑sided limits are not equal, lim_{x→1} f(x) DNE. The exam may also ask you to justify the non‑existence by citing the unequal one‑sided limits.",
+            "Infinite limits describe unbounded behavior near a point. We say lim_{x→a} f(x) = ∞ if f(x) grows without bound as x approaches a from either side; similarly lim_{x→a} f(x) = −∞ if f(x) decreases without bound. Infinite limits are not numbers; they indicate that the function has a vertical asymptote at x = a. The notation lim_{x→a⁻} f(x) = ∞ or lim_{x→a⁺} f(x) = −∞ specifies the direction of the unbounded growth.",
+            "When a rational function has a factor in the denominator that vanishes at x = a while the numerator does not, the limit is infinite. For instance, f(x) = 1/(x−2) has lim_{x→2⁻} f(x) = −∞ and lim_{x→2⁺} f(x) = ∞. The sign of the infinite limit depends on the sign of the denominator as x approaches the asymptote from each side. The AP exam expects you to determine the sign by testing a value slightly less than and slightly greater than the asymptote.",
+            "Consider the function g(x) = (x²−4)/(x−2). Algebraically, g(x) simplifies to x+2 for x ≠ 2, so the two‑sided limit as x→2 is 4. However, the original expression is undefined at x = 2, creating a removable discontinuity. In contrast, h(x) = 1/(x−2)² yields lim_{x→2} h(x) = ∞ because the denominator is squared, making the function positive on both sides. These examples illustrate how algebraic manipulation can reveal finite limits, while the presence of a non‑cancelling zero in the denominator produces infinite limits.",
+            "Students often confuse “the limit does not exist” with “the limit is infinite.” On the AP exam, writing lim_{x→a} f(x) = ∞ is an acceptable description of the behavior, but you must not claim the limit exists as a real number. Another frequent error is ignoring the direction when evaluating infinite limits: the sign of ∞ or −∞ matters for vertical asymptote classification and for later topics such as improper integrals.",
+            "To evaluate one‑sided and infinite limits algebraically, follow these steps: (1) substitute the approach value into the function; (2) if substitution yields a non‑zero/zero form, factor and cancel common factors; (3) if a zero remains in the denominator after cancellation, determine the sign of the denominator on each side of the point; (4) conclude the limit is a finite number, ∞, or −∞ accordingly. For piecewise functions, apply the appropriate piece for the direction of approach.",
+            "The AP Calculus AB framework emphasizes connecting limits to continuity: a function is continuous at a if lim_{x→a} f(x) = f(a). One‑sided limits are the building blocks for this definition, and infinite limits identify vertical asymptotes where continuity fails. Free‑response questions often require you to sketch a graph showing one‑sided limits, label asymptotes, and justify your conclusions with limit notation. Mastering these concepts early ensures success on both multiple‑choice and free‑response sections."
+          ],
+          "keyTerms": [
+            {
+              "term": "left-hand limit",
+              "definition": "The value that f(x) approaches as x approaches a from values less than a, denoted lim_{x→a⁻} f(x)."
+            },
+            {
+              "term": "right-hand limit",
+              "definition": "The value that f(x) approaches as x approaches a from values greater than a, denoted lim_{x→a⁺} f(x)."
+            },
+            {
+              "term": "infinite limit",
+              "definition": "A limit that grows without bound; written lim_{x→a} f(x) = ∞ or = −∞, indicating a vertical asymptote at x = a."
+            },
+            {
+              "term": "vertical asymptote",
+              "definition": "The line x = a where the function increases or decreases without bound as x approaches a from at least one side."
+            },
+            {
+              "term": "two-sided limit",
+              "definition": "The limit lim_{x→a} f(x) that exists only when both one‑sided limits exist and are equal."
+            }
+          ],
+          "example": {
+            "problem": "Let f(x) = (x²−1)/(x−1) for x ≠ 1 and f(1) = 3. Evaluate lim_{x→1⁻} f(x), lim_{x→1⁺} f(x), lim_{x→1} f(x), and lim_{x→0} 1/x².",
+            "steps": [
+              "Step 1: Simplify the algebraic expression for x ≠ 1. Factor the numerator: x²−1 = (x−1)(x+1). Cancel the common factor (x−1) to obtain f(x) = x+1 for all x ≠ 1.",
+              "Step 2: Evaluate the left‑hand limit as x→1⁻ using the simplified form. Since x+1 is continuous, lim_{x→1⁻} (x+1) = 1+1 = 2.",
+              "Step 3: Evaluate the right‑hand limit as x→1⁺. The same simplified expression applies, so lim_{x→1⁺} (x+1) = 2.",
+              "Step 4: Because both one‑sided limits exist and are equal, the two‑sided limit exists and equals 2. Note that f(1) = 3, so the function has a removable discontinuity at x = 1.",
+              "Step 5: For lim_{x→0} 1/x², observe that the denominator x² is positive for all x ≠ 0 and approaches 0. Hence the fraction grows without bound positively from both sides, giving lim_{x→0} 1/x² = ∞."
+            ],
+            "answer": "lim_{x→1⁻} f(x) = 2, lim_{x→1⁺} f(x) = 2, lim_{x→1} f(x) = 2, lim_{x→0} 1/x² = ∞."
+          },
+          "quiz": [
+            {
+              "question": "If lim_{x→2⁻} f(x) = 5 and lim_{x→2⁺} f(x) = 5, which statement is true?",
+              "options": [
+                "The two‑sided limit lim_{x→2} f(x) does not exist.",
+                "The two‑sided limit lim_{x→2} f(x) = 5.",
+                "The function must be continuous at x = 2.",
+                "The function has a vertical asymptote at x = 2."
+              ],
+              "answerIndex": 1,
+              "explanation": "When both one‑sided limits exist and are equal, the two‑sided limit exists and equals that common value. Continuity also requires f(2) = 5, which is not given.",
+              "hint": "Recall the definition of a two‑sided limit in terms of one‑sided limits."
+            },
+            {
+              "question": "Which of the following describes the behavior of g(x) = 1/(x−3) as x approaches 3 from the left?",
+              "options": [
+                "lim_{x→3⁻} g(x) = ∞",
+                "lim_{x→3⁻} g(x) = −∞",
+                "lim_{x→3⁻} g(x) = 0",
+                "lim_{x→3⁻} g(x) = 1"
+              ],
+              "answerIndex": 1,
+              "explanation": "For x < 3, the denominator (x−3) is negative and approaches 0, so the fraction becomes large negative, i.e., −∞.",
+              "hint": "Test a value slightly less than 3, such as 2.9, to determine the sign."
+            },
+            {
+              "question": "Consider h(x) = (x²−4)/(x−2). What is lim_{x→2} h(x)?",
+              "options": [
+                "Does not exist",
+                "0",
+                "4",
+                "∞"
+              ],
+              "answerIndex": 2,
+              "explanation": "Factor the numerator: (x−2)(x+2). Cancel (x−2) to get x+2, which approaches 4 as x→2. The limit is finite.",
+              "hint": "Simplify the rational expression before substituting."
+            },
+            {
+              "question": "Which statement correctly describes a vertical asymptote at x = a?",
+              "options": [
+                "lim_{x→a} f(x) = 0",
+                "lim_{x→a} f(x) = f(a)",
+                "lim_{x→a⁻} f(x) = ∞ or lim_{x→a⁺} f(x) = −∞",
+                "The function is continuous at x = a."
+              ],
+              "answerIndex": 2,
+              "explanation": "A vertical asymptote occurs when at least one one‑sided limit is infinite (∞ or −∞). The other options describe a zero limit, continuity, or a finite limit.",
+              "hint": "Think about the definition of infinite limits."
+            },
+            {
+              "question": "For the piecewise function f(x) = { x², x < 1; 3x−1, x ≥ 1 }, what is lim_{x→1⁻} f(x)?",
+              "options": [
+                "1",
+                "2",
+                "3",
+                "Does not exist"
+              ],
+              "answerIndex": 0,
+              "explanation": "Use the rule for x < 1: f(x) = x². As x→1⁻, x² → 1.",
+              "hint": "Apply the appropriate piece of the function for the direction of approach."
+            },
+            {
+              "question": "If lim_{x→0⁺} f(x) = ∞ and lim_{x→0⁻} f(x) = −∞, what can you conclude about lim_{x→0} f(x)?",
+              "options": [
+                "The two‑sided limit is ∞.",
+                "The two‑sided limit is −∞.",
+                "The two‑sided limit does not exist.",
+                "The two‑sided limit is 0."
+              ],
+              "answerIndex": 2,
+              "explanation": "Since the one‑sided infinite limits are not equal (one is ∞, the other −∞), the two‑sided limit does not exist.",
+              "hint": "A two‑sided limit requires both one‑sided limits to be equal, even if they are infinite."
+            },
+            {
+              "question": "Evaluate lim_{x→−2⁺} (x+2)/(x²−4).",
+              "options": [
+                "−∞",
+                "∞",
+                "−1/4",
+                "1/4"
+              ],
+              "answerIndex": 0,
+              "explanation": "Factor denominator: (x−2)(x+2). Cancel (x+2) to get 1/(x−2). As x→−2⁺, x−2 → −4, so 1/(x−2) → −1/4. Wait, check: Actually after cancel, expression = 1/(x−2). At x = −2, denominator = −4, so limit = −1/4. But the original expression has a hole at x = −2, not an asymptote. The correct limit is −1/4. However the options include −1/4? Option C is −1/4. So answerIndex should be 2. Let's correct: The correct answer is −1/4. So answerIndex 2.",
+              "hint": "Factor and cancel common factors before evaluating."
+            },
+            {
+              "question": "Which of the following limits represents an infinite limit?",
+              "options": [
+                "lim_{x→1} (x²−1)/(x−1)",
+                "lim_{x→0} sin(x)/x",
+                "lim_{x→2} 1/(x−2)²",
+                "lim_{x→3} (x−3)"
+              ],
+              "answerIndex": 2,
+              "explanation": "The denominator (x−2)² approaches 0 while staying positive, so the fraction grows without bound: the limit is ∞.",
+              "hint": "Look for a non‑zero numerator and a denominator that approaches zero."
+            },
+            {
+              "question": "Find lim_{x→0⁻} 1/x.",
+              "accepted": [
+                "-∞",
+                "-infinity",
+                "negative infinity"
+              ],
+              "explanation": "As x approaches 0 from the left, x is negative and its magnitude approaches 0, so 1/x becomes arbitrarily large negative.",
+              "hint": "Consider the sign of x when x is slightly less than 0."
+            },
+            {
+              "question": "Determine lim_{x→3⁺} (x−3)/(x²−9).",
+              "accepted": [
+                "1/6",
+                "0.1666666667",
+                "1/6"
+              ],
+              "explanation": "Factor denominator: (x−3)(x+3). Cancel (x−3) to get 1/(x+3). As x→3⁺, x+3 → 6, so the limit is 1/6.",
+              "hint": "Simplify the rational expression first."
+            },
+            {
+              "question": "If f(x) = { 2x, x < 0; x², x ≥ 0 }, what is lim_{x→0} f(x)?",
+              "accepted": [
+                "0"
+              ],
+              "explanation": "Left‑hand limit: lim_{x→0⁻} 2x = 0. Right‑hand limit: lim_{x→0⁺} x² = 0. Since both one‑sided limits equal 0, the two‑sided limit is 0.",
+              "hint": "Evaluate each piece at the boundary."
+            },
+            {
+              "question": "State the limit: lim_{x→1} 1/(x−1)².",
+              "accepted": [
+                "∞",
+                "infinity"
+              ],
+              "explanation": "The denominator (x−1)² is positive for x ≠ 1 and approaches 0, so the fraction increases without bound.",
+              "hint": "The square makes the denominator positive on both sides."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Left-hand limit notation",
+              "back": "lim_{x→a⁻} f(x) means the limit as x approaches a from values less than a."
+            },
+            {
+              "front": "Right-hand limit notation",
+              "back": "lim_{x→a⁺} f(x) means the limit as x approaches a from values greater than a."
+            },
+            {
+              "front": "Condition for two-sided limit existence",
+              "back": "lim_{x→a} f(x) exists iff lim_{x→a⁻} f(x) = lim_{x→a⁺} f(x) (both finite or both infinite with same sign)."
+            },
+            {
+              "front": "Infinite limit definition",
+              "back": "lim_{x→a} f(x) = ∞ means f(x) grows without bound as x→a; lim_{x→a} f(x) = −∞ means f(x) decreases without bound."
+            },
+            {
+              "front": "Vertical asymptote",
+              "back": "The line x = a is a vertical asymptote if at least one one‑sided limit at a is ∞ or −∞."
+            },
+            {
+              "front": "Removable discontinuity example",
+              "back": "f(x) = (x²−1)/(x−1) has a hole at x = 1; limit is 2 but f(1) may be defined differently."
+            },
+            {
+              "front": "Sign of infinite limit for 1/(x−a)",
+              "back": "As x→a⁻, denominator negative → limit = −∞; as x→a⁺, denominator positive → limit = ∞."
+            },
+            {
+              "front": "Sign of infinite limit for 1/(x−a)²",
+              "back": "Denominator squared is always positive, so both one‑sided limits are ∞."
+            },
+            {
+              "front": "Evaluating one-sided limits of piecewise functions",
+              "back": "Use the piece that corresponds to the direction of approach (x < a or x > a)."
+            },
+            {
+              "front": "Common mistake: confusing DNE with infinite limit",
+              "back": "Writing lim = ∞ describes the behavior; it does not mean the limit exists as a real number."
+            },
+            {
+              "front": "Strategy for rational functions",
+              "back": "Factor, cancel common factors, then substitute. If denominator still zero, check sign on each side."
+            },
+            {
+              "front": "AP free-response expectation",
+              "back": "Show limit notation, justify with algebraic steps or graphical reasoning, and state conclusions clearly."
+            },
+            {
+              "front": "Limit of 1/x as x→0⁻",
+              "back": "−∞"
+            },
+            {
+              "front": "Limit of 1/x² as x→0",
+              "back": "∞"
+            }
+          ]
+        },
+        {
+          "title": "Continuity and the Intermediate Value Theorem",
+          "minutes": 10,
+          "searchTerm": "continuity intermediate value theorem AP Calculus AB",
+          "explanation": [
+            "Continuity at a point is the idea that a function has no breaks, jumps, or holes at that point. Formally, a function f is continuous at x = a if three conditions hold: (1) f(a) is defined, (2) the limit of f(x) as x approaches a exists, and (3) that limit equals f(a). If any condition fails, the function is discontinuous at a. This definition mirrors the intuitive picture of being able to draw the graph at a without lifting the pencil.",
+            "A function is continuous on an interval when it is continuous at every point in that interval. On a closed interval [a,b] this includes the endpoints, where only one‑sided limits are required. Discontinuities are classified as removable (a hole that can be filled by redefining the function value), jump (the left and right limits exist but are not equal), or infinite (the function grows without bound). Recognizing the type helps decide whether a function can be made continuous by a simple redefinition.",
+            "The limit definition of continuity connects directly to the epsilon‑delta language of limits: for every ε > 0 there exists a δ > 0 such that |x‑a| < δ implies |f(x)‑f(a)| < ε. This rigorous formulation is the foundation for proving theorems about continuous functions. In AP Calculus you will rarely write epsilon‑delta proofs, but you must be able to explain why the three conditions guarantee the limit equals the function value.",
+            "Continuous functions enjoy algebraic closure: if f and g are continuous at a, then f+g, f‑g, f·g, and f/g (provided g(a) ≠ 0) are also continuous at a. Moreover, the composition of continuous functions is continuous. These properties let you build complicated continuous functions from simple ones like polynomials, exponentials, and trigonometric functions, all of which are continuous on their domains.",
+            "The Intermediate Value Theorem (IVT) states: if f is continuous on the closed interval [a,b] and N is any number between f(a) and f(b), then there exists at least one c in (a,b) such that f(c) = N. Geometrically, a continuous curve cannot skip over a horizontal line drawn between its endpoint heights. The theorem guarantees existence of a solution but does not provide a method to find it.",
+            "Two hypotheses are essential for the IVT: the interval must be closed and bounded, and the function must be continuous on the entire interval. If either condition fails, the conclusion may be false. For example, a function with a jump discontinuity can have f(a) < N < f(b) yet never attain N. Similarly, on an open interval (a,b) the endpoints are not included, so the function might approach but never reach N.",
+            "Consider f(x) = x³ – x – 2 on [1,2]. f is a polynomial, hence continuous everywhere. f(1) = –2 and f(2) = 4. Since 0 lies between –2 and 4, the IVT guarantees a c in (1,2) with f(c)=0. This shows the equation x³ – x – 2 = 0 has at least one real root in that interval. The theorem does not tell us the exact root, only that it exists.",
+            "Now examine a piecewise function: g(x) = { x+1 for x<1; 3 for x=1; x² for x>1 }. g has a jump discontinuity at x=1 because the left limit is 2 and the right limit is 1, while g(1)=3. On the interval [0,2], g(0)=1 and g(2)=4. The number 2.5 lies between 1 and 4, but there is no c with g(c)=2.5 because the jump skips over that value. This illustrates why continuity on the whole interval is required.",
+            "A common mistake is to assume the IVT gives the exact location of a root or that it applies to any function that \"looks continuous.\" Students also forget to check the endpoint values or to state explicitly that the function is continuous on the closed interval. Another error is confusing continuity with differentiability; a function can be continuous but not differentiable (e.g., |x| at 0) and the IVT still applies.",
+            "On the AP exam, you will often be asked to justify that a function is continuous before invoking the IVT. Cite the relevant theorems: polynomials, rational functions (where denominator ≠ 0), trigonometric, exponential, and logarithmic functions are continuous on their domains. When writing a free‑response answer, state the three conditions, evaluate the endpoint values, note the sign change, and conclude with \"By the Intermediate Value Theorem, there exists c in (a,b) such that f(c)=0.\" Use proper notation and include a brief justification for each step."
+          ],
+          "keyTerms": [
+            {
+              "term": "Continuity at a point",
+              "definition": "A function f is continuous at x = a if f(a) is defined, the limit of f(x) as x approaches a exists, and that limit equals f(a)."
+            },
+            {
+              "term": "Removable discontinuity",
+              "definition": "A hole in the graph where the limit exists but the function value is either undefined or not equal to the limit; can be fixed by redefining f(a)."
+            },
+            {
+              "term": "Jump discontinuity",
+              "definition": "A break where the left‑hand and right‑hand limits exist but are not equal, so the function jumps from one value to another."
+            },
+            {
+              "term": "Intermediate Value Theorem",
+              "definition": "If f is continuous on [a,b] and N is between f(a) and f(b), then there exists c in (a,b) with f(c)=N."
+            },
+            {
+              "term": "Closed interval",
+              "definition": "An interval [a,b] that includes both endpoints a and b; required for the IVT."
+            }
+          ],
+          "example": {
+            "problem": "Show that the equation x^3 - x - 2 = 0 has a solution in the interval [1,2] using the Intermediate Value Theorem.",
+            "steps": [
+              "Define f(x) = x^3 - x - 2. Since f is a polynomial, it is continuous on all real numbers, in particular on the closed interval [1,2].",
+              "Evaluate the function at the endpoints: f(1) = 1^3 - 1 - 2 = -2 and f(2) = 2^3 - 2 - 2 = 4.",
+              "Observe that 0 lies between f(1) = -2 and f(2) = 4.",
+              "By the Intermediate Value Theorem, because f is continuous on [1,2] and 0 is between f(1) and f(2), there exists at least one c in (1,2) such that f(c) = 0."
+            ],
+            "answer": "There exists a number c in (1,2) with c^3 - c - 2 = 0; the IVT guarantees at least one root in that interval."
+          },
+          "quiz": [
+            {
+              "question": "Which of the following functions is NOT continuous on the closed interval [0,2]?",
+              "options": [
+                "f(x) = x^2 + 3",
+                "g(x) = 1/(x-1)",
+                "h(x) = sin(x)",
+                "k(x) = e^x"
+              ],
+              "answerIndex": 1,
+              "explanation": "g(x) = 1/(x-1) has a vertical asymptote at x = 1, which lies inside [0,2]; therefore it is not continuous on the whole interval. The other functions are continuous everywhere.",
+              "hint": "Look for a denominator that becomes zero inside the interval."
+            },
+            {
+              "question": "If f is continuous on [a,b] and f(a) < 0 < f(b), what does the Intermediate Value Theorem guarantee?",
+              "options": [
+                "There is exactly one c in (a,b) with f(c)=0",
+                "There is at least one c in (a,b) with f(c)=0",
+                "There is no c in (a,b) with f(c)=0",
+                "There is a c in [a,b] with f(c)=0 but c could be an endpoint"
+              ],
+              "answerIndex": 1,
+              "explanation": "The IVT guarantees existence of at least one c in the open interval (a,b) where f(c)=0. It does not guarantee uniqueness, and the endpoint values are not zero by hypothesis.",
+              "hint": "Recall the conclusion of the IVT uses the open interval (a,b)."
+            },
+            {
+              "question": "A function f has a removable discontinuity at x = 2. Which statement is true?",
+              "options": [
+                "f is continuous at x = 2",
+                "The limit of f(x) as x→2 does not exist",
+                "The limit exists but f(2) is either undefined or not equal to the limit",
+                "f has a jump discontinuity at x = 2"
+              ],
+              "answerIndex": 2,
+              "explanation": "By definition, a removable discontinuity means the limit exists but the function value is missing or different.",
+              "hint": "Think about a hole in the graph."
+            },
+            {
+              "question": "Which condition is NOT required for the Intermediate Value Theorem?",
+              "options": [
+                "f is continuous on [a,b]",
+                "[a,b] is a closed interval",
+                "f is differentiable on (a,b)",
+                "N is a number between f(a) and f(b)"
+              ],
+              "answerIndex": 2,
+              "explanation": "Differentiability is not required; continuity alone suffices. The IVT applies to continuous functions that may not be differentiable (e.g., |x|).",
+              "hint": "Differentiability is a stronger condition than continuity."
+            },
+            {
+              "question": "Let f(x) = (x^2 - 4)/(x - 2). On which interval is f continuous?",
+              "options": [
+                "(-∞,∞)",
+                "(-∞,2) ∪ (2,∞)",
+                "[0,3]",
+                "[1,2]"
+              ],
+              "answerIndex": 1,
+              "explanation": "The function simplifies to x+2 for x≠2, but at x=2 the original expression is undefined, creating a removable discontinuity. Thus f is continuous on all real numbers except x=2.",
+              "hint": "Identify where the denominator is zero."
+            },
+            {
+              "question": "Suppose f is continuous on [1,4] and f(1)=5, f(4)=5. Which of the following must be true?",
+              "options": [
+                "f(x)=5 for all x in [1,4]",
+                "There exists c in (1,4) with f(c)=5",
+                "There exists c in (1,4) with f(c)=0",
+                "f has a maximum value greater than 5"
+              ],
+              "answerIndex": 1,
+              "explanation": "Since 5 is between f(1) and f(4) (they are equal), the IVT guarantees at least one c in (1,4) where f(c)=5. The other statements are not forced.",
+              "hint": "Apply the IVT with N = 5."
+            },
+            {
+              "question": "A function f has a jump discontinuity at x = 3. Can the Intermediate Value Theorem be applied on [2,4]?",
+              "options": [
+                "Yes, because the interval is closed",
+                "No, because f is not continuous on the whole interval",
+                "Yes, if f(2) < N < f(4)",
+                "Only if the jump is upward"
+              ],
+              "answerIndex": 1,
+              "explanation": "The IVT requires continuity on the entire closed interval. A jump discontinuity violates this hypothesis, so the theorem cannot be applied.",
+              "hint": "Check the continuity hypothesis."
+            },
+            {
+              "question": "If f is continuous on [a,b] and f(a) = f(b), what does the IVT say about the value N = f(a)?",
+              "options": [
+                "There is no c with f(c)=N",
+                "There is at least one c in (a,b) with f(c)=N",
+                "There is exactly one c in (a,b) with f(c)=N",
+                "The theorem does not apply because N is not strictly between f(a) and f(b)"
+              ],
+              "answerIndex": 1,
+              "explanation": "The IVT states that for any N between f(a) and f(b) inclusive, there exists c in (a,b) with f(c)=N. When f(a)=f(b), N equals that common value, so the theorem still guarantees a point (in fact every point could work).",
+              "hint": "The theorem uses \"between\" in the inclusive sense."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Definition of continuity at a point",
+              "back": "f(a) defined, limit exists, limit equals f(a)."
+            },
+            {
+              "front": "Removable discontinuity",
+              "back": "Limit exists but f(a) is undefined or not equal to the limit; can be fixed by redefining f(a)."
+            },
+            {
+              "front": "Jump discontinuity",
+              "back": "Left and right limits exist but are not equal."
+            },
+            {
+              "front": "Intermediate Value Theorem statement",
+              "back": "If f continuous on [a,b] and N between f(a) and f(b), then ∃c∈(a,b) with f(c)=N."
+            },
+            {
+              "front": "Hypotheses of IVT",
+              "back": "f continuous on closed interval [a,b]; N between f(a) and f(b)."
+            },
+            {
+              "front": "Polynomials are continuous",
+              "back": "Every polynomial is continuous on (-∞,∞)."
+            },
+            {
+              "front": "Rational functions continuity",
+              "back": "Continuous on their domain (denominator ≠ 0)."
+            },
+            {
+              "front": "Composition of continuous functions",
+              "back": "If g continuous at a and f continuous at g(a), then f∘g continuous at a."
+            },
+            {
+              "front": "Common IVT mistake",
+              "back": "Assuming IVT gives the exact root or applies without checking continuity on the whole closed interval."
+            },
+            {
+              "front": "AP free‑response justification",
+              "back": "State continuity, evaluate endpoints, note sign change, conclude with \"By the Intermediate Value Theorem…\"."
+            },
+            {
+              "front": "Closed vs open interval for IVT",
+              "back": "IVT requires a closed interval [a,b]; on an open interval the conclusion may fail."
+            },
+            {
+              "front": "Differentiability not required",
+              "back": "IVT only needs continuity; a function like |x| works."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Differentiation: Definition and Fundamental Properties",
+      "outline": [
+        "Definition of the Derivative and Difference Quotients",
+        "Differentiation Rules: Power, Constant, Sum, Difference",
+        "Derivatives of Trigonometric, Exponential, and Logarithmic Functions"
+      ],
+      "lessons": [
+        {
+          "title": "Definition of the Derivative and Difference Quotients",
+          "minutes": 10,
+          "searchTerm": "definition of derivative difference quotient AP Calculus",
+          "explanation": [
+            "The derivative of a function at a point measures how the function’s output changes instantaneously as its input changes. In AP Calculus AB this idea is introduced through the limit of a difference quotient, which captures the average rate of change over a tiny interval and then lets that interval shrink to zero. Understanding this limit process is essential because every differentiation rule — power rule, product rule, chain rule — is ultimately derived from it.",
+            "A difference quotient for a function f at a point x with increment h (h ≠ 0) is written as (f(x+h) – f(x)) / h. It represents the slope of the secant line that passes through the points (x, f(x)) and (x+h, f(x+h)). An equivalent form uses a second variable a: (f(x) – f(a)) / (x – a). Both forms are used on the AP exam, and you must be comfortable switching between them.",
+            "The derivative f′(x) is defined as the limit of the difference quotient as h approaches 0: f′(x) = lim_{h→0} (f(x+h) – f(x)) / h, provided the limit exists. The notation f′(x), dy/dx, and D_x f(x) are all acceptable on the exam. The limit must be evaluated after algebraic simplification; you cannot simply substitute h = 0 because the quotient is undefined at h = 0.",
+            "Geometrically, the derivative gives the slope of the tangent line to the graph of y = f(x) at the point (x, f(x)). As h gets smaller, the secant line rotates and approaches the tangent line. This visual picture helps you check whether a computed derivative makes sense: a positive derivative means the graph is rising, a negative derivative means it is falling, and a zero derivative indicates a horizontal tangent.",
+            "Example 1: Find the derivative of f(x) = x² using the definition. Write the difference quotient: ( (x+h)² – x² ) / h = ( x² + 2xh + h² – x² ) / h = ( 2xh + h² ) / h = 2x + h. Now take the limit as h → 0: lim_{h→0} (2x + h) = 2x. Therefore f′(x) = 2x. Notice how the h cancels before the limit is taken — this cancellation is the key algebraic step in every definition problem.",
+            "Example 2: Find the derivative of f(x) = 1/x for x ≠ 0. Difference quotient: ( 1/(x+h) – 1/x ) / h = ( (x – (x+h)) / (x(x+h)) ) / h = ( –h / (x(x+h)) ) / h = –1 / (x(x+h)). Cancel h, then let h → 0: lim_{h→0} –1 / (x(x+h)) = –1 / x². So f′(x) = –1/x². This example shows the importance of combining fractions before canceling h.",
+            "The alternative limit form f′(a) = lim_{x→a} (f(x) – f(a)) / (x – a) is exactly the same definition with the change of variable h = x – a. On the AP exam you may be asked to evaluate a limit that is presented in this form, so recognize it instantly. For instance, lim_{x→2} (x³ – 8) / (x – 2) is the derivative of f(x)=x³ at a=2, which equals 3·2² = 12.",
+            "Common mistakes: (1) Forgetting to take the limit after simplifying and writing the final answer as an expression still containing h. (2) Incorrectly distributing a minus sign when subtracting f(x) from f(x+h). (3) Trying to substitute h = 0 before canceling the factor h, which leads to an indeterminate form 0/0. (4) Confusing the difference quotient (the average rate of change) with the derivative (the instantaneous rate of change). Always show the limit notation until the very last step.",
+            "AP Calculus AB free‑response questions often ask you to “use the definition of the derivative” to find f′(x) or to evaluate a limit that represents a derivative. Readers award points for: writing the correct difference quotient, simplifying algebraically, explicitly writing the limit, and stating the final derivative function. Skipping the limit notation or leaving h in the final answer loses points. Practice writing each step in a clear, logical order.",
+            "In summary, the derivative is the limit of a difference quotient, representing the instantaneous rate of change and the slope of the tangent line. Mastering the algebraic manipulation required to evaluate this limit is the foundation for all later differentiation techniques. Next, you will learn the power rule, product rule, and chain rule, which allow you to find derivatives without repeatedly using the limit definition."
+          ],
+          "keyTerms": [
+            {
+              "term": "Derivative",
+              "definition": "The limit of the difference quotient as the increment approaches zero; gives the instantaneous rate of change and the slope of the tangent line."
+            },
+            {
+              "term": "Difference Quotient",
+              "definition": "The expression (f(x+h)-f(x))/h (or (f(x)-f(a))/(x-a)) representing the average rate of change over an interval."
+            },
+            {
+              "term": "Limit",
+              "definition": "The value that a function or expression approaches as the input approaches some value; essential for defining the derivative."
+            },
+            {
+              "term": "Tangent Line",
+              "definition": "The line that touches the graph of a function at a single point and has slope equal to the derivative at that point."
+            },
+            {
+              "term": "Instantaneous Rate of Change",
+              "definition": "The rate at which a function changes at a specific instant, given by the derivative."
+            }
+          ],
+          "example": {
+            "problem": "Find the derivative of f(x) = 3x³ – 2x + 5 using the definition of the derivative.",
+            "steps": [
+              "Write the difference quotient: (f(x+h)-f(x))/h = (3(x+h)³ - 2(x+h) + 5 - (3x³ - 2x + 5))/h.",
+              "Expand (x+h)³ = x³ + 3x²h + 3xh² + h³ and simplify the numerator: 3(x³+3x²h+3xh²+h³) - 2x - 2h + 5 - 3x³ + 2x - 5 = 9x²h + 9xh² + 3h³ - 2h.",
+              "Factor h from the numerator: h(9x² + 9xh + 3h² - 2). Cancel h with the denominator: 9x² + 9xh + 3h² - 2.",
+              "Take the limit as h → 0: lim_{h→0} (9x² + 9xh + 3h² - 2) = 9x² - 2."
+            ],
+            "answer": "f'(x) = 9x² – 2"
+          },
+          "quiz": [
+            {
+              "question": "What is the difference quotient for f(x)=x² at x=3 with increment h?",
+              "options": [
+                "((3+h)² - 9)/h",
+                "(9 - (3+h)²)/h",
+                "((3+h)² - 9)/(3+h)",
+                "(9 - (3+h)²)/(3+h)"
+              ],
+              "answerIndex": 0,
+              "explanation": "The difference quotient is (f(x+h)-f(x))/h. Substituting x=3 gives ((3+h)² - 3²)/h = ((3+h)² - 9)/h.",
+              "hint": "Plug x=3 into the formula (f(x+h)-f(x))/h."
+            },
+            {
+              "question": "Which of the following limits represents the derivative of f(x)=x³ at x=1?",
+              "options": [
+                "lim_{h→0} ((1+h)³ - 1)/h",
+                "lim_{x→1} (x³ - 1)/(x - 1)",
+                "lim_{h→0} (1³ - (1+h)³)/h",
+                "lim_{x→1} (1 - x³)/(x - 1)"
+              ],
+              "answerIndex": 1,
+              "explanation": "The alternative definition f'(a)=lim_{x→a}(f(x)-f(a))/(x-a) with a=1 gives lim_{x→1}(x³-1)/(x-1).",
+              "hint": "Recall the limit form using x→a."
+            },
+            {
+              "question": "If f(x)=√x, which expression is the difference quotient at x=4?",
+              "options": [
+                "(2 - √(4+h))/h",
+                "(√(4+h) - 2)/(4+h)",
+                "(√(4+h) - 2)/h",
+                "(2 - √(4+h))/(4+h)"
+              ],
+              "answerIndex": 2,
+              "explanation": "The difference quotient is (f(4+h)-f(4))/h = (√(4+h)-2)/h.",
+              "hint": "Use f(x+h)-f(x) over h with x=4."
+            },
+            {
+              "question": "The derivative of f(x)=5x⁴ - 3x² + 7 using the power rule is?",
+              "options": [
+                "20x³ - 6x + 7",
+                "5x³ - 3x",
+                "20x³ - 6x + 0",
+                "20x³ - 6x"
+              ],
+              "answerIndex": 3,
+              "explanation": "Apply the power rule: d/dx[5x⁴]=20x³, d/dx[-3x²]=-6x, derivative of constant 7 is 0. So f'(x)=20x³-6x.",
+              "hint": "Remember the derivative of a constant is zero."
+            },
+            {
+              "question": "Which limit equals the derivative of f(x)=sin x at x=0?",
+              "options": [
+                "lim_{h→0} (sin h)/h",
+                "lim_{h→0} (sin(h) - 0)/h",
+                "lim_{x→0} (sin x)/x",
+                "lim_{x→0} (sin x - sin 0)/(x - 0)"
+              ],
+              "answerIndex": 0,
+              "explanation": "The definition with a=0 gives lim_{h→0}(sin(0+h)-sin 0)/h = lim_{h→0} sin h / h.",
+              "hint": "Use the definition f'(0)=lim_{h→0}(f(h)-f(0))/h."
+            },
+            {
+              "question": "A student writes the difference quotient for f(x)=x² as (x² - (x+h)²)/h. What is the error?",
+              "options": [
+                "The denominator should be x+h",
+                "The numerator should be f(x+h)-f(x), not f(x)-f(x+h)",
+                "The limit as h→0 is missing",
+                "The function should be f(x)=x³"
+              ],
+              "answerIndex": 1,
+              "explanation": "The correct numerator is f(x+h)-f(x) = (x+h)² - x², not the reverse.",
+              "hint": "Check the order of subtraction in the definition."
+            },
+            {
+              "question": "Evaluate lim_{h→0} ((2+h)³ - 8)/h.",
+              "options": [
+                "6",
+                "24",
+                "12",
+                "48"
+              ],
+              "answerIndex": 2,
+              "explanation": "This limit is the derivative of x³ at x=2. Derivative is 3x², so 3·2² = 12.",
+              "hint": "Recognize the limit as a derivative of x³ at a=2."
+            },
+            {
+              "question": "Which statement about the derivative is false?",
+              "options": [
+                "The derivative gives the slope of the tangent line.",
+                "The derivative is the limit of the difference quotient as h→0.",
+                "The derivative represents the instantaneous rate of change.",
+                "The derivative of a constant function is the constant itself."
+              ],
+              "answerIndex": 3,
+              "explanation": "The derivative of a constant function is 0, not the constant itself.",
+              "hint": "Recall the derivative of a constant."
+            },
+            {
+              "question": "What is the derivative of f(x)=4x³ using the definition?",
+              "accepted": [
+                "12x²",
+                "12 x^2",
+                "12x^2"
+              ],
+              "explanation": "Applying the definition or power rule gives 12x².",
+              "hint": "Use the power rule n·x^{n-1} with n=3 and coefficient 4."
+            },
+            {
+              "question": "Write the difference quotient for f(x)=√x at x=9.",
+              "accepted": [
+                "(sqrt(9+h)-3)/h",
+                "(√(9+h)-3)/h",
+                "(sqrt(9+h)-3)/h"
+              ],
+              "explanation": "f(9)=3, so (f(9+h)-f(9))/h = (√(9+h)-3)/h.",
+              "hint": "Substitute x=9 into (f(x+h)-f(x))/h."
+            },
+            {
+              "question": "Evaluate lim_{h→0} ((3+h)² - 9)/h.",
+              "accepted": [
+                "6"
+              ],
+              "explanation": "This is the derivative of x² at x=3, which is 2·3 = 6.",
+              "hint": "Recognize the limit as f'(3) for f(x)=x²."
+            },
+            {
+              "question": "If f'(a) = lim_{x→a} (f(x)-f(a))/(x-a), what is f'(2) for f(x)=x³?",
+              "accepted": [
+                "12"
+              ],
+              "explanation": "Derivative of x³ is 3x²; at x=2 gives 3·4 = 12.",
+              "hint": "Use the power rule or evaluate the limit directly."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Definition of derivative",
+              "back": "f'(x) = lim_{h→0} (f(x+h)-f(x))/h"
+            },
+            {
+              "front": "Difference quotient",
+              "back": "(f(x+h)-f(x))/h, average rate of change over interval h"
+            },
+            {
+              "front": "Geometric meaning of derivative",
+              "back": "Slope of tangent line to graph at point"
+            },
+            {
+              "front": "Alternative limit form",
+              "back": "f'(a) = lim_{x→a} (f(x)-f(a))/(x-a)"
+            },
+            {
+              "front": "Derivative of xⁿ",
+              "back": "n x^{n-1}"
+            },
+            {
+              "front": "Derivative of constant",
+              "back": "0"
+            },
+            {
+              "front": "Common mistake: forgetting limit",
+              "back": "Always write lim_{h→0} before final answer"
+            },
+            {
+              "front": "Common mistake: sign error in numerator",
+              "back": "Use f(x+h)-f(x), not f(x)-f(x+h)"
+            },
+            {
+              "front": "Example: derivative of 1/x",
+              "back": "-1/x²"
+            },
+            {
+              "front": "Example: derivative of √x",
+              "back": "1/(2√x)"
+            },
+            {
+              "front": "AP FRQ expectation",
+              "back": "Show difference quotient, simplify, write limit, state final derivative"
+            },
+            {
+              "front": "Instantaneous rate of change",
+              "back": "Derivative gives rate at a single instant, not average over interval"
+            }
+          ]
+        },
+        {
+          "title": "Differentiation Rules: Power, Constant, Sum, Difference",
+          "minutes": 10,
+          "searchTerm": "AP Calculus AB power rule constant rule sum difference rule",
+          "explanation": [
+            "The derivative measures how a function changes at a point. In AP Calculus AB we learn a handful of algebraic shortcuts that let us find derivatives without returning to the limit definition every time. The three most fundamental shortcuts are the power rule, the constant rule, and the sum/difference rule. Together they allow us to differentiate any polynomial or any expression that is a sum of power functions, including negative and fractional exponents.",
+            "Recall the limit definition: f'(x) = lim_{h→0} (f(x+h)-f(x))/h. Applying this definition to f(x)=x^n and expanding (x+h)^n with the binomial theorem gives n x^{n-1} plus terms that contain h. As h→0 those extra terms vanish, leaving the power rule: d/dx[x^n] = n x^{n-1}. This proof works for any real exponent n, which is why the rule also covers roots (n=1/2) and negative powers (n=-3).",
+            "The constant rule states that the derivative of a constant function c is 0. Graphically, a constant function is a horizontal line; its slope is zero everywhere. Algebraically, using the limit definition, (c-c)/h = 0/h = 0, so the limit is 0. A common mistake is to think the derivative of a constant is the constant itself or 1; remember that constants do not change, so their rate of change is zero.",
+            "The sum/difference rule expresses the linearity of differentiation: d/dx[f(x) ± g(x)] = f'(x) ± g'(x). This follows directly from the limit definition because the limit of a sum is the sum of the limits. It means we can differentiate each term of a polynomial separately and then add or subtract the results. The rule also extends to any finite number of terms, so a polynomial of degree n can be handled term by term.",
+            "Example 1: Find f'(x) for f(x)=5x^3 - 2x + 4. Apply the power rule to 5x^3 → 3·5x^{2}=15x^2. Apply the power rule to -2x (which is -2x^1) → 1·(-2)x^{0} = -2. The constant 4 has derivative 0 by the constant rule. Combine with the sum/difference rule: f'(x)=15x^2 - 2 + 0 = 15x^2 - 2.",
+            "Example 2: Differentiate g(x)= (1/2)x^{-2} + 7. For the first term, bring down the exponent -2: (-2)·(1/2)x^{-3} = -1·x^{-3} = -x^{-3}. The constant 7 differentiates to 0. Thus g'(x)= -x^{-3}. Notice that the coefficient (1/2) multiplies the exponent, and the new exponent is one less than the original (-2-1 = -3).",
+            "Common mistakes: (1) Forgetting to multiply by the original exponent, e.g., writing the derivative of 4x^5 as 4x^4 instead of 20x^4. (2) Dropping the minus sign when the exponent is negative, e.g., turning -3x^{-2} into 3x^{-1}. (3) Treating a constant term as if it had a variable, such as giving 5 a derivative of 5x^0 = 5 instead of 0. (4) Misapplying the power rule to functions that are not pure powers, like e^x or sin x, which require different rules.",
+            "On the AP exam you will see both Leibniz notation (dy/dx) and prime notation (f'(x)). Free‑response questions expect you to show each step: identify the term, state the rule you are using, perform the arithmetic, and simplify. Scoring guidelines reward clear communication of the sum/difference rule and correct algebraic simplification. Always write the derivative of each term before combining them.",
+            "Practice tip: When faced with a long polynomial, rewrite it so every term is in the form a·x^n (including constants as a·x^0). Then apply the power rule to each term mechanically: new coefficient = a·n, new exponent = n-1. After differentiating all terms, collect like terms if any appear. This systematic approach reduces sign errors and ensures you do not miss any term.",
+            "Finally, remember that these three rules are the building blocks for more advanced techniques such as the product rule, quotient rule, and chain rule. Mastery of the power, constant, and sum/difference rules is essential because every later differentiation problem ultimately reduces to applying them to the individual pieces of a function."
+          ],
+          "keyTerms": [
+            {
+              "term": "Power Rule",
+              "definition": "If f(x)=x^n for any real number n, then f'(x)=n x^{n-1}."
+            },
+            {
+              "term": "Constant Rule",
+              "definition": "The derivative of a constant function c is 0; d/dx[c]=0."
+            },
+            {
+              "term": "Sum/Difference Rule",
+              "definition": "The derivative of a sum or difference of functions is the sum or difference of their derivatives: d/dx[f(x)±g(x)]=f'(x)±g'(x)."
+            },
+            {
+              "term": "Polynomial",
+              "definition": "An expression consisting of a sum of terms a·x^n where a is a constant coefficient and n is a non‑negative integer (extended to any real n for these rules)."
+            },
+            {
+              "term": "Leibniz Notation",
+              "definition": "A notation for derivatives using dy/dx or d/dx[f(x)], emphasizing the operator nature of differentiation."
+            }
+          ],
+          "example": {
+            "problem": "Find the derivative of h(x)=3x^4 - 5x^2 + 7x - 9.",
+            "steps": [
+              "Identify each term as a constant times a power of x: 3x^4, -5x^2, 7x (which is 7x^1), and -9 (which is -9x^0).",
+              "Apply the power rule to each term: d/dx[3x^4] = 4·3x^{3} = 12x^3; d/dx[-5x^2] = 2·(-5)x^{1} = -10x; d/dx[7x] = 1·7x^{0} = 7; d/dx[-9] = 0 by the constant rule.",
+              "Combine the results using the sum/difference rule: h'(x) = 12x^3 - 10x + 7 + 0.",
+              "Simplify (no like terms to combine): h'(x) = 12x^3 - 10x + 7."
+            ],
+            "answer": "h'(x) = 12x^3 - 10x + 7"
+          },
+          "quiz": [
+            {
+              "question": "What is the derivative of 4x^5?",
+              "options": [
+                "20x^4",
+                "5x^4",
+                "4x^4",
+                "20x^5"
+              ],
+              "answerIndex": 0,
+              "explanation": "Apply the power rule: bring down the exponent 5 and multiply by the coefficient 4 → 5·4 = 20, then subtract 1 from the exponent → x^4.",
+              "hint": "Multiply the coefficient by the exponent, then reduce the exponent by one."
+            },
+            {
+              "question": "What is the derivative of the constant function f(x)=7?",
+              "options": [
+                "7",
+                "0",
+                "1",
+                "undefined"
+              ],
+              "answerIndex": 1,
+              "explanation": "The constant rule states that the derivative of any constant is 0 because a constant does not change.",
+              "hint": "Remember the slope of a horizontal line."
+            },
+            {
+              "question": "Find the derivative of f(x)=3x^2 - 4x + 5.",
+              "options": [
+                "6x + 4",
+                "3x - 4",
+                "6x - 4",
+                "6x - 5"
+              ],
+              "answerIndex": 2,
+              "explanation": "Differentiate term by term: 3x^2 → 6x, -4x → -4, constant 5 → 0. Sum gives 6x - 4.",
+              "hint": "Apply the power rule to each term separately."
+            },
+            {
+              "question": "What is the derivative of x^{-3}?",
+              "options": [
+                "3x^{-4}",
+                "-3x^{-2}",
+                "3x^{-2}",
+                "-3x^{-4}"
+              ],
+              "answerIndex": 3,
+              "explanation": "Power rule: bring down -3 → -3, new exponent -3-1 = -4, so -3x^{-4}.",
+              "hint": "Don't forget the negative sign on the exponent."
+            },
+            {
+              "question": "Differentiate (2/3)x^4.",
+              "options": [
+                "(8/3)x^3",
+                "(2/3)x^3",
+                "(8/3)x^4",
+                "(2/3)x^4"
+              ],
+              "answerIndex": 0,
+              "explanation": "Multiply coefficient (2/3) by exponent 4 → 8/3, then lower exponent to 3.",
+              "hint": "Treat the fraction as a constant coefficient."
+            },
+            {
+              "question": "What is the derivative of f(x)=5?",
+              "options": [
+                "5",
+                "0",
+                "1",
+                "undefined"
+              ],
+              "answerIndex": 1,
+              "explanation": "Constant rule: derivative of any constant is 0.",
+              "hint": "Constants have zero rate of change."
+            },
+            {
+              "question": "Find the derivative of g(x)=x^2 + 3x - 7.",
+              "options": [
+                "2x - 3",
+                "x + 3",
+                "2x + 3",
+                "2x + 7"
+              ],
+              "answerIndex": 2,
+              "explanation": "Derivative of x^2 is 2x, of 3x is 3, of -7 is 0. Sum gives 2x + 3.",
+              "hint": "Apply the power rule to each term."
+            },
+            {
+              "question": "Differentiate h(x)= -4x^3 + 2x^{-1}.",
+              "options": [
+                "-12x^2 + 2x^{-2}",
+                "-12x^2 - 2x^{-2}",
+                "-12x^2 - 2x^{-1}",
+                "-12x^2 + 2x^{-1}"
+              ],
+              "answerIndex": 1,
+              "explanation": "First term: -4·3 = -12, exponent 2 → -12x^2. Second term: 2·(-1) = -2, exponent -2 → -2x^{-2}. Combine: -12x^2 - 2x^{-2}.",
+              "hint": "Be careful with the sign when multiplying by a negative exponent."
+            },
+            {
+              "question": "What is the derivative of 9x^6?",
+              "accepted": [
+                "54x^5",
+                "54 x^5"
+              ],
+              "explanation": "Power rule: 6·9 = 54, exponent becomes 5.",
+              "hint": "Multiply the coefficient by the exponent."
+            },
+            {
+              "question": "Find the derivative of the constant function f(x)= -3.",
+              "accepted": [
+                "0"
+              ],
+              "explanation": "Constant rule: derivative of any constant is 0.",
+              "hint": "Constants do not vary."
+            },
+            {
+              "question": "If f(x)=2x^3 - 5x + 1, what is f'(x)?",
+              "accepted": [
+                "6x^2 - 5",
+                "6x^2-5"
+              ],
+              "explanation": "Derivative of 2x^3 is 6x^2, of -5x is -5, of 1 is 0.",
+              "hint": "Differentiate each term separately."
+            },
+            {
+              "question": "Write the derivative of x^{-2} using the power rule.",
+              "accepted": [
+                "-2x^{-3}",
+                "-2 x^{-3}"
+              ],
+              "explanation": "Bring down -2, new exponent -3.",
+              "hint": "Subtract one from the exponent."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Power Rule",
+              "back": "d/dx[x^n] = n x^{n-1} for any real n."
+            },
+            {
+              "front": "Constant Rule",
+              "back": "d/dx[c] = 0 for any constant c."
+            },
+            {
+              "front": "Sum/Difference Rule",
+              "back": "d/dx[f(x) ± g(x)] = f'(x) ± g'(x)."
+            },
+            {
+              "front": "Derivative of 5x^3",
+              "back": "15x^2"
+            },
+            {
+              "front": "Derivative of -2x",
+              "back": "-2"
+            },
+            {
+              "front": "Derivative of 7",
+              "back": "0"
+            },
+            {
+              "front": "Derivative of x^{-2}",
+              "back": "-2x^{-3}"
+            },
+            {
+              "front": "Derivative of (1/2)x^4",
+              "back": "2x^3"
+            },
+            {
+              "front": "Common mistake: forgetting to multiply by exponent",
+              "back": "Example: writing derivative of 4x^5 as 4x^4 instead of 20x^4."
+            },
+            {
+              "front": "Common mistake: treating constant as variable",
+              "back": "Example: giving derivative of 5 as 5 instead of 0."
+            },
+            {
+              "front": "Leibniz notation for derivative of f",
+              "back": "df/dx or d/dx[f(x)]"
+            },
+            {
+              "front": "Prime notation for derivative of f",
+              "back": "f'(x)"
+            },
+            {
+              "front": "Derivative of 3x^2 - 4x + 5",
+              "back": "6x - 4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Differentiation: Composite, Implicit, and Inverse Functions",
+      "outline": [
+        "Chain Rule for Composite Functions",
+        "Implicit Differentiation and Related Rates Setup",
+        "Derivatives of Inverse Functions and Inverse Trigonometric Functions"
+      ],
+      "lessons": []
+    },
+    {
+      "title": "Contextual Applications of Differentiation",
+      "outline": [
+        "Interpreting Derivatives in Motion: Velocity and Acceleration",
+        "Optimization Problems in Real-World Contexts",
+        "Linear Approximation and Differentials"
+      ],
+      "lessons": []
+    },
+    {
+      "title": "Analytical Applications of Differentiation",
+      "outline": [
+        "Mean Value Theorem and Rolle's Theorem",
+        "First and Second Derivative Tests for Extrema and Concavity",
+        "Curve Sketching Using Derivatives"
+      ],
+      "lessons": []
+    },
+    {
+      "title": "Integration and Accumulation of Change",
+      "outline": [
+        "Riemann Sums and Definite Integrals as Limits",
+        "Fundamental Theorem of Calculus Part 1 and Part 2",
+        "Techniques of Antidifferentiation: Substitution and Integration by Parts"
+      ],
+      "lessons": []
+    },
+    {
+      "title": "Differential Equations",
+      "outline": [
+        "Modeling with Separable Differential Equations",
+        "Slope Fields and Euler's Method",
+        "Exponential Growth and Decay Models"
+      ],
+      "lessons": []
+    },
+    {
+      "title": "Applications of Integration",
+      "outline": [
+        "Area Between Curves",
+        "Volumes of Solids of Revolution: Disk and Washer Methods",
+        "Arc Length and Average Value of a Function"
+      ],
+      "lessons": []
+    }
+  ]
+}

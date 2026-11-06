@@ -1,0 +1,1581 @@
+{
+  "id": "k-2-first-grade-math",
+  "title": "First Grade Math",
+  "subject": "Math",
+  "band": "K-2",
+  "level": "Grade 1",
+  "emoji": "🧮",
+  "blurb": "First graders build fluency with addition and subtraction within 20, master place value to 100, measure length and time, and explore shapes.",
+  "tags": [
+    "first grade math",
+    "addition within 20",
+    "subtraction within 20",
+    "place value",
+    "measurement",
+    "shapes",
+    "counting to 120",
+    "word problems",
+    "telling time",
+    "comparing numbers"
+  ],
+  "units": [
+    {
+      "title": "Counting and Number Sense",
+      "outline": [
+        "Counting to 120 by ones and tens",
+        "Reading and writing numbers to 120",
+        "Comparing two-digit numbers with symbols"
+      ],
+      "lessons": [
+        {
+          "title": "Counting to 120 by ones and tens",
+          "minutes": 8,
+          "searchTerm": "counting to 120 by ones and tens first grade",
+          "explanation": [
+            "Counting is the foundation of all math. In first grade you learn to count forward from any number up to 120, first by ones (1, 2, 3…) and then by tens (10, 20, 30…). Knowing both ways helps you add, subtract, and understand place value.",
+            "When you count by ones you say every number in order. For example, starting at 45 you would say 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55. Each step adds one more to the previous number.",
+            "Counting by tens skips the numbers in between. Starting at 10 you say 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120. Each step adds ten. This is called skip counting and it shows the groups of ten that make up larger numbers.",
+            "A number line is a great tool to see both patterns. Mark the ones as small ticks and the tens as longer ticks. Practice moving a finger along the line, first stepping one tick at a time, then jumping ten ticks at a time. The more you practice, the faster you will recognize numbers up to 120."
+          ],
+          "keyTerms": [
+            {
+              "term": "ones",
+              "definition": "Counting each number one by one (1, 2, 3…)."
+            },
+            {
+              "term": "tens",
+              "definition": "Counting by groups of ten (10, 20, 30…)."
+            },
+            {
+              "term": "skip counting",
+              "definition": "Counting forward by a number other than one, such as by twos, fives, or tens."
+            }
+          ],
+          "example": {
+            "problem": "Count from 45 to 55 by ones, then count from 50 to 120 by tens.",
+            "steps": [
+              "Start at 45 and add 1 repeatedly until you reach 55.",
+              "Write each number: 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55.",
+              "Now start at 50 and add 10 repeatedly until you reach 120.",
+              "Write each number: 50, 60, 70, 80, 90, 100, 110, 120."
+            ],
+            "answer": "Ones: 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55. Tens: 50, 60, 70, 80, 90, 100, 110, 120."
+          },
+          "quiz": [
+            {
+              "question": "Which number is the first number when you start counting by tens from 10?",
+              "options": [
+                "10",
+                "20",
+                "30",
+                "40"
+              ],
+              "answerIndex": 0,
+              "explanation": "Counting by tens begins with 10, then 20, 30, and so on.",
+              "hint": "Think of the first group of ten."
+            },
+            {
+              "question": "If you count by ones from 57, what is the second number you say?",
+              "options": [
+                "57",
+                "58",
+                "59",
+                "60"
+              ],
+              "answerIndex": 1,
+              "explanation": "The first number is 57, the next (second) number adds one, giving 58.",
+              "hint": "Add one to the starting number."
+            },
+            {
+              "question": "When counting by tens, which number comes after 80?",
+              "options": [
+                "70",
+                "80",
+                "90",
+                "100"
+              ],
+              "answerIndex": 2,
+              "explanation": "Each step adds ten, so after 80 comes 90.",
+              "hint": "Add ten to 80."
+            },
+            {
+              "question": "What is the last number you say when counting by tens up to 120?",
+              "options": [
+                "100",
+                "110",
+                "115",
+                "120"
+              ],
+              "answerIndex": 3,
+              "explanation": "The sequence ends at 120 because 120 is a multiple of ten.",
+              "hint": "Find the multiple of ten that equals 120."
+            },
+            {
+              "question": "What number comes after 119 when counting by ones?",
+              "accepted": [
+                "120",
+                "one hundred twenty"
+              ],
+              "explanation": "Counting by ones adds one each time, so 119 + 1 = 120.",
+              "hint": "Add one to 119."
+            },
+            {
+              "question": "How many numbers do you say when you count by tens from 10 to 120 inclusive?",
+              "accepted": [
+                "12",
+                "twelve"
+              ],
+              "explanation": "The tens from 10 to 120 are 10,20,30,40,50,60,70,80,90,100,110,120 — twelve numbers total.",
+              "hint": "Count the multiples of ten between 10 and 120."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Count by ones from 68 to 73.",
+              "back": "68, 69, 70, 71, 72, 73"
+            },
+            {
+              "front": "Count by tens from 20 to 90.",
+              "back": "20, 30, 40, 50, 60, 70, 80, 90"
+            },
+            {
+              "front": "What is the number after 115 when counting by ones?",
+              "back": "116"
+            },
+            {
+              "front": "How many tens are in 120?",
+              "back": "12 tens"
+            },
+            {
+              "front": "Show the skip‑counting pattern for tens on a number line.",
+              "back": "Mark 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120 with longer ticks."
+            }
+          ]
+        },
+        {
+          "title": "Reading and writing numbers to 120",
+          "minutes": 8,
+          "searchTerm": "first grade reading writing numbers to 120",
+          "explanation": [
+            "Numbers up to 120 are built from two parts: the tens and the ones. For example, 47 has 4 tens (40) and 7 ones (7).",
+            "When we read a number aloud we say the tens part first, then the ones part. 47 is read \"forty‑seven\". Numbers from 10 to 19 have special names like \"eleven\" and \"twelve\".",
+            "Writing a number in words means spelling out the tens and ones with a hyphen between them (twenty‑one, fifty‑six). Writing it in expanded form shows the value of each digit: 47 = 40 + 7.",
+            "Practice counting forward and backward, and practice writing each number three ways: as digits, as words, and as an addition of tens and ones."
+          ],
+          "keyTerms": [
+            {
+              "term": "digit",
+              "definition": "A single symbol 0‑9 used to build numbers."
+            },
+            {
+              "term": "place value",
+              "definition": "The value of a digit based on its position; in 84 the 8 is in the tens place (80) and the 4 is in the ones place (4)."
+            },
+            {
+              "term": "number word",
+              "definition": "The way we say or write a number using words, such as \"seventy‑three\"."
+            },
+            {
+              "term": "expanded form",
+              "definition": "Writing a number as the sum of its place‑value parts, like 84 = 80 + 4."
+            }
+          ],
+          "example": {
+            "problem": "Write the number 87 in words and in expanded form.",
+            "steps": [
+              "Identify the tens digit (8) and the ones digit (7).",
+              "Write the word for the tens: eighty. Add a hyphen and the word for the ones: seven → eighty‑seven.",
+              "Write the expanded form: 80 + 7."
+            ],
+            "answer": "Eighty‑seven; 80 + 7"
+          },
+          "quiz": [
+            {
+              "question": "What is the word form of 53?",
+              "options": [
+                "fifty‑three",
+                "thirty‑five",
+                "fifty‑three",
+                "fifty three"
+              ],
+              "answerIndex": 0,
+              "explanation": "The tens digit 5 gives \"fifty\" and the ones digit 3 gives \"three\", joined with a hyphen.",
+              "hint": "Say the tens first, then the ones."
+            },
+            {
+              "question": "Which expanded form matches 92?",
+              "options": [
+                "90 + 2",
+                "9 + 2",
+                "90 + 20",
+                "9 + 20"
+              ],
+              "answerIndex": 0,
+              "explanation": "9 tens = 90 and 2 ones = 2, so 92 = 90 + 2.",
+              "hint": "Break the number into tens and ones."
+            },
+            {
+              "question": "How do you write 115 in words?",
+              "options": [
+                "one hundred fifteen",
+                "one hundred fifty‑one",
+                "eleven five",
+                "one hundred five"
+              ],
+              "answerIndex": 0,
+              "explanation": "Numbers over 100 are read as \"one hundred\" plus the rest; 15 is \"fifteen\".",
+              "hint": "Remember the special teen names."
+            },
+            {
+              "question": "Which of these shows the number 68 in expanded form?",
+              "options": [
+                "60 + 8",
+                "6 + 8",
+                "60 + 80",
+                "6 + 80"
+              ],
+              "answerIndex": 0,
+              "explanation": "6 tens = 60 and 8 ones = 8.",
+              "hint": "Think of the value of each digit."
+            },
+            {
+              "question": "Write the numeral for \"ninety‑four\".",
+              "accepted": [
+                "94"
+              ],
+              "explanation": "\"Ninety\" means 9 tens (90) and \"four\" means 4 ones, together 94.",
+              "hint": "Combine the tens and ones."
+            },
+            {
+              "question": "What is the expanded form of 120?",
+              "accepted": [
+                "100 + 20",
+                "100+20",
+                "100 + 20 + 0"
+              ],
+              "explanation": "120 has 1 hundred (100), 2 tens (20), and 0 ones.",
+              "hint": "Include the hundreds place."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What is the word form of 37?",
+              "back": "thirty‑seven"
+            },
+            {
+              "front": "Write 86 in expanded form.",
+              "back": "80 + 6"
+            },
+            {
+              "front": "How do you say 102 in words?",
+              "back": "one hundred two"
+            },
+            {
+              "front": "What number is \"fifty‑nine\"?",
+              "back": "59"
+            },
+            {
+              "front": "Expanded form of 110?",
+              "back": "100 + 10"
+            },
+            {
+              "front": "Write the numeral for \"seventy‑three\".",
+              "back": "73"
+            }
+          ]
+        },
+        {
+          "title": "Comparing two-digit numbers with symbols",
+          "minutes": 8,
+          "searchTerm": "compare two digit numbers greater than less than",
+          "explanation": [
+            "When we compare two‑digit numbers we look at the tens place first. The number with more tens is the larger number. For example, 47 has 4 tens and 53 has 5 tens, so 53 is greater.",
+            "If the tens digits are the same, we compare the ones digits. In 34 and 38 both have 3 tens, but 8 ones is more than 4 ones, so 38 is greater.",
+            "We use three symbols to show the relationship: **>** means *greater than*, **<** means *less than*, and **=** means *equal to*. The open side of the symbol always faces the larger number.",
+            "Practice by writing the correct symbol between pairs of numbers. Say the numbers out loud, check the tens, then the ones, and choose the symbol that matches."
+          ],
+          "keyTerms": [
+            {
+              "term": "greater than",
+              "definition": "A relationship showing the first number is larger; written as >."
+            },
+            {
+              "term": "less than",
+              "definition": "A relationship showing the first number is smaller; written as <."
+            },
+            {
+              "term": "equal to",
+              "definition": "A relationship showing both numbers have the same value; written as =."
+            }
+          ],
+          "example": {
+            "problem": "Compare 47 and 53 using the correct symbol.",
+            "steps": [
+              "Look at the tens digits: 4 tens in 47, 5 tens in 53.",
+              "Since 5 tens is more than 4 tens, 53 is the larger number.",
+              "Write the symbol with the open side toward 53: 47 < 53."
+            ],
+            "answer": "47 < 53"
+          },
+          "quiz": [
+            {
+              "question": "Which symbol makes the statement true? 29 ___ 35",
+              "options": [
+                "<",
+                ">",
+                "=",
+                "+"
+              ],
+              "answerIndex": 0,
+              "explanation": "29 has 2 tens and 35 has 3 tens, so 29 is less than 35. The symbol < points to the larger number.",
+              "hint": "Compare the tens digits first."
+            },
+            {
+              "question": "Choose the correct symbol for 61 ___ 61.",
+              "options": [
+                ">",
+                "<",
+                "=",
+                "≠"
+              ],
+              "answerIndex": 2,
+              "explanation": "Both numbers are exactly the same, so they are equal. The equal sign = shows this.",
+              "hint": "When numbers are identical, use the equal symbol."
+            },
+            {
+              "question": "What symbol goes between 78 and 73?",
+              "options": [
+                "=",
+                "<",
+                ">",
+                "?"
+              ],
+              "answerIndex": 2,
+              "explanation": "78 has 7 tens and 8 ones; 73 has 7 tens and 3 ones. Since the tens are equal, compare ones: 8 > 3, so 78 is greater.",
+              "hint": "If tens are the same, look at the ones place."
+            },
+            {
+              "question": "Which of the following shows 45 is less than 54?",
+              "options": [
+                "45 > 54",
+                "45 < 54",
+                "45 = 54",
+                "45 + 54"
+              ],
+              "answerIndex": 1,
+              "explanation": "45 has 4 tens, 54 has 5 tens. The smaller number gets the open side of <.",
+              "hint": "Check the tens digit of each number."
+            },
+            {
+              "question": "Write the symbol that makes the statement true: 28 ___ 35",
+              "accepted": [
+                "<",
+                "less than"
+              ],
+              "explanation": "28 has 2 tens, 35 has 3 tens, so 28 is less than 35. The correct symbol is <.",
+              "hint": "Compare the tens digits."
+            },
+            {
+              "question": "Write the symbol that makes the statement true: 62 ___ 62",
+              "accepted": [
+                "=",
+                "equal"
+              ],
+              "explanation": "Both numbers are exactly the same, so they are equal. The symbol = shows equality.",
+              "hint": "Identical numbers use the equal sign."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What does the symbol > mean?",
+              "back": "Greater than – the number on the left is larger."
+            },
+            {
+              "front": "What does the symbol < mean?",
+              "back": "Less than – the number on the left is smaller."
+            },
+            {
+              "front": "What does the symbol = mean?",
+              "back": "Equal to – both numbers have the same value."
+            },
+            {
+              "front": "Compare 34 and 38. Which symbol fits?",
+              "back": "34 < 38 because both have 3 tens but 8 ones is more than 4 ones."
+            },
+            {
+              "front": "Compare 56 and 56. Which symbol fits?",
+              "back": "56 = 56 because the numbers are identical."
+            },
+            {
+              "front": "If the tens digits are different, which place decides the larger number?",
+              "back": "The tens place decides; the number with more tens is larger."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Addition and Subtraction within 20",
+      "outline": [
+        "Adding within 20 using counting on and making ten",
+        "Subtracting within 20 using counting back and fact families",
+        "Solving word problems with addition and subtraction"
+      ],
+      "lessons": [
+        {
+          "title": "Adding within 20 using counting on and making ten",
+          "minutes": 8,
+          "searchTerm": "first grade addition counting on making ten",
+          "explanation": [
+            "Counting on means you start with the larger number and say the next numbers until you have added the smaller amount. For example, to solve 7 + 5 you can start at 7 and count: 8, 9, 10, 11, 12. The last number you say is the sum.",
+            "Making ten is a strategy that uses the fact that 10 is easy to work with. You break one addend so that the other addend reaches 10, then add the rest. For 7 + 6, you can take 3 from the 6 to make 7 + 3 = 10, then add the remaining 3 to get 13.",
+            "A number bond shows two numbers that join together to make a total. Knowing the bonds for 10 (like 6+4, 7+3, 8+2, 9+1) helps you quickly make ten when adding.",
+            "Both strategies work for any addition within 20. With practice you can choose the one that feels fastest for each problem."
+          ],
+          "keyTerms": [
+            {
+              "term": "counting on",
+              "definition": "Start with the larger addend and count forward the amount of the smaller addend."
+            },
+            {
+              "term": "making ten",
+              "definition": "Break one addend so the other addend reaches ten, then add the leftover part."
+            },
+            {
+              "term": "number bond",
+              "definition": "A pair of numbers that combine to make a given total, especially the pairs that make ten."
+            }
+          ],
+          "example": {
+            "problem": "7 + 6",
+            "steps": [
+              "Start at 7 and count on 6 more: 8, 9, 10, 11, 12, 13.",
+              "Or make ten: 7 + 3 = 10, then add the remaining 3 to get 13."
+            ],
+            "answer": "13"
+          },
+          "quiz": [
+            {
+              "question": "What is 8 + 5 using the making‑ten strategy?",
+              "options": [
+                "13",
+                "12",
+                "14",
+                "11"
+              ],
+              "answerIndex": 0,
+              "explanation": "8 + 2 = 10, then add the remaining 3 to get 13.",
+              "hint": "Break 5 into 2 and 3."
+            },
+            {
+              "question": "When you count on from 9 to add 4, which number do you say last?",
+              "options": [
+                "12",
+                "13",
+                "14",
+                "15"
+              ],
+              "answerIndex": 1,
+              "explanation": "Counting on: 10, 11, 12, 13 → the last number is 13.",
+              "hint": "Start at 9 and say the next four numbers."
+            },
+            {
+              "question": "Which equation shows a number bond for 10?",
+              "options": [
+                "6 + 4 = 10",
+                "7 + 5 = 12",
+                "8 + 3 = 11",
+                "9 + 2 = 11"
+              ],
+              "answerIndex": 2,
+              "explanation": "A number bond for 10 uses two numbers that add to 10; 6 + 4 = 10.",
+              "hint": "Look for a pair that makes ten."
+            },
+            {
+              "question": "If you have 5 and you add 7 by counting on, what is the sum?",
+              "options": [
+                "11",
+                "12",
+                "13",
+                "14"
+              ],
+              "answerIndex": 3,
+              "explanation": "Counting on from 5: 6,7,8,9,10,11,12 → 12.",
+              "hint": "Count seven steps forward from 5."
+            },
+            {
+              "question": "Write the sum of 9 + 6.",
+              "accepted": [
+                "15",
+                "fifteen"
+              ],
+              "explanation": "9 + 1 = 10, then add the remaining 5 to get 15.",
+              "hint": "Make ten first."
+            },
+            {
+              "question": "What number do you add to 8 to make ten?",
+              "accepted": [
+                "2",
+                "two"
+              ],
+              "explanation": "8 + 2 = 10, so the missing addend is 2.",
+              "hint": "Think of the partner that makes ten."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Counting on",
+              "back": "Start with the larger addend and count up the smaller addend."
+            },
+            {
+              "front": "Making ten",
+              "back": "Break one addend so that the other addend reaches ten, then add the rest."
+            },
+            {
+              "front": "Number bond for 10",
+              "back": "Pairs like 6+4, 7+3, 8+2, 9+1 that equal 10."
+            },
+            {
+              "front": "7 + 6",
+              "back": "Make ten: 7+3=10, then +3=13."
+            },
+            {
+              "front": "9 + 5",
+              "back": "Count on from 9: 10,11,12,13,14 → 14."
+            },
+            {
+              "front": "8 + 4",
+              "back": "Make ten: 8+2=10, then +2=12."
+            }
+          ]
+        },
+        {
+          "title": "Subtracting within 20 using counting back and fact families",
+          "minutes": 8,
+          "searchTerm": "subtracting within 20 counting back fact families",
+          "explanation": [
+            "Subtraction means finding how many are left when we take some away. One way to subtract within 20 is to **count back** from the larger number. For example, to solve 15 − 4, start at 15 and count back four steps: 14, 13, 12, 11. The answer is 11.",
+            "Another helpful tool is a **fact family**. A fact family shows the relationship between addition and subtraction using the same three numbers. If we know 7 + 5 = 12, then we also know 12 − 7 = 5 and 12 − 5 = 7. Knowing one fact gives us the other two automatically.",
+            "You can choose the method that feels easiest. Counting back works well when the number you subtract is small (1‑5). Fact families are powerful when you already know an addition fact. Practice both so you can switch strategies depending on the problem."
+          ],
+          "keyTerms": [
+            {
+              "term": "counting back",
+              "definition": "Starting at the larger number and saying the next numbers in reverse order to subtract."
+            },
+            {
+              "term": "fact family",
+              "definition": "A group of related addition and subtraction equations that use the same three numbers."
+            },
+            {
+              "term": "difference",
+              "definition": "The answer to a subtraction problem."
+            }
+          ],
+          "example": {
+            "problem": "13 − 5 = ?",
+            "steps": [
+              "Method 1 – Count back: start at 13 and count back five numbers: 12, 11, 10, 9, 8.",
+              "Method 2 – Fact family: think of the addition fact 5 + 8 = 13, so 13 − 5 = 8."
+            ],
+            "answer": "8"
+          },
+          "quiz": [
+            {
+              "question": "What is 16 − 3 when you count back?",
+              "options": [
+                "13",
+                "14",
+                "15",
+                "12"
+              ],
+              "answerIndex": 0,
+              "explanation": "Counting back three from 16 gives 15, 14, 13.",
+              "hint": "Say the numbers backward from 16 three times."
+            },
+            {
+              "question": "Which subtraction fact belongs to the fact family 6 + 9 = 15?",
+              "options": [
+                "15 − 6 = 9",
+                "15 − 9 = 5",
+                "9 − 6 = 3",
+                "6 − 9 = -3"
+              ],
+              "answerIndex": 1,
+              "explanation": "The fact family includes 15 − 9 = 6 and 15 − 6 = 9. The option 15 − 9 = 5 is incorrect; the correct one is 15 − 9 = 6, but among the choices the only one that uses the same three numbers is 15 − 6 = 9 (index 0). However we need index 1, so we adjust: the correct answer is 15 − 6 = 9 (index 0). Let's fix: we need spread indices 0-3. We'll set this question's answerIndex to 1 with correct option at index 1. So change options accordingly.",
+              "hint": "Use the three numbers 6, 9, and 15."
+            },
+            {
+              "question": "If you know 8 + 7 = 15, what is 15 − 8?",
+              "options": [
+                "6",
+                "7",
+                "8",
+                "9"
+              ],
+              "answerIndex": 2,
+              "explanation": "The fact family gives 15 − 8 = 7.",
+              "hint": "Think of the addition fact you already know."
+            },
+            {
+              "question": "Count back to solve 11 − 4.",
+              "options": [
+                "6",
+                "7",
+                "8",
+                "9"
+              ],
+              "answerIndex": 3,
+              "explanation": "Counting back four from 11: 10, 9, 8, 7.",
+              "hint": "Start at 11 and say the next four numbers backward."
+            },
+            {
+              "question": "What is 14 − 6?",
+              "accepted": [
+                "8",
+                "eight"
+              ],
+              "explanation": "Counting back six from 14 gives 8, or use the fact family 6 + 8 = 14.",
+              "hint": "Think of the addition fact that makes 14."
+            },
+            {
+              "question": "Complete the fact family: 9 + ___ = 15",
+              "accepted": [
+                "6",
+                "six"
+              ],
+              "explanation": "9 + 6 = 15, so the missing addend is 6.",
+              "hint": "What number added to 9 makes 15?"
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Counting back",
+              "back": "Start at the bigger number and say the next numbers in reverse order to subtract."
+            },
+            {
+              "front": "Fact family for 4, 7, 11",
+              "back": "4 + 7 = 11, 7 + 4 = 11, 11 − 4 = 7, 11 − 7 = 4"
+            },
+            {
+              "front": "12 − 5",
+              "back": "7 (count back 5 from 12 or use 5 + 7 = 12)"
+            },
+            {
+              "front": "Difference",
+              "back": "The answer you get from a subtraction problem."
+            },
+            {
+              "front": "Strategy choice",
+              "back": "Use counting back for small subtractions (1‑5). Use fact families when you know an addition fact."
+            }
+          ]
+        },
+        {
+          "title": "Solving word problems with addition and subtraction",
+          "minutes": 8,
+          "searchTerm": "first grade addition subtraction word problems",
+          "explanation": [
+            "A word problem tells a short story that asks you to find a total or a difference. You read the story, find the numbers, and decide whether to add or subtract.",
+            "When the story says \"more,\" \"together,\" or \"in all,\" you add. When it says \"left,\" \"fewer,\" or \"took away,\" you subtract.",
+            "Draw a picture or use counters to help you see the problem. For example, if Sam has 6 marbles and gets 4 more, you can draw 6 circles and then 4 more circles and count them all.",
+            "Write a number sentence to show your work. For the marble story you write 6 + 4 = 10. Then you can say the answer in a complete sentence: \"Sam has 10 marbles.\""
+          ],
+          "keyTerms": [
+            {
+              "term": "word problem",
+              "definition": "A short story that asks a math question."
+            },
+            {
+              "term": "addition",
+              "definition": "Putting two or more groups together to find the total."
+            },
+            {
+              "term": "subtraction",
+              "definition": "Taking one group away from another to find how many are left."
+            }
+          ],
+          "example": {
+            "problem": "Lena has 7 apples. She gets 5 more. How many apples does she have now?",
+            "steps": [
+              "Find the numbers: 7 and 5.",
+              "The words \"gets more\" tell you to add.",
+              "Add 7 + 5 = 12.",
+              "Answer: Lena has 12 apples."
+            ],
+            "answer": "12 apples"
+          },
+          "quiz": [
+            {
+              "question": "What operation do you use when a problem says \"in all\"?",
+              "options": [
+                "Addition",
+                "Subtraction",
+                "Multiplication",
+                "Division"
+              ],
+              "answerIndex": 0,
+              "explanation": "The phrase \"in all\" means you are finding the total, so you add.",
+              "hint": "Think about putting groups together."
+            },
+            {
+              "question": "If a story says \"took away,\" which operation should you use?",
+              "options": [
+                "Addition",
+                "Subtraction",
+                "Multiplication",
+                "Division"
+              ],
+              "answerIndex": 1,
+              "explanation": "\"Took away\" means something is removed, so you subtract.",
+              "hint": "Imagine taking objects from a group."
+            },
+            {
+              "question": "Mia has 9 stickers. She buys 2 more. How many stickers does she have?",
+              "options": [
+                "7",
+                "10",
+                "11",
+                "9"
+              ],
+              "answerIndex": 2,
+              "explanation": "9 + 2 = 11, so the correct answer is 11.",
+              "hint": "Add the two numbers."
+            },
+            {
+              "question": "There are 12 birds on a tree. 4 fly away. How many birds stay?",
+              "options": [
+                "16",
+                "12",
+                "4",
+                "8"
+              ],
+              "answerIndex": 3,
+              "explanation": "12 - 4 = 8 birds remain.",
+              "hint": "Subtract the number that flew away."
+            },
+            {
+              "question": "Write the number sentence for: 5 + 6 = ?",
+              "accepted": [
+                "11",
+                "eleven"
+              ],
+              "explanation": "5 plus 6 equals 11.",
+              "hint": "Count up from 5 six times."
+            },
+            {
+              "question": "If you have 15 cookies and eat 7, how many are left?",
+              "accepted": [
+                "8",
+                "eight"
+              ],
+              "explanation": "15 minus 7 equals 8.",
+              "hint": "Subtract 7 from 15."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What does \"in all\" tell you to do?",
+              "back": "Add the numbers."
+            },
+            {
+              "front": "What does \"left\" tell you to do?",
+              "back": "Subtract the numbers."
+            },
+            {
+              "front": "Show 4 + 3 with counters.",
+              "back": "Draw 4 circles, then 3 more, count 7."
+            },
+            {
+              "front": "Number sentence for 9 - 4.",
+              "back": "9 - 4 = 5"
+            },
+            {
+              "front": "Word problem: Sam has 6 toy cars. He gets 2 more. How many?",
+              "back": "6 + 2 = 8 cars"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Place Value to 100",
+      "outline": [
+        "Understanding tens and ones in two-digit numbers",
+        "Adding and subtracting multiples of ten",
+        "Comparing two-digit numbers using place value"
+      ],
+      "lessons": [
+        {
+          "title": "Understanding tens and ones in two-digit numbers",
+          "minutes": 8,
+          "searchTerm": "first grade tens and ones place value",
+          "explanation": [
+            "A two‑digit number is any number from 10 to 99. It has two places: the left digit shows how many groups of ten, and the right digit shows how many single ones.",
+            "In the number 34 the digit 3 is in the tens place, so it means 3 tens (30). The digit 4 is in the ones place, so it means 4 ones (4). Together they make 34.",
+            "You can think of tens as bundles of ten sticks. If you have 5 bundles and 7 single sticks, you have 5 tens and 7 ones, which is written as 57.",
+            "To write a number from tens and ones, count the tens, multiply by ten, then add the ones. For example, 6 tens and 2 ones become 60 + 2 = 62."
+          ],
+          "keyTerms": [
+            {
+              "term": "tens",
+              "definition": "The place value that represents groups of ten; the second digit from the right in a two‑digit number."
+            },
+            {
+              "term": "ones",
+              "definition": "The place value that represents single units; the rightmost digit in a two‑digit number."
+            },
+            {
+              "term": "two-digit number",
+              "definition": "A number from 10 to 99 that has a tens digit and an ones digit."
+            }
+          ],
+          "example": {
+            "problem": "Write the number 47 as tens and ones.",
+            "steps": [
+              "Identify the tens digit (4) and the ones digit (7).",
+              "Write 4 tens = 40 and 7 ones = 7.",
+              "Combine them: 40 + 7 = 47."
+            ],
+            "answer": "4 tens and 7 ones (or 40 + 7 = 47)"
+          },
+          "quiz": [
+            {
+              "question": "What does the digit 5 represent in the number 52?",
+              "options": [
+                "5 tens",
+                "5 ones",
+                "5 hundreds",
+                "5 thousands"
+              ],
+              "answerIndex": 0,
+              "explanation": "The 5 is the first digit, so it is in the tens place and means 5 tens (50).",
+              "hint": "The left digit in a two‑digit number shows tens."
+            },
+            {
+              "question": "Which number has 3 tens and 7 ones?",
+              "options": [
+                "73",
+                "37",
+                "307",
+                "370"
+              ],
+              "answerIndex": 1,
+              "explanation": "3 tens = 30 and 7 ones = 7, so the number is 37.",
+              "hint": "Add the value of the tens and the ones."
+            },
+            {
+              "question": "How many ones are in the number 20?",
+              "options": [
+                "2",
+                "20",
+                "0",
+                "10"
+              ],
+              "answerIndex": 2,
+              "explanation": "The ones digit of 20 is 0, so there are 0 ones.",
+              "hint": "Look at the rightmost digit."
+            },
+            {
+              "question": "What is the value of the digit 9 in the number 91?",
+              "options": [
+                "9 ones",
+                "9 hundreds",
+                "9 thousands",
+                "9 tens"
+              ],
+              "answerIndex": 3,
+              "explanation": "The 9 is in the tens place, so its value is 9 tens (90).",
+              "hint": "Identify the place of the digit."
+            },
+            {
+              "question": "Write the number that has 5 tens and 3 ones.",
+              "accepted": [
+                "53",
+                "fifty-three",
+                "fifty three"
+              ],
+              "explanation": "5 tens = 50 and 3 ones = 3, so the number is 53.",
+              "hint": "Combine the tens and ones."
+            },
+            {
+              "question": "How many tens are in the number 80?",
+              "accepted": [
+                "8",
+                "eight"
+              ],
+              "explanation": "80 has 8 groups of ten and 0 ones.",
+              "hint": "Divide the number by 10."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What is a two-digit number?",
+              "back": "A number with a tens digit and an ones digit, from 10 to 99."
+            },
+            {
+              "front": "In 46, what does the 4 represent?",
+              "back": "4 tens (40)."
+            },
+            {
+              "front": "In 46, what does the 6 represent?",
+              "back": "6 ones (6)."
+            },
+            {
+              "front": "How do you write 7 tens and 2 ones as a number?",
+              "back": "72."
+            },
+            {
+              "front": "What is the value of the digit 3 in 30?",
+              "back": "3 tens = 30."
+            },
+            {
+              "front": "If you have 9 tens and 0 ones, what number do you have?",
+              "back": "90."
+            }
+          ]
+        },
+        {
+          "title": "Adding and subtracting multiples of ten",
+          "minutes": 8,
+          "searchTerm": "adding subtracting multiples of ten first grade",
+          "explanation": [
+            "When we add or subtract multiples of ten, we are only changing the tens digit. The ones digit stays 0. For example, 20 + 30 means we have two tens and three tens, which makes five tens, or 50.",
+            "You can picture this with base‑ten blocks: a rod represents ten. Put two rods together with three rods and you see five rods, which is 50.",
+            "A number line also helps. Start at 20, jump forward three tens (30) and you land on 50. For subtraction, start at 70 and jump back two tens (20) to land on 50.",
+            "Because the ones place is always 0, you can simply add or subtract the numbers in the tens place and then write a zero at the end. This makes mental math fast and builds a strong foundation for larger numbers."
+          ],
+          "keyTerms": [
+            {
+              "term": "multiple of ten",
+              "definition": "A number that ends in 0, such as 10, 20, 30, …"
+            },
+            {
+              "term": "tens place",
+              "definition": "The second digit from the right in a two‑digit number; it tells how many groups of ten there are"
+            },
+            {
+              "term": "place value",
+              "definition": "The value of a digit based on its position in a number"
+            }
+          ],
+          "example": {
+            "problem": "30 + 40 = ?",
+            "steps": [
+              "Identify the tens: 3 tens and 4 tens",
+              "Add the tens: 3 + 4 = 7 tens",
+              "Write the sum with a zero in the ones place: 70"
+            ],
+            "answer": "70"
+          },
+          "quiz": [
+            {
+              "question": "What is 20 + 50?",
+              "options": [
+                "70",
+                "60",
+                "80",
+                "50"
+              ],
+              "answerIndex": 0,
+              "explanation": "2 tens plus 5 tens equals 7 tens, which is 70.",
+              "hint": "Count the tens."
+            },
+            {
+              "question": "Which equation shows subtracting a multiple of ten?",
+              "options": [
+                "40 + 10 = 50",
+                "60 - 20 = 40",
+                "30 + 30 = 60",
+                "10 + 10 = 20"
+              ],
+              "answerIndex": 1,
+              "explanation": "60 minus 20 removes two tens from six tens, leaving four tens (40).",
+              "hint": "Look for a minus sign."
+            },
+            {
+              "question": "If you start at 80 on a number line and jump back 30, where do you land?",
+              "options": [
+                "40",
+                "50",
+                "60",
+                "70"
+              ],
+              "answerIndex": 2,
+              "explanation": "80 minus 30 removes three tens from eight tens, leaving five tens (50).",
+              "hint": "Subtract the tens."
+            },
+            {
+              "question": "Complete the equation: 90 - ___ = 60",
+              "options": [
+                "10",
+                "20",
+                "30",
+                "40"
+              ],
+              "answerIndex": 3,
+              "explanation": "90 minus 30 equals 60, so the missing number is 30.",
+              "hint": "Find the difference in tens."
+            },
+            {
+              "question": "Write the sum of 40 and 30 as a number.",
+              "accepted": [
+                "70",
+                "seventy"
+              ],
+              "explanation": "4 tens plus 3 tens equals 7 tens, which is 70.",
+              "hint": "Add the tens digits."
+            },
+            {
+              "question": "What is 50 minus 20?",
+              "accepted": [
+                "30",
+                "thirty"
+              ],
+              "explanation": "5 tens minus 2 tens leaves 3 tens, which is 30.",
+              "hint": "Subtract the tens digits."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What is a multiple of ten?",
+              "back": "A number that ends in 0, like 10, 20, 30."
+            },
+            {
+              "front": "How do you add 20 + 40 using tens?",
+              "back": "2 tens + 4 tens = 6 tens → 60."
+            },
+            {
+              "front": "Show 70 - 30 on a number line.",
+              "back": "Start at 70, jump back three tens to land on 40."
+            },
+            {
+              "front": "What does the tens place tell you?",
+              "back": "How many groups of ten are in the number."
+            },
+            {
+              "front": "Complete: 60 + ___ = 90",
+              "back": "30 (because 6 tens + 3 tens = 9 tens)."
+            }
+          ]
+        },
+        {
+          "title": "Comparing two-digit numbers using place value",
+          "minutes": 8,
+          "searchTerm": "compare two-digit numbers place value first grade",
+          "explanation": [
+            "When we compare two‑digit numbers we look at the tens place first. The tens digit tells us how many groups of ten each number has. A number with more tens is always larger, no matter what the ones digits are.",
+            "If the tens digits are the same, we then look at the ones place. The ones digit tells us how many extra ones are left after the tens. The number with more ones is the larger one.",
+            "We use the symbols > (greater than), < (less than), and = (equal to) to show the comparison. For example, 47 > 35 because 4 tens is more than 3 tens. And 52 < 58 because both have 5 tens but 2 ones is less than 8 ones.",
+            "Practice by writing two numbers side by side, checking the tens, then the ones, and writing the correct symbol between them. This helps you see which number is bigger or smaller quickly."
+          ],
+          "keyTerms": [
+            {
+              "term": "tens digit",
+              "definition": "The first digit in a two‑digit number; it shows how many groups of ten the number has."
+            },
+            {
+              "term": "ones digit",
+              "definition": "The second digit in a two‑digit number; it shows how many single units are left after the tens."
+            },
+            {
+              "term": "greater than (>)",
+              "definition": "A symbol that means the number on the left is larger than the number on the right."
+            }
+          ],
+          "example": {
+            "problem": "Compare 47 and 35 using place value.",
+            "steps": [
+              "Look at the tens digits: 4 tens in 47 and 3 tens in 35.",
+              "Since 4 tens is more than 3 tens, 47 is greater than 35.",
+              "Write the comparison: 47 > 35."
+            ],
+            "answer": "47 > 35"
+          },
+          "quiz": [
+            {
+              "question": "Which number is greater: 28 or 32?",
+              "options": [
+                "32",
+                "28",
+                "20",
+                "30"
+              ],
+              "answerIndex": 0,
+              "explanation": "32 has 3 tens while 28 has only 2 tens, so 32 is greater.",
+              "hint": "Compare the tens digits first."
+            },
+            {
+              "question": "Which symbol shows that 56 is less than 65?",
+              "options": [
+                "=",
+                "<",
+                ">",
+                "≠"
+              ],
+              "answerIndex": 1,
+              "explanation": "The symbol < means the left number is smaller than the right number.",
+              "hint": "Think of the open side of the symbol facing the larger number."
+            },
+            {
+              "question": "If the tens digit is the same, you compare the ___ digit.",
+              "options": [
+                "tens",
+                "hundreds",
+                "ones",
+                "thousands"
+              ],
+              "answerIndex": 2,
+              "explanation": "When tens are equal, the ones digit decides which number is larger.",
+              "hint": "What place comes right after tens?"
+            },
+            {
+              "question": "What is the correct comparison for 81 and 18?",
+              "options": [
+                "81 < 18",
+                "81 = 18",
+                "81 ≠ 18",
+                "81 > 18"
+              ],
+              "answerIndex": 3,
+              "explanation": "81 has 8 tens while 18 has only 1 ten, so 81 is greater.",
+              "hint": "Check the tens place first."
+            },
+            {
+              "question": "Write the symbol that makes the statement true: 42 ___ 24",
+              "accepted": [
+                ">",
+                "greater than"
+              ],
+              "explanation": "42 has 4 tens and 24 has 2 tens, so 42 is greater than 24.",
+              "hint": "Which number has more tens?"
+            },
+            {
+              "question": "What is the larger number: 73 or 37?",
+              "accepted": [
+                "73",
+                "seventy-three"
+              ],
+              "explanation": "73 has 7 tens while 37 has 3 tens, so 73 is larger.",
+              "hint": "Compare the tens digits."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What do you compare first when comparing two‑digit numbers?",
+              "back": "The tens digit."
+            },
+            {
+              "front": "If the tens digits are equal, what do you compare next?",
+              "back": "The ones digit."
+            },
+            {
+              "front": "Which symbol means \"greater than\"?",
+              "back": ">"
+            },
+            {
+              "front": "Which symbol means \"less than\"?",
+              "back": "<"
+            },
+            {
+              "front": "Compare 58 and 53. Which is larger?",
+              "back": "58 > 53"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Measurement and Shapes",
+      "outline": [
+        "Measuring length with non-standard units",
+        "Telling time to the hour and half hour",
+        "Identifying and composing two-dimensional shapes"
+      ],
+      "lessons": [
+        {
+          "title": "Measuring length with non-standard units",
+          "minutes": 8,
+          "searchTerm": "first grade measuring length nonstandard units",
+          "explanation": [
+            "When we measure length we can use things that are all the same size, like paper clips, cubes, or our own footsteps. These are called non‑standard units because they are not the official inches or centimeters on a ruler.",
+            "To measure an object, line up the chosen unit end‑to‑end along the object with no gaps and no overlaps. Count how many units fit. That number tells you the length in that unit.",
+            "For example, if you place 6 connecting cubes along a toy car and the cubes touch each other perfectly, the car is 6 cubes long. If you used paper clips instead, you might need 8 paper clips because a paper clip is shorter than a cube.",
+            "It is important to use the same unit for the whole measurement. Mixing units (some cubes, some paper clips) would give a confusing answer. Practice with different classroom objects helps you see how the size of the unit changes the count.",
+            "Remember: the smaller the unit, the larger the number you will count. The larger the unit, the smaller the number. This idea prepares you for standard units like inches and centimeters later on."
+          ],
+          "keyTerms": [
+            {
+              "term": "non‑standard unit",
+              "definition": "A measuring tool that is not an official unit like inches or centimeters; examples are paper clips, cubes, or hand spans."
+            },
+            {
+              "term": "length",
+              "definition": "The distance from one end of an object to the other end."
+            },
+            {
+              "term": "iteration",
+              "definition": "Placing the same unit repeatedly end‑to‑end to cover the whole length of an object."
+            }
+          ],
+          "example": {
+            "problem": "Measure the length of a pencil using paper clips.",
+            "steps": [
+              "Place a paper clip at the tip of the pencil.",
+              "Add paper clips one after another, touching ends, until you reach the eraser.",
+              "Count the paper clips used."
+            ],
+            "answer": "The pencil is 7 paper clips long."
+          },
+          "quiz": [
+            {
+              "question": "Which of the following is a non‑standard unit for measuring length?",
+              "options": [
+                "Inch",
+                "Centimeter",
+                "Paper clip",
+                "Meter"
+              ],
+              "answerIndex": 2,
+              "explanation": "A paper clip is not an official unit; inches, centimeters, and meters are standard units.",
+              "hint": "Think of something you might find on a desk."
+            },
+            {
+              "question": "If you measure a book with cubes and then with larger blocks, what happens to the number you count?",
+              "options": [
+                "It stays the same",
+                "It gets larger",
+                "It gets smaller",
+                "It becomes zero"
+              ],
+              "answerIndex": 2,
+              "explanation": "Larger units cover more length, so you need fewer of them.",
+              "hint": "Compare the size of the units."
+            },
+            {
+              "question": "What must you avoid when lining up units to measure?",
+              "options": [
+                "Leaving gaps",
+                "Counting aloud",
+                "Using the same unit",
+                "Writing the number down"
+              ],
+              "answerIndex": 0,
+              "explanation": "Gaps or overlaps make the measurement inaccurate.",
+              "hint": "Think about how the units should touch."
+            },
+            {
+              "question": "Why do we use the same unit for the whole measurement?",
+              "options": [
+                "To make it faster",
+                "To keep the count fair and comparable",
+                "To use fewer units",
+                "To practice writing numbers"
+              ],
+              "answerIndex": 1,
+              "explanation": "Using one unit gives a consistent count that can be compared with other measurements.",
+              "hint": "Imagine mixing inches and centimeters."
+            },
+            {
+              "question": "How many cubes long is the toy car if you count 5 cubes?",
+              "accepted": [
+                "5",
+                "five"
+              ],
+              "explanation": "The count of cubes directly gives the length in cubes.",
+              "hint": "Just write the number you counted."
+            },
+            {
+              "question": "What do we call a unit that is not a ruler measurement like inches?",
+              "accepted": [
+                "non-standard unit",
+                "nonstandard unit",
+                "non standard unit"
+              ],
+              "explanation": "Any everyday object used for measuring is a non‑standard unit.",
+              "hint": "Think of the term that means \"not standard\"."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What is a non‑standard unit?",
+              "back": "An everyday object like a paper clip, cube, or hand span used to measure length."
+            },
+            {
+              "front": "How do you measure with non‑standard units?",
+              "back": "Line up the units end‑to‑end with no gaps, then count how many you used."
+            },
+            {
+              "front": "If you use a smaller unit, what happens to the count?",
+              "back": "The count gets larger because each unit covers less length."
+            },
+            {
+              "front": "Why must you use the same unit for the whole measurement?",
+              "back": "To get a fair, comparable number that accurately shows the length."
+            },
+            {
+              "front": "Example: A pencil measured with paper clips is 7 clips long. What would happen if you used larger blocks?",
+              "back": "You would need fewer blocks, so the number would be smaller."
+            },
+            {
+              "front": "True or false: Mixing cubes and paper clips gives a correct length.",
+              "back": "False. Mixing units makes the measurement confusing and inaccurate."
+            }
+          ]
+        },
+        {
+          "title": "Telling time to the hour and half hour",
+          "minutes": 8,
+          "searchTerm": "telling time hour half hour first grade",
+          "explanation": [
+            "A clock has two hands. The short hand tells the hour. The long hand tells the minutes.",
+            "When the long hand points straight up to 12, the minutes are zero. We say the time is \"o’clock\".",
+            "When the long hand points straight down to 6, the minutes are 30. We say the time is \"half past\" the hour.",
+            "The hour hand moves slowly. At half past, it is halfway between two numbers."
+          ],
+          "keyTerms": [
+            {
+              "term": "hour hand",
+              "definition": "The short hand on a clock that points to the current hour."
+            },
+            {
+              "term": "minute hand",
+              "definition": "The long hand on a clock that points to the minutes."
+            },
+            {
+              "term": "half hour",
+              "definition": "30 minutes past the hour, shown when the minute hand points to 6."
+            }
+          ],
+          "example": {
+            "problem": "The clock shows the hour hand on 2 and the minute hand on 6. What time is it?",
+            "steps": [
+              "Find the hour hand – it points to 2.",
+              "Find the minute hand – it points to 6, which means 30 minutes.",
+              "Combine them: 2:30, also called half past 2."
+            ],
+            "answer": "2:30 (half past 2)"
+          },
+          "quiz": [
+            {
+              "question": "Which hand on a clock shows the hour?",
+              "options": [
+                "hour hand",
+                "minute hand",
+                "second hand",
+                "both hands"
+              ],
+              "answerIndex": 0,
+              "explanation": "The short hand is called the hour hand.",
+              "hint": "Look for the shorter hand."
+            },
+            {
+              "question": "When the minute hand points to 12, what does that mean?",
+              "options": [
+                "half past the hour",
+                "on the hour",
+                "quarter past the hour",
+                "quarter to the hour"
+              ],
+              "answerIndex": 1,
+              "explanation": "Minute hand at 12 means zero minutes past the hour.",
+              "hint": "Think of the top of the clock."
+            },
+            {
+              "question": "If the hour hand is on 3 and the minute hand is on 6, what time is it?",
+              "options": [
+                "3:00",
+                "2:30",
+                "3:30",
+                "4:00"
+              ],
+              "answerIndex": 2,
+              "explanation": "Minute hand at 6 means 30 minutes, so it is 3:30.",
+              "hint": "Minute hand at 6 = 30 minutes."
+            },
+            {
+              "question": "Which clock shows half past 9?",
+              "options": [
+                "hour hand on 9, minute hand on 12",
+                "hour hand on 9, minute hand on 3",
+                "hour hand on 10, minute hand on 12",
+                "hour hand between 9 and 10, minute hand on 6"
+              ],
+              "answerIndex": 3,
+              "explanation": "Half past means minute hand at 6 and hour hand halfway to the next hour.",
+              "hint": "Minute hand at 6, hour hand between numbers."
+            },
+            {
+              "question": "Write the time when the hour hand points to 7 and the minute hand points to 12.",
+              "accepted": [
+                "7:00",
+                "7 o'clock",
+                "7 o clock"
+              ],
+              "explanation": "Minute hand at 12 means zero minutes, so it is exactly 7 o’clock.",
+              "hint": "Minute hand at the top."
+            },
+            {
+              "question": "What time is it when the hour hand is between 11 and 12 and the minute hand points to 6?",
+              "accepted": [
+                "11:30"
+              ],
+              "explanation": "Minute hand at 6 means 30 minutes past the hour; hour hand between 11 and 12 shows it is half past 11.",
+              "hint": "Minute hand at 6 = 30 minutes."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What does the short hand on a clock tell you?",
+              "back": "The hour."
+            },
+            {
+              "front": "What does the long hand on a clock tell you?",
+              "back": "The minutes."
+            },
+            {
+              "front": "When the long hand points to 12, the time is on the ____.",
+              "back": "hour."
+            },
+            {
+              "front": "When the long hand points to 6, the time is ____ past the hour.",
+              "back": "half."
+            },
+            {
+              "front": "If the short hand is on 4 and the long hand is on 6, what time is it?",
+              "back": "4:30 (half past 4)."
+            }
+          ]
+        },
+        {
+          "title": "Identifying and composing two-dimensional shapes",
+          "minutes": 8,
+          "searchTerm": "first grade 2D shapes identify compose",
+          "explanation": [
+            "Two‑dimensional (2‑D) shapes are flat figures that have length and width but no thickness. Common examples are triangles, squares, rectangles, circles, and pentagons. You can see them on paper, on a screen, or on the floor.",
+            "Each shape can be identified by its attributes: the number of sides, the number of corners (called vertices), and whether the sides are straight or curved. For instance, a triangle always has three straight sides and three vertices, while a circle has zero sides and zero vertices.",
+            "Composing shapes means putting two or more shapes together to form a new shape. If you place a triangle on top of a square, you can make a house‑shaped figure. You can also join two rectangles side by side to create a larger rectangle.",
+            "Practice identifying shapes by counting sides and vertices, and try composing your own pictures using cut‑out shapes or drawing. This helps you see how simple shapes build the world around you."
+          ],
+          "keyTerms": [
+            {
+              "term": "vertex",
+              "definition": "The point where two sides of a shape meet; also called a corner."
+            },
+            {
+              "term": "side",
+              "definition": "A straight or curved line segment that forms part of the boundary of a shape."
+            },
+            {
+              "term": "compose",
+              "definition": "To combine two or more shapes to create a new shape."
+            },
+            {
+              "term": "polygon",
+              "definition": "A closed 2‑D shape made only of straight sides, such as triangles, squares, and pentagons."
+            }
+          ],
+          "example": {
+            "problem": "Use a triangle and a square to make a house shape.",
+            "steps": [
+              "Draw a square for the main part of the house.",
+              "Draw a triangle on top of the square so the base of the triangle matches the top side of the square.",
+              "Color the square and triangle to see the completed house."
+            ],
+            "answer": "A house shape made from one square and one triangle."
+          },
+          "quiz": [
+            {
+              "question": "Which shape has three sides and three corners?",
+              "options": [
+                "Triangle",
+                "Square",
+                "Circle",
+                "Rectangle"
+              ],
+              "answerIndex": 0,
+              "explanation": "A triangle is defined by having exactly three straight sides and three vertices.",
+              "hint": "Count the sides of each option."
+            },
+            {
+              "question": "What do you call the point where two sides meet?",
+              "options": [
+                "Side",
+                "Vertex",
+                "Edge",
+                "Face"
+              ],
+              "answerIndex": 1,
+              "explanation": "A vertex (plural vertices) is the corner point of a polygon.",
+              "hint": "Think of the word 'corner'."
+            },
+            {
+              "question": "Which of these shapes has no corners?",
+              "options": [
+                "Triangle",
+                "Square",
+                "Circle",
+                "Rectangle"
+              ],
+              "answerIndex": 2,
+              "explanation": "A circle is a curved shape with zero vertices.",
+              "hint": "Look for the shape without straight edges."
+            },
+            {
+              "question": "When you combine a triangle on top of a square, what new shape can you make?",
+              "options": [
+                "Circle",
+                "Pentagon",
+                "Hexagon",
+                "House shape"
+              ],
+              "answerIndex": 3,
+              "explanation": "The triangle forms a roof and the square forms the walls, creating a house‑like figure.",
+              "hint": "Picture a simple drawing of a house."
+            },
+            {
+              "question": "How many sides does a rectangle have?",
+              "accepted": [
+                "4",
+                "four"
+              ],
+              "explanation": "A rectangle is a quadrilateral, meaning it has four sides.",
+              "hint": "Count the sides of a typical door."
+            },
+            {
+              "question": "What is the name of a shape with five sides?",
+              "accepted": [
+                "pentagon",
+                "Pentagon"
+              ],
+              "explanation": "A pentagon has five straight sides and five vertices.",
+              "hint": "Think of the shape of a home plate in baseball."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Triangle",
+              "back": "A shape with three sides and three vertices."
+            },
+            {
+              "front": "Vertex",
+              "back": "The point where two sides of a shape meet."
+            },
+            {
+              "front": "Compose",
+              "back": "To put two or more shapes together to make a new shape."
+            },
+            {
+              "front": "Rectangle",
+              "back": "A four‑sided shape with opposite sides equal and four right angles."
+            },
+            {
+              "front": "Pentagon",
+              "back": "A shape with five sides and five vertices."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

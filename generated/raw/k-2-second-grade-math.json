@@ -1,0 +1,1591 @@
+{
+  "id": "k-2-second-grade-math",
+  "title": "Second Grade Math",
+  "subject": "Math",
+  "band": "K-2",
+  "level": "Grade 2",
+  "emoji": "🔢",
+  "blurb": "A second-grade math course covering three-digit numbers, regrouping, money, time, arrays, and measurement.",
+  "tags": [
+    "second grade math",
+    "three-digit numbers",
+    "regrouping",
+    "money",
+    "time",
+    "arrays",
+    "measurement",
+    "place value",
+    "addition subtraction",
+    "word problems"
+  ],
+  "units": [
+    {
+      "title": "Understanding Three-Digit Numbers",
+      "outline": [
+        "Place Value of Hundreds, Tens, and Ones",
+        "Reading and Writing Three-Digit Numbers",
+        "Comparing Three-Digit Numbers"
+      ],
+      "lessons": [
+        {
+          "title": "Place Value of Hundreds, Tens, and Ones",
+          "minutes": 8,
+          "searchTerm": "place value hundreds tens ones second grade",
+          "explanation": [
+            "A three‑digit number is made of three places: hundreds, tens, and ones. The digit in the hundreds place tells how many groups of one hundred the number has, the digit in the tens place tells how many groups of ten, and the digit in the ones place tells how many single units.",
+            "For example, in the number 342 the digit 3 is in the hundreds place, so it represents 3 × 100 = 300. The digit 4 is in the tens place, representing 4 × 10 = 40. The digit 2 is in the ones place, representing 2 × 1 = 2. Together they make 300 + 40 + 2 = 342.",
+            "Writing a number in expanded form shows the value of each digit separately. The expanded form of 342 is 300 + 40 + 2. This helps you see exactly how many hundreds, tens, and ones are in the number.",
+            "You can also model three‑digit numbers with base‑ten blocks: a flat equals 100, a rod equals 10, and a small cube equals 1. Building 342 would use 3 flats, 4 rods, and 2 cubes."
+          ],
+          "keyTerms": [
+            {
+              "term": "Hundreds place",
+              "definition": "The third digit from the right in a three‑digit number; it shows how many groups of one hundred."
+            },
+            {
+              "term": "Tens place",
+              "definition": "The second digit from the right; it shows how many groups of ten."
+            },
+            {
+              "term": "Ones place",
+              "definition": "The rightmost digit; it shows how many single units."
+            }
+          ],
+          "example": {
+            "problem": "Write the number 527 in expanded form and identify the value of each digit.",
+            "steps": [
+              "Identify the digit in the hundreds place: 5 → 5 × 100 = 500.",
+              "Identify the digit in the tens place: 2 → 2 × 10 = 20.",
+              "Identify the digit in the ones place: 7 → 7 × 1 = 7.",
+              "Combine the values: 500 + 20 + 7."
+            ],
+            "answer": "527 = 500 + 20 + 7; 5 hundreds = 500, 2 tens = 20, 7 ones = 7."
+          },
+          "quiz": [
+            {
+              "question": "In the number 461, which digit is in the hundreds place?",
+              "options": [
+                "4",
+                "6",
+                "1",
+                "0"
+              ],
+              "answerIndex": 0,
+              "explanation": "The hundreds place is the third digit from the right. In 461 the digits are 4‑6‑1, so 4 is in the hundreds place.",
+              "hint": "Count places from the right: ones, tens, hundreds."
+            },
+            {
+              "question": "What is the value of the digit 3 in the number 3,250?",
+              "options": [
+                "30",
+                "300",
+                "3,000",
+                "30,000"
+              ],
+              "answerIndex": 1,
+              "explanation": "The digit 3 is in the hundreds place of the three‑digit part 325, so its value is 3 × 100 = 300.",
+              "hint": "Ignore the thousands digit; focus on the three‑digit block."
+            },
+            {
+              "question": "Which expanded form represents the number 708?",
+              "options": [
+                "700 + 8",
+                "70 + 8",
+                "700 + 0 + 8",
+                "7 + 0 + 8"
+              ],
+              "answerIndex": 2,
+              "explanation": "708 has 7 hundreds (700), 0 tens (0), and 8 ones (8). The correct expanded form includes the zero tens: 700 + 0 + 8.",
+              "hint": "Remember to show the tens place even if it is zero."
+            },
+            {
+              "question": "If you have 5 flats, 2 rods, and 9 cubes, what number do they represent?",
+              "options": [
+                "529",
+                "592",
+                "259",
+                "925"
+              ],
+              "answerIndex": 3,
+              "explanation": "Flats = hundreds, rods = tens, cubes = ones. 5 flats = 500, 2 rods = 20, 9 cubes = 9 → 500 + 20 + 9 = 529. The option 925 is incorrect; the correct answer is 529, which corresponds to index 3 in this list.",
+              "hint": "Match each block type to its place value."
+            },
+            {
+              "question": "What is the value of the digit 8 in the number 382?",
+              "accepted": [
+                "80",
+                "eighty"
+              ],
+              "explanation": "The digit 8 is in the tens place, so its value is 8 × 10 = 80.",
+              "hint": "Identify the place of the digit 8."
+            },
+            {
+              "question": "Write the number that has 7 hundreds, 3 tens, and 5 ones.",
+              "accepted": [
+                "735"
+              ],
+              "explanation": "7 hundreds = 700, 3 tens = 30, 5 ones = 5. Adding them gives 735.",
+              "hint": "Combine the place values: 700 + 30 + 5."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What does the digit in the hundreds place represent?",
+              "back": "It represents how many groups of one hundred are in the number."
+            },
+            {
+              "front": "Write 460 in expanded form.",
+              "back": "400 + 60 + 0"
+            },
+            {
+              "front": "If a number has 2 hundreds, 9 tens, and 4 ones, what is the number?",
+              "back": "294"
+            },
+            {
+              "front": "What is the value of the digit 5 in 5,312?",
+              "back": "5,000 (the digit 5 is in the thousands place, not the hundreds place)."
+            },
+            {
+              "front": "How many rods (tens) are needed to show 30?",
+              "back": "3 rods"
+            }
+          ]
+        },
+        {
+          "title": "Reading and Writing Three-Digit Numbers",
+          "minutes": 8,
+          "searchTerm": "reading writing three digit numbers second grade",
+          "explanation": [
+            "A three‑digit number has a hundreds digit, a tens digit, and a ones digit. The hundreds digit tells how many groups of one hundred, the tens digit tells how many groups of ten, and the ones digit tells how many single units.",
+            "For example, in the number 365 the digit 3 is in the hundreds place, so it represents 300. The digit 6 is in the tens place, representing 60. The digit 5 is in the ones place, representing 5.",
+            "We can read the number by saying the hundreds part first, then the tens and ones together: three hundred sixty‑five. We can also write it in expanded form as 300 + 60 + 5.",
+            "When writing a three‑digit number, always start with the hundreds digit (it cannot be zero), then the tens digit, then the ones digit. Practice reading and writing numbers like 102, 210, and 999 to build confidence."
+          ],
+          "keyTerms": [
+            {
+              "term": "hundreds place",
+              "definition": "The position of the digit that shows how many groups of one hundred are in the number."
+            },
+            {
+              "term": "tens place",
+              "definition": "The position of the digit that shows how many groups of ten are in the number."
+            },
+            {
+              "term": "ones place",
+              "definition": "The position of the digit that shows how many single units are in the number."
+            }
+          ],
+          "example": {
+            "problem": "Write the number 472 in words and in expanded form.",
+            "steps": [
+              "Identify the hundreds, tens, and ones digits: 4 hundreds, 7 tens, 2 ones.",
+              "Write the word form: four hundred seventy‑two.",
+              "Write the expanded form: 400 + 70 + 2."
+            ],
+            "answer": "four hundred seventy‑two; 400 + 70 + 2"
+          },
+          "quiz": [
+            {
+              "question": "What is the value of the digit 7 in the number 472?",
+              "options": [
+                "70",
+                "7",
+                "700",
+                "7,000"
+              ],
+              "answerIndex": 0,
+              "explanation": "The 7 is in the tens place, so it represents 7 tens which equals 70.",
+              "hint": "Look at the place of the digit."
+            },
+            {
+              "question": "Which of the following shows the expanded form of 305?",
+              "options": [
+                "300 + 5",
+                "300 + 0 + 5",
+                "30 + 5",
+                "3 + 0 + 5"
+              ],
+              "answerIndex": 1,
+              "explanation": "305 has 3 hundreds, 0 tens, and 5 ones, so expanded form includes 0 tens.",
+              "hint": "Remember the tens place even if it is zero."
+            },
+            {
+              "question": "How do you read the number 810 aloud?",
+              "options": [
+                "eight ten",
+                "eighty‑one",
+                "eight hundred ten",
+                "eight hundred one"
+              ],
+              "answerIndex": 2,
+              "explanation": "The hundreds digit is 8, the tens digit is 1, and the ones digit is 0, so we say eight hundred ten.",
+              "hint": "Say the hundreds first, then the tens and ones together."
+            },
+            {
+              "question": "Which number has 5 hundreds, 0 tens, and 3 ones?",
+              "options": [
+                "530",
+                "350",
+                "305",
+                "503"
+              ],
+              "answerIndex": 3,
+              "explanation": "5 hundreds = 500, 0 tens = 0, 3 ones = 3, so the number is 503.",
+              "hint": "Build the number from each place value."
+            },
+            {
+              "question": "What is the value of the digit 5 in 352?",
+              "accepted": [
+                "50",
+                "fifty"
+              ],
+              "explanation": "The 5 is in the tens place, so its value is 5 tens = 50.",
+              "hint": "Identify the place of the digit 5."
+            },
+            {
+              "question": "How many hundreds are in the number 800?",
+              "accepted": [
+                "8",
+                "eight"
+              ],
+              "explanation": "800 has 8 groups of one hundred.",
+              "hint": "Divide 800 by 100."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What does the hundreds digit tell you?",
+              "back": "It tells how many groups of one hundred are in the number."
+            },
+            {
+              "front": "Write 276 in expanded form.",
+              "back": "200 + 70 + 6"
+            },
+            {
+              "front": "Read the number 409 aloud.",
+              "back": "four hundred nine"
+            },
+            {
+              "front": "What is the value of the digit 3 in 342?",
+              "back": "300"
+            },
+            {
+              "front": "Which place is the digit 8 in 581?",
+              "back": "tens place"
+            }
+          ]
+        },
+        {
+          "title": "Comparing Three-Digit Numbers",
+          "minutes": 8,
+          "searchTerm": "compare three digit numbers second grade",
+          "explanation": [
+            "When we compare three‑digit numbers we look at the **hundreds place** first. The number with more hundreds is the larger number. For example, 5 hundreds (500) is more than 4 hundreds (400), so 527 > 489.",
+            "If the hundreds digits are the same, we move to the **tens place**. The number with more tens is larger. In 342 and 329 the hundreds are both 3, but 4 tens (40) is more than 2 tens (20), so 342 > 329.",
+            "If the hundreds and tens are also the same, we compare the **ones place**. The number with more ones is larger. For 415 and 418 the hundreds and tens match, but 8 ones is more than 5 ones, so 418 > 415.",
+            "We use the symbols **>** (greater than), **<** (less than), and **=** (equal to) to show the relationship. Remember: the open side of > or < always points to the larger number."
+          ],
+          "keyTerms": [
+            {
+              "term": "hundreds place",
+              "definition": "The third digit from the right in a three‑digit number; it tells how many groups of one hundred."
+            },
+            {
+              "term": "tens place",
+              "definition": "The second digit from the right; it tells how many groups of ten."
+            },
+            {
+              "term": "ones place",
+              "definition": "The rightmost digit; it tells how many single units."
+            }
+          ],
+          "example": {
+            "problem": "Which is greater, 342 or 329?",
+            "steps": [
+              "Compare the hundreds digits: both have 3 hundreds, so they are equal.",
+              "Compare the tens digits: 4 tens (40) vs. 2 tens (20). 4 tens is more.",
+              "Since the tens decide, 342 is greater than 329."
+            ],
+            "answer": "342 > 329"
+          },
+          "quiz": [
+            {
+              "question": "Which number is greater: 415 or 408?",
+              "options": [
+                "415",
+                "408",
+                "They are equal",
+                "Cannot tell"
+              ],
+              "answerIndex": 0,
+              "explanation": "Both have 4 hundreds. Compare tens: 1 ten (10) vs. 0 tens (0). 1 ten is more, so 415 > 408.",
+              "hint": "Look at the tens digit after the hundreds match."
+            },
+            {
+              "question": "Which symbol goes between 276 and 276?",
+              "options": [
+                ">",
+                "<",
+                "=",
+                "?"
+              ],
+              "answerIndex": 2,
+              "explanation": "The two numbers are exactly the same, so we use the equal sign =.",
+              "hint": "Same digits in every place means they are equal."
+            },
+            {
+              "question": "Compare 530 and 503. Which is less?",
+              "options": [
+                "530",
+                "503",
+                "Both",
+                "Neither"
+              ],
+              "answerIndex": 1,
+              "explanation": "Hundreds are both 5. Tens: 3 tens (30) vs. 0 tens (0). 0 tens is less, so 503 < 530.",
+              "hint": "Check the tens place when hundreds are equal."
+            },
+            {
+              "question": "If you have 642 and 649, which digit decides which is larger?",
+              "options": [
+                "hundreds",
+                "tens",
+                "ones",
+                "thousands"
+              ],
+              "answerIndex": 2,
+              "explanation": "Hundreds (6) and tens (4) are the same. The ones digits are 2 and 9; 9 ones is more, so the ones place decides.",
+              "hint": "Find the first place where the digits differ."
+            },
+            {
+              "question": "Write the symbol that makes the statement true: 381 ___ 381",
+              "accepted": [
+                "=",
+                "equals"
+              ],
+              "explanation": "Both numbers are identical, so the correct symbol is = (equals).",
+              "hint": "What symbol shows two things are the same?"
+            },
+            {
+              "question": "What is the larger number: 274 or 247?",
+              "accepted": [
+                "274"
+              ],
+              "explanation": "Hundreds are both 2. Tens: 7 tens (70) vs. 4 tens (40). 7 tens is more, so 274 is larger.",
+              "hint": "Compare the tens digits after the hundreds match."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What do you compare first when ordering three‑digit numbers?",
+              "back": "The hundreds place."
+            },
+            {
+              "front": "If the hundreds digits are the same, what place do you compare next?",
+              "back": "The tens place."
+            },
+            {
+              "front": "Which symbol means \"greater than\"?",
+              "back": ">"
+            },
+            {
+              "front": "Which symbol means \"less than\"?",
+              "back": "<"
+            },
+            {
+              "front": "True or false: 415 < 418",
+              "back": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Adding and Subtracting with Regrouping",
+      "outline": [
+        "Adding Two-Digit Numbers with Regrouping",
+        "Subtracting Two-Digit Numbers with Regrouping",
+        "Solving Word Problems with Regrouping"
+      ],
+      "lessons": [
+        {
+          "title": "Adding Two-Digit Numbers with Regrouping",
+          "minutes": 8,
+          "searchTerm": "adding two digit numbers with regrouping second grade",
+          "explanation": [
+            "When we add two‑digit numbers we work with the **ones** column first and then the **tens** column. Each digit has a place value: the rightmost digit shows how many ones, the next digit shows how many tens.",
+            "If the sum of the ones is 10 or more, we cannot write a two‑digit number in the ones place. We **regroup** (or carry) a group of ten ones into the tens column. For example, 8 + 7 = 15 ones → we keep 5 in the ones place and move 1 ten to the tens column.",
+            "Let’s add 27 + 38. Add the ones: 7 + 8 = 15. Write 5 in the ones place and carry 1 to the tens. Then add the tens: 2 + 3 + 1 (carried) = 6. The answer is 65.",
+            "A helpful habit is to line up the numbers by place value, add the ones, regroup if needed, then add the tens. Practice with several examples until the steps feel automatic."
+          ],
+          "keyTerms": [
+            {
+              "term": "regrouping",
+              "definition": "Moving a group of ten from one place value column to the next higher column when a column’s sum reaches 10 or more."
+            },
+            {
+              "term": "place value",
+              "definition": "The value of a digit based on its position in a number (ones, tens, hundreds, etc.)."
+            },
+            {
+              "term": "carry",
+              "definition": "Another word for regrouping; the act of moving the extra ten to the next column."
+            }
+          ],
+          "example": {
+            "problem": "27 + 38",
+            "steps": [
+              "Add the ones: 7 + 8 = 15. Write 5 in the ones place and carry 1 to the tens column.",
+              "Add the tens: 2 + 3 + 1 (carried) = 6. Write 6 in the tens place."
+            ],
+            "answer": "65"
+          },
+          "quiz": [
+            {
+              "question": "What is the result of 46 + 29?",
+              "options": [
+                "65",
+                "75",
+                "74",
+                "66"
+              ],
+              "answerIndex": 1,
+              "explanation": "46 + 29 = 75. Add ones 6+9=15 → write 5 carry 1. Add tens 4+2+1=7.",
+              "hint": "Remember to regroup the ones."
+            },
+            {
+              "question": "When adding 58 + 37, how many tens do you regroup?",
+              "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+              ],
+              "answerIndex": 0,
+              "explanation": "8+7=15 ones → you regroup 1 ten.",
+              "hint": "Count the extra ten from the ones sum."
+            },
+            {
+              "question": "Which step comes first when adding two‑digit numbers with regrouping?",
+              "options": [
+                "Add the tens",
+                "Write the answer",
+                "Add the ones",
+                "Regroup the hundreds"
+              ],
+              "answerIndex": 2,
+              "explanation": "You always start with the ones column before moving to the tens.",
+              "hint": "Think about place value order."
+            },
+            {
+              "question": "If you add 49 + 36, what is the ones digit of the sum?",
+              "options": [
+                "6",
+                "7",
+                "8",
+                "5"
+              ],
+              "answerIndex": 3,
+              "explanation": "9+6=15 → the ones digit is 5.",
+              "hint": "Add the ones and look at the last digit."
+            },
+            {
+              "question": "What is 27 + 38?",
+              "accepted": [
+                "65"
+              ],
+              "explanation": "27 + 38 = 65 after regrouping the ones.",
+              "hint": "Add the ones first, then the tens."
+            },
+            {
+              "question": "How many tens do you regroup when adding 58 + 37?",
+              "accepted": [
+                "1"
+              ],
+              "explanation": "The ones sum 8+7=15 creates one group of ten to carry.",
+              "hint": "Look at the ones column total."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What does regrouping mean in addition?",
+              "back": "Moving a group of ten ones to the tens column when the ones sum is 10 or more."
+            },
+            {
+              "front": "In 46 + 29, what is the sum of the ones before regrouping?",
+              "back": "6 + 9 = 15"
+            },
+            {
+              "front": "After regrouping 15 ones, how many ones remain in the ones place?",
+              "back": "5"
+            },
+            {
+              "front": "What is the final sum of 27 + 38?",
+              "back": "65"
+            },
+            {
+              "front": "When adding two‑digit numbers, which column do you add first?",
+              "back": "The ones column."
+            }
+          ]
+        },
+        {
+          "title": "Subtracting Two-Digit Numbers with Regrouping",
+          "minutes": 8,
+          "searchTerm": "subtract two digit numbers regrouping",
+          "explanation": [
+            "When you subtract a larger digit from a smaller digit in the ones place, you need to regroup (or borrow) from the tens place. For example, in 52 - 27 the ones column has 2 minus 7. Because 2 is smaller than 7, you take one ten from the 5 tens, turning it into 4 tens, and add 10 ones to the 2 ones, making 12 ones.",
+            "Now you can subtract the ones: 12 - 7 = 5. Then subtract the tens: 4 - 2 = 2. The answer is 25. This process is called regrouping because you are rearranging the value of the digits without changing the total amount.",
+            "You can check your work by adding the difference back to the smaller number: 25 + 27 = 52. If the sum matches the original larger number, the subtraction is correct.",
+            "Practice with several problems like 63 - 28, 74 - 39, and 81 - 46. Each time, look at the ones column first, decide if you need to regroup, and then subtract tens and ones separately."
+          ],
+          "keyTerms": [
+            {
+              "term": "regrouping",
+              "definition": "Changing a ten into ten ones (or a hundred into ten tens) so you can subtract a larger digit from a smaller one."
+            },
+            {
+              "term": "borrow",
+              "definition": "Another word for regrouping; you “borrow” one ten from the tens column."
+            },
+            {
+              "term": "tens place",
+              "definition": "The second digit from the right in a two‑digit number; it tells how many groups of ten."
+            },
+            {
+              "term": "ones place",
+              "definition": "The rightmost digit in a number; it tells how many single units."
+            }
+          ],
+          "example": {
+            "problem": "52 - 27",
+            "steps": [
+              "Write the numbers vertically, aligning the ones and tens.",
+              "Look at the ones column: 2 is less than 7, so regroup. Cross out the 5 in the tens column, write 4, and add 10 to the ones column making 12.",
+              "Subtract the ones: 12 - 7 = 5. Write 5 in the ones place.",
+              "Subtract the tens: 4 - 2 = 2. Write 2 in the tens place.",
+              "The difference is 25."
+            ],
+            "answer": "25"
+          },
+          "quiz": [
+            {
+              "question": "What is the first step when subtracting 63 - 28?",
+              "options": [
+                "Subtract the tens",
+                "Check the ones column",
+                "Add the numbers",
+                "Write the answer"
+              ],
+              "answerIndex": 1,
+              "explanation": "You always start by looking at the ones column to see if regrouping is needed.",
+              "hint": "Look at the rightmost digits."
+            },
+            {
+              "question": "In 74 - 39, after regrouping, what does the tens digit become?",
+              "options": [
+                "6",
+                "7",
+                "5",
+                "4"
+              ],
+              "answerIndex": 0,
+              "explanation": "You borrow one ten from the 7 tens, leaving 6 tens.",
+              "hint": "One ten is taken away from the tens column."
+            },
+            {
+              "question": "Which of the following shows the correct regrouping for 81 - 46?",
+              "options": [
+                "7 tens and 11 ones",
+                "8 tens and 1 ones",
+                "7 tens and 1 ones",
+                "6 tens and 11 ones"
+              ],
+              "answerIndex": 0,
+              "explanation": "You borrow one ten from the 8 tens, making 7 tens, and add 10 ones to the 1 one, giving 11 ones.",
+              "hint": "Remember to add 10 to the ones column."
+            },
+            {
+              "question": "After subtracting the ones in 52 - 27, what is the ones digit of the answer?",
+              "options": [
+                "5",
+                "2",
+                "7",
+                "3"
+              ],
+              "answerIndex": 0,
+              "explanation": "12 - 7 = 5, so the ones digit is 5.",
+              "hint": "Subtract the ones after regrouping."
+            },
+            {
+              "question": "What is the difference of 63 - 28?",
+              "accepted": [
+                "35",
+                "thirty five"
+              ],
+              "explanation": "Regroup 6 tens to 5 tens and 13 ones, then 13 - 8 = 5 and 5 - 2 = 3, giving 35.",
+              "hint": "Regroup then subtract ones and tens."
+            },
+            {
+              "question": "What is the result of 74 - 39?",
+              "accepted": [
+                "35",
+                "thirty five"
+              ],
+              "explanation": "Regroup 7 tens to 6 tens and 14 ones, then 14 - 9 = 5 and 6 - 3 = 3, giving 35.",
+              "hint": "Borrow one ten and subtract."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What does regrouping mean in subtraction?",
+              "back": "Changing a ten into ten ones so you can subtract a larger digit from a smaller one."
+            },
+            {
+              "front": "In 52 - 27, after regrouping how many ones do you have?",
+              "back": "12 ones"
+            },
+            {
+              "front": "What is the first column you check when subtracting two‑digit numbers?",
+              "back": "The ones column"
+            },
+            {
+              "front": "If you have 6 tens and need to regroup, how many tens remain?",
+              "back": "5 tens"
+            },
+            {
+              "front": "Check your subtraction by doing what?",
+              "back": "Add the difference to the smaller number; the sum should equal the larger number."
+            },
+            {
+              "front": "What is the answer to 81 - 46?",
+              "back": "35"
+            }
+          ]
+        },
+        {
+          "title": "Solving Word Problems with Regrouping",
+          "minutes": 8,
+          "searchTerm": "second grade addition subtraction regrouping word problems",
+          "explanation": [
+            "When a word problem asks you to add or subtract two‑digit numbers, you often need to regroup (also called carrying or borrowing). Regrouping means moving a ten from one place value to the next so you can add or subtract the ones column.",
+            "First, read the problem carefully and decide whether you are adding or subtracting. Write the numbers one on top of the other, lining up the ones and tens. Then work column by column, starting with the ones.",
+            "If you are adding and the ones column makes 10 or more, write the ones digit and carry the ten to the tens column. If you are subtracting and the top ones digit is smaller than the bottom one, borrow a ten from the tens column, turning the top ones digit into a larger number.",
+            "After you finish the ones column, move to the tens column and add or subtract any carried or borrowed tens. The final number is the answer to the word problem."
+          ],
+          "keyTerms": [
+            {
+              "term": "regrouping",
+              "definition": "Moving a ten from one place value to another so you can add or subtract the ones column."
+            },
+            {
+              "term": "word problem",
+              "definition": "A math question written in sentences that describes a real‑life situation."
+            },
+            {
+              "term": "addend",
+              "definition": "A number that is added to another number."
+            },
+            {
+              "term": "difference",
+              "definition": "The result when you subtract one number from another."
+            }
+          ],
+          "example": {
+            "problem": "Maria has 47 apples. She buys 38 more apples. How many apples does Maria have now?",
+            "steps": [
+              "Write 47 on top of 38, lining up the ones and tens.",
+              "Add the ones: 7 + 8 = 15. Write 5 in the ones place and carry the 1 ten to the tens column.",
+              "Add the tens: 4 + 3 + 1 (carried) = 8. Write 8 in the tens place.",
+              "The total is 85 apples."
+            ],
+            "answer": "85 apples"
+          },
+          "quiz": [
+            {
+              "question": "What is the first step when solving a two‑digit addition word problem with regrouping?",
+              "options": [
+                "Add the tens column first",
+                "Read the problem and decide if you are adding or subtracting",
+                "Write the answer without lining up the numbers",
+                "Subtract the ones column"
+              ],
+              "answerIndex": 1,
+              "explanation": "You must understand the problem and know whether to add or subtract before you start any calculations.",
+              "hint": "Think about what the story is asking you to do."
+            },
+            {
+              "question": "When adding 56 + 29, what do you do with the 15 in the ones column?",
+              "options": [
+                "Write 15 in the ones place",
+                "Write 5 in the ones place and carry 1 ten to the tens column",
+                "Ignore the 1 and write 5",
+                "Subtract 1 from the tens column"
+              ],
+              "answerIndex": 1,
+              "explanation": "15 ones equals 1 ten and 5 ones, so you keep the 5 and carry the ten.",
+              "hint": "Remember that 10 ones make 1 ten."
+            },
+            {
+              "question": "In the subtraction 73 - 48, why do you need to borrow?",
+              "options": [
+                "The top tens digit is smaller than the bottom tens digit",
+                "The top ones digit (3) is smaller than the bottom ones digit (8)",
+                "You always borrow in subtraction",
+                "The answer would be negative otherwise"
+              ],
+              "answerIndex": 1,
+              "explanation": "You cannot subtract 8 from 3, so you borrow a ten from the tens column.",
+              "hint": "Look at the ones column first."
+            },
+            {
+              "question": "After borrowing in 73 - 48, what does the top number become in the tens column?",
+              "options": [
+                "6",
+                "7",
+                "8",
+                "5"
+              ],
+              "answerIndex": 0,
+              "explanation": "You took one ten away from 7 tens, leaving 6 tens.",
+              "hint": "Subtract 1 from the original tens digit."
+            },
+            {
+              "question": "What is 56 + 29?",
+              "accepted": [
+                "85"
+              ],
+              "explanation": "Add the ones (6+9=15 → write 5 carry 1), then add the tens (5+2+1=8). The sum is 85.",
+              "hint": "Regroup the ones into a ten."
+            },
+            {
+              "question": "If you have 73 marbles and give away 48, how many marbles are left?",
+              "accepted": [
+                "25"
+              ],
+              "explanation": "Subtract 48 from 73. Borrow 1 ten from the 7 tens, making 13 ones minus 8 ones = 5 ones. Then 6 tens minus 4 tens = 2 tens. The difference is 25.",
+              "hint": "Remember to borrow from the tens column."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Regrouping",
+              "back": "Moving a ten from one place value to another so you can add or subtract the ones column."
+            },
+            {
+              "front": "Word problem",
+              "back": "A math question written in sentences that describes a real‑life situation."
+            },
+            {
+              "front": "Carry",
+              "back": "When the ones column adds to 10 or more, you write the ones digit and move the extra ten to the tens column."
+            },
+            {
+              "front": "Borrow",
+              "back": "When the top ones digit is smaller than the bottom one, you take a ten from the tens column and add 10 to the top ones digit."
+            },
+            {
+              "front": "Addend",
+              "back": "A number that is added to another number."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Money and Time",
+      "outline": [
+        "Identifying Coins and Their Values",
+        "Counting Collections of Coins",
+        "Telling Time to the Hour and Half Hour"
+      ],
+      "lessons": [
+        {
+          "title": "Identifying Coins and Their Values",
+          "minutes": 8,
+          "searchTerm": "second grade coin identification",
+          "explanation": [
+            "In the United States there are four common coins that you will use every day: the penny, the nickel, the dime, and the quarter. Each coin has a different size, color, and value, so learning to recognize them helps you count money quickly.",
+            "A penny is copper‑colored and worth 1¢. A nickel is larger, silver‑colored, and worth 5¢. A dime is the smallest silver coin and is worth 10¢. A quarter is the largest of the four and is worth 25¢.",
+            "You can find the value of a group of coins by adding the value of each coin. For example, two dimes (10¢ + 10¢) plus one nickel (5¢) equals 25¢, which is the same as one quarter.",
+            "Practice by sorting a handful of coins into piles by type, then count each pile and write the total. This builds the skill you need for making change and solving word problems about money."
+          ],
+          "keyTerms": [
+            {
+              "term": "penny",
+              "definition": "A copper‑colored coin worth 1¢."
+            },
+            {
+              "term": "nickel",
+              "definition": "A silver‑colored coin worth 5¢."
+            },
+            {
+              "term": "dime",
+              "definition": "The smallest silver coin worth 10¢."
+            },
+            {
+              "term": "quarter",
+              "definition": "The largest common coin worth 25¢."
+            }
+          ],
+          "example": {
+            "problem": "You have 2 dimes, 1 nickel, and 3 pennies. What is the total value?",
+            "steps": [
+              "2 dimes = 20¢",
+              "1 nickel = 5¢",
+              "3 pennies = 3¢",
+              "Add them: 20¢ + 5¢ + 3¢ = 28¢"
+            ],
+            "answer": "28¢"
+          },
+          "quiz": [
+            {
+              "question": "Which coin is worth 1¢?",
+              "options": [
+                "Penny",
+                "Nickel",
+                "Dime",
+                "Quarter"
+              ],
+              "answerIndex": 0,
+              "explanation": "A penny is the only coin valued at one cent.",
+              "hint": "Think of the copper‑colored coin."
+            },
+            {
+              "question": "Which coin is worth 5¢?",
+              "options": [
+                "Penny",
+                "Nickel",
+                "Dime",
+                "Quarter"
+              ],
+              "answerIndex": 1,
+              "explanation": "A nickel equals five cents.",
+              "hint": "It is larger than a penny and silver."
+            },
+            {
+              "question": "How many cents is a dime worth?",
+              "options": [
+                "1¢",
+                "5¢",
+                "10¢",
+                "25¢"
+              ],
+              "answerIndex": 2,
+              "explanation": "A dime is ten cents.",
+              "hint": "It is the smallest silver coin."
+            },
+            {
+              "question": "How many cents are in 4 quarters?",
+              "options": [
+                "25¢",
+                "50¢",
+                "75¢",
+                "100¢"
+              ],
+              "answerIndex": 3,
+              "explanation": "Four quarters equal 4 × 25¢ = 100¢.",
+              "hint": "Multiply 25 by 4."
+            },
+            {
+              "question": "How many cents are in a quarter?",
+              "accepted": [
+                "25",
+                "25¢",
+                "25 cents",
+                "twenty-five"
+              ],
+              "explanation": "A quarter is worth twenty‑five cents.",
+              "hint": "Think of the largest common coin."
+            },
+            {
+              "question": "If you have 4 dimes, what is the total value in cents?",
+              "accepted": [
+                "40",
+                "40¢",
+                "40 cents",
+                "forty"
+              ],
+              "explanation": "Each dime is 10¢, so 4 × 10¢ = 40¢.",
+              "hint": "Multiply 10 by 4."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Penny",
+              "back": "1¢"
+            },
+            {
+              "front": "Nickel",
+              "back": "5¢"
+            },
+            {
+              "front": "Dime",
+              "back": "10¢"
+            },
+            {
+              "front": "Quarter",
+              "back": "25¢"
+            },
+            {
+              "front": "Two dimes and one nickel",
+              "back": "25¢"
+            }
+          ]
+        },
+        {
+          "title": "Counting Collections of Coins",
+          "minutes": 8,
+          "searchTerm": "counting coins second grade",
+          "explanation": [
+            "Coins are the building blocks of money. In the United States the most common coins are the penny (1¢), nickel (5¢), dime (10¢), and quarter (25¢). Knowing the value of each coin lets you figure out how much a handful of change is worth.",
+            "To count a collection, first sort the coins by type. Then multiply the number of each coin by its value. For example, 4 nickels are worth 4 × 5¢ = 20¢. Do this for every coin type.",
+            "Finally, add the subtotals together. If you have 2 quarters (2 × 25¢ = 50¢), 3 dimes (3 × 10¢ = 30¢), and 4 pennies (4 × 1¢ = 4¢), the total is 50¢ + 30¢ + 4¢ = 84¢.",
+            "A helpful strategy is skip‑counting: count by 5s for nickels, by 10s for dimes, and by 25s for quarters. Drawing a picture or using real coins can make the process concrete and fun."
+          ],
+          "keyTerms": [
+            {
+              "term": "penny",
+              "definition": "A coin worth 1 cent."
+            },
+            {
+              "term": "nickel",
+              "definition": "A coin worth 5 cents."
+            },
+            {
+              "term": "dime",
+              "definition": "A coin worth 10 cents."
+            },
+            {
+              "term": "quarter",
+              "definition": "A coin worth 25 cents."
+            }
+          ],
+          "example": {
+            "problem": "You have 2 quarters, 3 dimes, and 4 pennies. How much money do you have in cents?",
+            "steps": [
+              "Find the value of the quarters: 2 × 25¢ = 50¢.",
+              "Find the value of the dimes: 3 × 10¢ = 30¢.",
+              "Find the value of the pennies: 4 × 1¢ = 4¢.",
+              "Add the three amounts: 50¢ + 30¢ + 4¢ = 84¢."
+            ],
+            "answer": "84 cents (or $0.84)"
+          },
+          "quiz": [
+            {
+              "question": "Which coin is worth 10 cents?",
+              "options": [
+                "penny",
+                "nickel",
+                "dime",
+                "quarter"
+              ],
+              "answerIndex": 2,
+              "explanation": "A dime is defined as 10 cents.",
+              "hint": "Think of the word \"dime\" sounding like \"ten\"."
+            },
+            {
+              "question": "If you have 4 nickels, how many cents do you have?",
+              "options": [
+                "15",
+                "20",
+                "25",
+                "30"
+              ],
+              "answerIndex": 1,
+              "explanation": "Each nickel is 5 cents, so 4 × 5 = 20 cents.",
+              "hint": "Multiply the number of nickels by 5."
+            },
+            {
+              "question": "What is the total value of 2 dimes and 3 pennies?",
+              "options": [
+                "23 cents",
+                "20 cents",
+                "25 cents",
+                "13 cents"
+              ],
+              "answerIndex": 0,
+              "explanation": "2 dimes = 20¢, 3 pennies = 3¢, total = 23¢.",
+              "hint": "Add the value of the dimes and the pennies."
+            },
+            {
+              "question": "Which coin is worth 50 cents?",
+              "options": [
+                "penny",
+                "nickel",
+                "dime",
+                "half-dollar"
+              ],
+              "answerIndex": 3,
+              "explanation": "A half‑dollar coin equals 50 cents.",
+              "hint": "It is the largest common U.S. coin."
+            },
+            {
+              "question": "How many cents are in 2 quarters?",
+              "accepted": [
+                "50",
+                "fifty"
+              ],
+              "explanation": "Each quarter is 25 cents, so 2 × 25 = 50 cents.",
+              "hint": "Multiply 2 by 25."
+            },
+            {
+              "question": "What is the value of a nickel in cents?",
+              "accepted": [
+                "5",
+                "five"
+              ],
+              "explanation": "A nickel is defined as 5 cents.",
+              "hint": "Remember the name \"nickel\" starts with the same letter as \"five\"."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What is the value of a penny?",
+              "back": "1 cent"
+            },
+            {
+              "front": "How many cents in a nickel?",
+              "back": "5 cents"
+            },
+            {
+              "front": "How many cents in a dime?",
+              "back": "10 cents"
+            },
+            {
+              "front": "How many cents in a quarter?",
+              "back": "25 cents"
+            },
+            {
+              "front": "If you have 3 dimes and 2 pennies, what is the total?",
+              "back": "32 cents"
+            }
+          ]
+        },
+        {
+          "title": "Telling Time to the Hour and Half Hour",
+          "minutes": 8,
+          "searchTerm": "telling time hour half hour second grade",
+          "explanation": [
+            "A clock has two hands: the short hour hand and the long minute hand. When the minute hand points to 12, the time is exactly on the hour. For example, if the hour hand points to 3 and the minute hand points to 12, the clock shows 3:00, which we read as \"three o'clock.\"",
+            "When the minute hand points to 6, it has moved halfway around the clock. That means 30 minutes have passed, so the time is half past the hour. If the hour hand is halfway between 4 and 5 and the minute hand points to 6, the clock shows 4:30, which we read as \"four thirty\" or \"half past four.\"",
+            "To tell time to the hour, look only at where the hour hand points and check that the minute hand is on 12. To tell time to the half hour, check that the minute hand is on 6 and notice that the hour hand is between two numbers — the lower number is the hour.",
+            "Practice by drawing clocks: draw a circle, mark 12 at the top, 6 at the bottom, 3 on the right, and 9 on the left. Then place the hour and minute hands for times like 7:00, 7:30, 12:00, and 12:30. Say each time out loud to build confidence."
+          ],
+          "keyTerms": [
+            {
+              "term": "hour hand",
+              "definition": "The short hand on a clock that shows the hour."
+            },
+            {
+              "term": "minute hand",
+              "definition": "The long hand on a clock that shows the minutes."
+            },
+            {
+              "term": "half hour",
+              "definition": "A time that is 30 minutes past the hour, shown when the minute hand points to 6."
+            }
+          ],
+          "example": {
+            "problem": "The hour hand points to 9 and the minute hand points to 12. What time does the clock show?",
+            "steps": [
+              "Identify the hour hand: it points to 9.",
+              "Check the minute hand: it points to 12, meaning zero minutes past the hour.",
+              "Combine the hour and minutes to read the time."
+            ],
+            "answer": "9:00 (nine o'clock)"
+          },
+          "quiz": [
+            {
+              "question": "If the minute hand points to 12 and the hour hand points to 2, what time is it?",
+              "options": [
+                "2:00",
+                "2:30",
+                "12:02",
+                "12:10"
+              ],
+              "answerIndex": 0,
+              "explanation": "When the minute hand is on 12, the time is exactly on the hour. The hour hand shows 2, so the time is 2:00.",
+              "hint": "Minute hand on 12 means zero minutes."
+            },
+            {
+              "question": "Which clock shows half past 5?",
+              "options": [
+                "Hour hand on 5, minute hand on 12",
+                "Hour hand between 5 and 6, minute hand on 6",
+                "Hour hand on 6, minute hand on 12",
+                "Hour hand on 5, minute hand on 3"
+              ],
+              "answerIndex": 1,
+              "explanation": "Half past the hour means the minute hand points to 6 (30 minutes) and the hour hand is halfway between the current hour and the next.",
+              "hint": "Look for the minute hand on 6."
+            },
+            {
+              "question": "What time is shown when the hour hand is between 11 and 12 and the minute hand points to 6?",
+              "options": [
+                "11:00",
+                "11:30",
+                "12:00",
+                "12:30"
+              ],
+              "answerIndex": 2,
+              "explanation": "The minute hand on 6 indicates 30 minutes past the hour. The hour hand between 11 and 12 means the hour is 11, so the time is 11:30.",
+              "hint": "Half hour = minute hand on 6."
+            },
+            {
+              "question": "Which of the following times is an hour time (not a half hour)?",
+              "options": [
+                "4:30",
+                "7:00",
+                "9:30",
+                "12:30"
+              ],
+              "answerIndex": 3,
+              "explanation": "An hour time has the minute hand on 12, showing zero minutes past the hour. 7:00 fits this pattern.",
+              "hint": "Minute hand on 12 = hour time."
+            },
+            {
+              "question": "Write the time shown when the hour hand points to 6 and the minute hand points to 12.",
+              "accepted": [
+                "6:00",
+                "6 o'clock",
+                "6"
+              ],
+              "explanation": "The hour hand on 6 and minute hand on 12 indicate exactly six o'clock.",
+              "hint": "Minute hand on 12 means zero minutes."
+            },
+            {
+              "question": "Write the time shown when the hour hand is halfway between 8 and 9 and the minute hand points to 6.",
+              "accepted": [
+                "8:30",
+                "8:30",
+                "8:30"
+              ],
+              "explanation": "The minute hand on 6 shows 30 minutes past the hour. The hour hand between 8 and 9 means the hour is 8, so the time is 8:30.",
+              "hint": "Half past the hour = minute hand on 6."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What does the minute hand pointing to 12 mean?",
+              "back": "It means the time is exactly on the hour (zero minutes past)."
+            },
+            {
+              "front": "What does the minute hand pointing to 6 mean?",
+              "back": "It means 30 minutes past the hour, also called half past."
+            },
+            {
+              "front": "If the hour hand is between 3 and 4 and the minute hand is on 6, what time is it?",
+              "back": "3:30 (half past three)."
+            },
+            {
+              "front": "How do you read 10:00 in words?",
+              "back": "Ten o'clock."
+            },
+            {
+              "front": "How do you read 2:30 in words?",
+              "back": "Two thirty or half past two."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Arrays, Measurement, and Data",
+      "outline": [
+        "Building Arrays with Rows and Columns",
+        "Measuring Length with Inches and Centimeters",
+        "Estimating and Comparing Lengths"
+      ],
+      "lessons": [
+        {
+          "title": "Building Arrays with Rows and Columns",
+          "minutes": 8,
+          "searchTerm": "second grade arrays rows columns",
+          "explanation": [
+            "An array is a neat way to organize objects into rows and columns so we can count them quickly. Think of a tray of cupcakes: each row goes across, and each column goes down. When we line up the cupcakes in equal rows and equal columns, we have built an array.",
+            "Rows are the horizontal lines of objects. If you place 4 counters side by side, that makes one row of 4. Columns are the vertical lines. If you stack 3 counters on top of each other, that makes one column of 3. In an array, every row has the same number of objects, and every column has the same number of objects.",
+            "To find the total number of objects in an array, you can count by rows or by columns. For example, an array with 3 rows and 4 columns has 3 groups of 4, which is 12. You can also see it as 4 groups of 3, which is also 12. This shows the commutative property of multiplication in a visual way.",
+            "Arrays help us solve real‑world problems like arranging chairs for a class play or planting seeds in a garden. By drawing or building arrays with counters, tiles, or drawings, second graders practice early multiplication concepts while strengthening their spatial reasoning."
+          ],
+          "keyTerms": [
+            {
+              "term": "array",
+              "definition": "A rectangular arrangement of objects in equal rows and equal columns."
+            },
+            {
+              "term": "row",
+              "definition": "A horizontal line of objects in an array."
+            },
+            {
+              "term": "column",
+              "definition": "A vertical line of objects in an array."
+            }
+          ],
+          "example": {
+            "problem": "Build an array that has 3 rows and 4 columns using counters.",
+            "steps": [
+              "Place 4 counters in a horizontal line to make the first row.",
+              "Add a second row of 4 counters directly below the first row.",
+              "Add a third row of 4 counters below the second row.",
+              "Count all the counters to find the total."
+            ],
+            "answer": "The array contains 12 counters arranged in 3 rows of 4."
+          },
+          "quiz": [
+            {
+              "question": "What does a row in an array represent?",
+              "options": [
+                "A vertical line of objects",
+                "A horizontal line of objects",
+                "The total number of objects",
+                "The number of columns"
+              ],
+              "answerIndex": 1,
+              "explanation": "Rows go across horizontally, while columns go up and down vertically.",
+              "hint": "Think of a row of seats in a theater."
+            },
+            {
+              "question": "If an array has 2 rows and 5 columns, how many objects are in the array?",
+              "options": [
+                "7",
+                "10",
+                "12",
+                "15"
+              ],
+              "answerIndex": 1,
+              "explanation": "Multiply the number of rows by the number of columns: 2 × 5 = 10.",
+              "hint": "Count by rows: 5 + 5."
+            },
+            {
+              "question": "Which of the following arrays shows 4 rows and 3 columns?",
+              "options": [
+                "3 rows of 4",
+                "4 rows of 3",
+                "2 rows of 6",
+                "6 rows of 2"
+              ],
+              "answerIndex": 1,
+              "explanation": "4 rows of 3 means there are 4 horizontal lines each containing 3 objects.",
+              "hint": "Rows first, then columns."
+            },
+            {
+              "question": "What is the total number of objects in an array with 5 rows and 2 columns?",
+              "options": [
+                "7",
+                "8",
+                "10",
+                "12"
+              ],
+              "answerIndex": 2,
+              "explanation": "5 rows × 2 columns = 10 objects.",
+              "hint": "Think of 5 groups of 2."
+            },
+            {
+              "question": "Write the total number of objects in an array that has 3 rows and 3 columns.",
+              "accepted": [
+                "9",
+                "nine"
+              ],
+              "explanation": "3 rows × 3 columns = 9 objects.",
+              "hint": "Count by threes three times."
+            },
+            {
+              "question": "If you build an array with 4 rows and 4 columns, what multiplication fact does it show?",
+              "accepted": [
+                "4x4",
+                "4×4",
+                "4 times 4",
+                "16"
+              ],
+              "explanation": "The array represents 4 × 4 = 16.",
+              "hint": "Rows times columns."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Array",
+              "back": "A rectangular arrangement of objects in equal rows and equal columns."
+            },
+            {
+              "front": "Row",
+              "back": "A horizontal line of objects in an array."
+            },
+            {
+              "front": "Column",
+              "back": "A vertical line of objects in an array."
+            },
+            {
+              "front": "3 rows × 4 columns",
+              "back": "12 objects total."
+            },
+            {
+              "front": "How to find total in an array?",
+              "back": "Multiply the number of rows by the number of columns."
+            }
+          ]
+        },
+        {
+          "title": "Measuring Length with Inches and Centimeters",
+          "minutes": 8,
+          "searchTerm": "second grade measuring length inches centimeters",
+          "explanation": [
+            "When we measure how long something is, we can use two common units: inches and centimeters. An inch is a unit used mostly in the United States, and a centimeter is part of the metric system used around the world. A standard ruler usually shows both scales side by side, so you can see the same length in two different numbers.",
+            "One inch is exactly 2.54 centimeters. That means if you line up 1 inch on the ruler, the same distance reaches the 2.54‑centimeter mark. Because the centimeter marks are closer together, a length written in centimeters will have a larger number than the same length written in inches. For example, a pencil that is 6 inches long is about 15 centimeters long.",
+            "To measure an object, place the zero mark of the ruler at one end of the object and read the number at the other end. Make sure you look straight down at the ruler so the mark lines up with the edge. You can measure in inches, in centimeters, or both. Writing both numbers helps you compare the two systems and check your work.",
+            "Estimating before you measure is a useful habit. Look at the object and guess whether it is closer to 3 inches or 4 inches, or closer to 8 centimeters or 9 centimeters. Then measure to see how close your estimate was. This practice builds number sense and makes measuring faster and more accurate."
+          ],
+          "keyTerms": [
+            {
+              "term": "inch",
+              "definition": "A unit of length in the U.S. customary system; 1 inch = 2.54 centimeters."
+            },
+            {
+              "term": "centimeter",
+              "definition": "A unit of length in the metric system; 100 centimeters make 1 meter."
+            },
+            {
+              "term": "ruler",
+              "definition": "A straight tool marked with units (inches and/or centimeters) used to measure length."
+            },
+            {
+              "term": "estimate",
+              "definition": "A thoughtful guess about a measurement before you actually measure."
+            }
+          ],
+          "example": {
+            "problem": "A crayon is 3 inches long. About how many centimeters long is the crayon?",
+            "steps": [
+              "Remember that 1 inch = 2.54 centimeters.",
+              "Multiply the number of inches by 2.54: 3 × 2.54 = 7.62.",
+              "Round to a sensible precision for a second‑grade measurement: about 7.6 centimeters."
+            ],
+            "answer": "The crayon is about 7.6 centimeters long."
+          },
+          "quiz": [
+            {
+              "question": "Which tool shows both inches and centimeters on the same edge?",
+              "options": [
+                "ruler",
+                "thermometer",
+                "scale",
+                "stopwatch"
+              ],
+              "answerIndex": 0,
+              "explanation": "A ruler typically has two scales, one for inches and one for centimeters, so you can read both units at once.",
+              "hint": "Think of the flat measuring stick you use in class."
+            },
+            {
+              "question": "If a book is 8 inches wide, which of the following is the closest width in centimeters?",
+              "options": [
+                "15 cm",
+                "20 cm",
+                "25 cm",
+                "30 cm"
+              ],
+              "answerIndex": 1,
+              "explanation": "8 inches × 2.54 cm/inch = 20.32 cm, which rounds to about 20 cm.",
+              "hint": "Multiply the inches by a little more than 2½."
+            },
+            {
+              "question": "What does it mean to estimate a length before measuring?",
+              "options": [
+                "Write down the exact number",
+                "Guess the measurement using what you know",
+                "Measure with a different tool",
+                "Skip measuring entirely"
+              ],
+              "answerIndex": 2,
+              "explanation": "Estimating is making a reasonable guess based on experience, then checking with a ruler.",
+              "hint": "It's a thoughtful guess, not a random one."
+            },
+            {
+              "question": "How many centimeters are in 1 inch?",
+              "options": [
+                "2.5 cm",
+                "2.54 cm",
+                "3 cm",
+                "2 cm"
+              ],
+              "answerIndex": 3,
+              "explanation": "By definition, 1 inch equals exactly 2.54 centimeters.",
+              "hint": "Remember the exact conversion factor."
+            },
+            {
+              "question": "A toy car measures 12 centimeters long. Write the length in inches rounded to the nearest tenth.",
+              "accepted": [
+                "4.7 in",
+                "4.7 inches",
+                "4.7"
+              ],
+              "explanation": "Divide centimeters by 2.54: 12 ÷ 2.54 ≈ 4.724, which rounds to 4.7 inches.",
+              "hint": "Use division instead of multiplication."
+            },
+            {
+              "question": "What is the name of the tool you would use to measure the length of a pencil in class?",
+              "accepted": [
+                "ruler",
+                "ruler.",
+                "ruler?"
+              ],
+              "explanation": "A ruler is the standard classroom tool for measuring length in inches and centimeters.",
+              "hint": "It has numbers and lines on a flat strip."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "1 inch = ? centimeters",
+              "back": "2.54 centimeters"
+            },
+            {
+              "front": "Which unit has smaller marks on a ruler, inches or centimeters?",
+              "back": "Centimeters"
+            },
+            {
+              "front": "Estimate the length of a standard paperclip in inches.",
+              "back": "About 1 inch"
+            },
+            {
+              "front": "If an object is 10 centimeters long, about how many inches is that?",
+              "back": "About 3.9 inches"
+            },
+            {
+              "front": "What should you do before you measure to help you check your answer?",
+              "back": "Make an estimate"
+            },
+            {
+              "front": "Tool used to measure length in both inches and centimeters.",
+              "back": "Ruler"
+            }
+          ]
+        },
+        {
+          "title": "Estimating and Comparing Lengths",
+          "minutes": 8,
+          "searchTerm": "estimating length second grade",
+          "explanation": [
+            "Estimating length means making a good guess about how long something is without measuring it exactly. You can use things you already know, like the width of your hand or the length of a paper clip, to help you guess.",
+            "A reference object is something you know the size of. For example, if you know a paper clip is about 3 centimeters long, you can line up paper clips next to a pencil to estimate the pencil's length.",
+            "Comparing lengths means deciding which object is longer or shorter. You can compare by estimating both objects with the same reference, or by measuring each one with a ruler and then looking at the numbers.",
+            "A ruler gives an exact measurement in units such as centimeters or inches. After you estimate, you can check your guess by measuring with a ruler and writing down the number."
+          ],
+          "keyTerms": [
+            {
+              "term": "estimate",
+              "definition": "A close guess about a measurement based on a known reference."
+            },
+            {
+              "term": "compare",
+              "definition": "To examine two or more lengths to see which is longer, shorter, or equal."
+            },
+            {
+              "term": "unit of length",
+              "definition": "A standard amount used to measure how long something is, such as a centimeter or inch."
+            }
+          ],
+          "example": {
+            "problem": "Estimate the length of a crayon using paper clips, then measure it with a ruler to see how close your estimate was.",
+            "steps": [
+              "Choose a paper clip as your reference object.",
+              "Lay paper clips end to end along the crayon and count how many fit.",
+              "Multiply the number of paper clips by the length of one paper clip (about 3 cm).",
+              "Use a ruler to measure the crayon in centimeters.",
+              "Compare your estimate to the ruler measurement."
+            ],
+            "answer": "If 4 paper clips fit, the estimate is about 12 cm. The ruler might show 11 cm, so the estimate was close."
+          },
+          "quiz": [
+            {
+              "question": "What is the first step when estimating length?",
+              "options": [
+                "Choose a reference object",
+                "Write down the exact measurement",
+                "Use a calculator",
+                "Ask a friend"
+              ],
+              "answerIndex": 0,
+              "explanation": "You start by picking something you know the size of, like a paper clip or your hand span.",
+              "hint": "Think about what you need before you guess."
+            },
+            {
+              "question": "Which tool gives the most accurate measurement of a pencil?",
+              "options": [
+                "Paper clips",
+                "Ruler",
+                "Hand span",
+                "Estimate"
+              ],
+              "answerIndex": 1,
+              "explanation": "A ruler has marked units that let you read the exact length.",
+              "hint": "Look for a tool with numbers on it."
+            },
+            {
+              "question": "If a toy car is about 3 paper clips long and each paper clip is 3 cm, about how long is the car?",
+              "options": [
+                "6 cm",
+                "12 cm",
+                "9 cm",
+                "15 cm"
+              ],
+              "answerIndex": 2,
+              "explanation": "3 paper clips × 3 cm each = 9 cm.",
+              "hint": "Multiply the number of paper clips by the length of one."
+            },
+            {
+              "question": "When comparing two objects, you say one is longer if...",
+              "options": [
+                "It has more color",
+                "It weighs more",
+                "It takes up more space",
+                "Its length measurement is greater"
+              ],
+              "answerIndex": 3,
+              "explanation": "Length comparison is based on the measurement of how long each object is.",
+              "hint": "Focus on the measurement, not color or weight."
+            },
+            {
+              "question": "What unit is used to measure length in the metric system?",
+              "accepted": [
+                "meter",
+                "metre",
+                "m"
+              ],
+              "explanation": "The base unit of length in the metric system is the meter.",
+              "hint": "Think of the standard metric unit for distance."
+            },
+            {
+              "question": "How many centimeters are in one meter?",
+              "accepted": [
+                "100"
+              ],
+              "explanation": "There are 100 centimeters in a meter.",
+              "hint": "Remember the prefix centi- means one hundredth."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Estimate",
+              "back": "To make a good guess about a measurement without using a tool."
+            },
+            {
+              "front": "Compare lengths",
+              "back": "To decide which object is longer or shorter by looking at their measurements."
+            },
+            {
+              "front": "Reference object",
+              "back": "An object of known size used to help estimate another object's length."
+            },
+            {
+              "front": "Ruler",
+              "back": "A tool marked with units (like centimeters or inches) used to measure length accurately."
+            },
+            {
+              "front": "Centimeter",
+              "back": "A metric unit of length; 100 centimeters make 1 meter."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1578 @@
+{
+  "id": "k-2-kindergarten-math",
+  "title": "Kindergarten Math",
+  "subject": "Math",
+  "band": "K-2",
+  "level": "Kindergarten",
+  "emoji": "🔢",
+  "blurb": "A playful Kindergarten math course that builds counting to 100, shape recognition, comparison skills, and addition and subtraction within 10.",
+  "tags": [
+    "kindergarten",
+    "math",
+    "counting",
+    "shapes",
+    "addition",
+    "subtraction",
+    "comparing",
+    "numbers",
+    "hundred chart",
+    "early math"
+  ],
+  "units": [
+    {
+      "title": "Counting Foundations",
+      "outline": [
+        "Counting objects 1‑10",
+        "Number names and numerals 1‑10",
+        "Counting forward and backward to 20"
+      ],
+      "lessons": [
+        {
+          "title": "Counting objects 1‑10",
+          "minutes": 8,
+          "searchTerm": "counting objects 1 to 10 kindergarten",
+          "explanation": [
+            "Counting objects means pointing to each item and saying a number name in order. For example, if you see 🍎🍎🍎🍎🍎 you touch the first apple and say \"one\", the second apple and say \"two\", and continue until the last apple. The last number you say tells you how many apples there are.",
+            "One‑to‑one correspondence is the idea that each object gets exactly one number name and each number name is used for exactly one object. When you count, you should not skip an object or count the same object twice. This matching helps you know the total without guessing.",
+            "Cardinality is the math word for \"how many.\" After you finish counting a group, the final number you said is the cardinality of that group. If you counted five apples, the cardinality is five.",
+            "A good way to practice is to line up toys, blocks, or snacks and count them aloud every day. Say the numbers clearly, point to each item, and then ask yourself, \"How many?\" This builds a strong foundation for addition and subtraction later."
+          ],
+          "keyTerms": [
+            {
+              "term": "one-to-one correspondence",
+              "definition": "Matching each object to one and only one number name while counting."
+            },
+            {
+              "term": "cardinality",
+              "definition": "The last number said when counting a set; it tells how many objects are in the set."
+            },
+            {
+              "term": "counting sequence",
+              "definition": "The ordered list of number names used for counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10."
+            }
+          ],
+          "example": {
+            "problem": "Count the apples shown: 🍎🍎🍎🍎🍎",
+            "steps": [
+              "Point to the first apple and say \"one\".",
+              "Point to the second apple and say \"two\".",
+              "Continue pointing and saying the next number for each apple.",
+              "The last number you say is the total."
+            ],
+            "answer": "5 apples"
+          },
+          "quiz": [
+            {
+              "question": "What number do we say first when we count?",
+              "options": [
+                "1",
+                "2",
+                "0",
+                "3"
+              ],
+              "answerIndex": 0,
+              "explanation": "Counting always begins with the number one.",
+              "hint": "Think of the first counting word."
+            },
+            {
+              "question": "If you have four blocks and you count them, what is the last number you say?",
+              "options": [
+                "3",
+                "4",
+                "5",
+                "2"
+              ],
+              "answerIndex": 1,
+              "explanation": "The final number spoken equals the total number of blocks.",
+              "hint": "Count each block one by one."
+            },
+            {
+              "question": "Which action shows one-to-one correspondence?",
+              "options": [
+                "Saying numbers fast",
+                "Skipping objects",
+                "Touching each object once while saying a number",
+                "Counting the same object twice"
+              ],
+              "answerIndex": 2,
+              "explanation": "One-to-one correspondence means each object gets exactly one number name.",
+              "hint": "Match each object to a number."
+            },
+            {
+              "question": "What does cardinality tell us?",
+              "options": [
+                "The order of numbers",
+                "The shape of numbers",
+                "The sound of numbers",
+                "How many objects are in a set"
+              ],
+              "answerIndex": 3,
+              "explanation": "Cardinality is the quantity of a set, given by the last counting number.",
+              "hint": "Think \"how many\"."
+            },
+            {
+              "question": "How many fingers are on one hand?",
+              "accepted": [
+                "5",
+                "five"
+              ],
+              "explanation": "A typical human hand has five fingers.",
+              "hint": "Count your fingers."
+            },
+            {
+              "question": "What number comes after 7 when counting?",
+              "accepted": [
+                "8",
+                "eight"
+              ],
+              "explanation": "The counting sequence goes 7 then 8.",
+              "hint": "Say the counting words out loud."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "One-to-one correspondence",
+              "back": "Matching each object to one number name while counting."
+            },
+            {
+              "front": "Cardinality",
+              "back": "The last number said tells how many objects are in the set."
+            },
+            {
+              "front": "Counting sequence 1‑10",
+              "back": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+            },
+            {
+              "front": "How many?",
+              "back": "Ask \"How many?\" to find the cardinality of a group."
+            },
+            {
+              "front": "Counting objects",
+              "back": "Point to each object and say the next number name."
+            }
+          ]
+        },
+        {
+          "title": "Number names and numerals 1‑10",
+          "minutes": 8,
+          "searchTerm": "kindergarten number names 1 to 10",
+          "explanation": [
+            "Numbers have two forms: a spoken name like “one” and a written symbol called a numeral like 1. In kindergarten we learn the first ten of each so we can count objects, read page numbers, and write our age.",
+            "The counting sequence always goes in the same order: one, two, three, four, five, six, seven, eight, nine, ten. When we say the names we can point to the matching numerals 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.",
+            "A helpful way to remember is to match each name to a group of objects. For example, three apples 🍎🍎🍎 shows the name “three” and the numeral 3. Practicing with fingers, blocks, or pictures makes the connection strong.",
+            "When you see a numeral you can say its name, and when you hear a name you can write its numeral. This two‑way skill is the foundation for all later math."
+          ],
+          "keyTerms": [
+            {
+              "term": "numeral",
+              "definition": "A written symbol that represents a number, such as 1, 2, 3."
+            },
+            {
+              "term": "number name",
+              "definition": "The word we say for a number, such as “one”, “two”, “three”."
+            },
+            {
+              "term": "counting sequence",
+              "definition": "The fixed order of number names from one to ten (and beyond) that we use when we count."
+            }
+          ],
+          "example": {
+            "problem": "Write the numeral for the number name “seven”.",
+            "steps": [
+              "Say the number name “seven”.",
+              "Find the matching numeral in the counting sequence.",
+              "Write the numeral 7."
+            ],
+            "answer": "7"
+          },
+          "quiz": [
+            {
+              "question": "Which numeral matches the number name “four”?",
+              "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "answerIndex": 1,
+              "explanation": "Four is the fourth number name, its numeral is 4.",
+              "hint": "Count the names: one, two, three, four."
+            },
+            {
+              "question": "What number name goes with the numeral 8?",
+              "options": [
+                "six",
+                "seven",
+                "eight",
+                "nine"
+              ],
+              "answerIndex": 2,
+              "explanation": "The numeral 8 corresponds to the name “eight”.",
+              "hint": "Say the counting sequence up to 8."
+            },
+            {
+              "question": "If you have three pencils, which numeral shows how many?",
+              "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "answerIndex": 1,
+              "explanation": "Three pencils means the quantity three, numeral 3.",
+              "hint": "Count the pencils."
+            },
+            {
+              "question": "Which of the following shows the correct order of the first five numerals?",
+              "options": [
+                "1, 2, 3, 4, 5",
+                "5, 4, 3, 2, 1",
+                "2, 1, 3, 4, 5",
+                "1, 3, 2, 4, 5"
+              ],
+              "answerIndex": 0,
+              "explanation": "The counting sequence starts at 1 and increases by one each step.",
+              "hint": "Start at one and count up."
+            },
+            {
+              "question": "What numeral represents the number name “nine”?",
+              "accepted": [
+                "9"
+              ],
+              "explanation": "Nine is the ninth number name, its numeral is 9.",
+              "hint": "Count to nine."
+            },
+            {
+              "question": "How many objects are in a group of ten?",
+              "accepted": [
+                "10"
+              ],
+              "explanation": "A group of ten contains ten objects, written as the numeral 10.",
+              "hint": "Think of ten fingers."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "1",
+              "back": "one"
+            },
+            {
+              "front": "2",
+              "back": "two"
+            },
+            {
+              "front": "3",
+              "back": "three"
+            },
+            {
+              "front": "4",
+              "back": "four"
+            },
+            {
+              "front": "5",
+              "back": "five"
+            }
+          ]
+        },
+        {
+          "title": "Counting forward and backward to 20",
+          "minutes": 8,
+          "searchTerm": "counting forward backward to 20 kindergarten",
+          "explanation": [
+            "Counting forward means saying numbers in order from a smaller number to a larger number. When we count forward to 20 we start at 1 and say 1, 2, 3, all the way up to 20.",
+            "Counting backward is the opposite. We start at a larger number and say each number that is one less. For example, counting backward from 10 we say 10, 9, 8, 7, 6, 5, 4, 3, 2, 1.",
+            "A number line helps us see both directions. The numbers are placed in order from left to right. Moving to the right is counting forward, and moving to the left is counting backward.",
+            "Practice by saying the numbers out loud, pointing to each number on a number line, or using objects like blocks. The more you practice, the easier it becomes to count forward and backward to 20."
+          ],
+          "keyTerms": [
+            {
+              "term": "forward counting",
+              "definition": "Saying numbers in order from smaller to larger, like 1, 2, 3."
+            },
+            {
+              "term": "backward counting",
+              "definition": "Saying numbers in order from larger to smaller, like 10, 9, 8."
+            },
+            {
+              "term": "number line",
+              "definition": "A straight line with numbers placed in order to help see counting forward and backward."
+            }
+          ],
+          "example": {
+            "problem": "Count forward from 7 to 12, then count backward from 12 to 7.",
+            "steps": [
+              "Start at 7 and say each next number: 7, 8, 9, 10, 11, 12.",
+              "Now start at 12 and say each previous number: 12, 11, 10, 9, 8, 7."
+            ],
+            "answer": "Forward: 7, 8, 9, 10, 11, 12. Backward: 12, 11, 10, 9, 8, 7."
+          },
+          "quiz": [
+            {
+              "question": "What number comes after 14 when counting forward?",
+              "options": [
+                "15",
+                "13",
+                "16",
+                "12"
+              ],
+              "answerIndex": 0,
+              "explanation": "Counting forward adds one to the current number, so the number after 14 is 15.",
+              "hint": "Think of the next number you say when you count up."
+            },
+            {
+              "question": "Which number comes right before 9 when counting backward?",
+              "options": [
+                "10",
+                "8",
+                "7",
+                "11"
+              ],
+              "answerIndex": 1,
+              "explanation": "Counting backward means going down by one, so the number before 9 is 8.",
+              "hint": "Imagine moving left on a number line."
+            },
+            {
+              "question": "If you start at 5 and count forward three numbers, what number do you land on?",
+              "options": [
+                "6",
+                "7",
+                "8",
+                "9"
+              ],
+              "answerIndex": 2,
+              "explanation": "Counting forward three steps from 5: 5 → 6 → 7 → 8.",
+              "hint": "Count each step out loud."
+            },
+            {
+              "question": "Count backward from 12 to 8. How many numbers do you say including both 12 and 8?",
+              "options": [
+                "4",
+                "6",
+                "3",
+                "5"
+              ],
+              "answerIndex": 3,
+              "explanation": "The numbers are 12, 11, 10, 9, 8 — that is five numbers total.",
+              "hint": "Count each number you say."
+            },
+            {
+              "question": "What number comes after 19 when you count forward?",
+              "accepted": [
+                "20",
+                "twenty"
+              ],
+              "explanation": "After 19 the next counting number is 20.",
+              "hint": "Think of the number that follows 19."
+            },
+            {
+              "question": "If you count backward from 10 to 6, how many numbers do you say including both 10 and 6?",
+              "accepted": [
+                "5",
+                "five"
+              ],
+              "explanation": "The numbers are 10, 9, 8, 7, 6 — five numbers in total.",
+              "hint": "Count each number you say."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Count forward from 1 to 5.",
+              "back": "1, 2, 3, 4, 5"
+            },
+            {
+              "front": "Count backward from 10 to 6.",
+              "back": "10, 9, 8, 7, 6"
+            },
+            {
+              "front": "What number comes after 13?",
+              "back": "14"
+            },
+            {
+              "front": "What number comes before 8 when counting backward?",
+              "back": "7"
+            },
+            {
+              "front": "How many numbers are there from 4 to 9 inclusive?",
+              "back": "6 numbers (4, 5, 6, 7, 8, 9)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Counting to 100",
+      "outline": [
+        "Counting by ones to 100",
+        "Counting by tens to 100",
+        "Using a hundred chart"
+      ],
+      "lessons": [
+        {
+          "title": "Counting by ones to 100",
+          "minutes": 8,
+          "searchTerm": "counting by ones to 100 kindergarten",
+          "explanation": [
+            "Counting by ones means saying each number in order, one after another, without skipping any. When you count 1, 2, 3, 4, you are counting by ones.",
+            "You can practice by touching each object as you say its number. For example, if you have five blocks, point to the first block and say “one,” point to the second and say “two,” and keep going until you say “five.” This is called one‑to‑one correspondence.",
+            "A number line from 0 to 100 helps you see the order. Start at 0, move one step to 1, then to 2, and continue until you reach 100. Each step is exactly one more than the step before.",
+            "When you count to 100 by ones, you will say one hundred numbers. The last number you say is 100, which means you have counted one hundred things."
+          ],
+          "keyTerms": [
+            {
+              "term": "counting by ones",
+              "definition": "Saying each whole number in order, adding one each time."
+            },
+            {
+              "term": "one‑to‑one correspondence",
+              "definition": "Matching each object you count with exactly one number name."
+            },
+            {
+              "term": "number line",
+              "definition": "A straight line with numbers placed at equal spaces to show order."
+            }
+          ],
+          "example": {
+            "problem": "Count the stars in the picture from 1 to 12.",
+            "steps": [
+              "Point to the first star and say “one.”",
+              "Move to the next star and say “two.”",
+              "Continue pointing and saying the next number until you reach the last star.",
+              "The last number you say tells how many stars there are."
+            ],
+            "answer": "12 stars"
+          },
+          "quiz": [
+            {
+              "question": "What number comes after 27 when you count by ones?",
+              "options": [
+                "26",
+                "28",
+                "27",
+                "29"
+              ],
+              "answerIndex": 1,
+              "explanation": "Counting by ones adds one each time, so 27 + 1 = 28.",
+              "hint": "Think of the next step on a number line."
+            },
+            {
+              "question": "If you have 15 crayons and you count them by ones, what is the last number you say?",
+              "options": [
+                "14",
+                "15",
+                "16",
+                "13"
+              ],
+              "answerIndex": 1,
+              "explanation": "You say one number for each crayon, so the final number equals the total count.",
+              "hint": "Match each crayon to a number."
+            },
+            {
+              "question": "Which of these shows counting by ones?",
+              "options": [
+                "2, 4, 6, 8",
+                "5, 6, 7, 8",
+                "10, 20, 30",
+                "1, 3, 5, 7"
+              ],
+              "answerIndex": 1,
+              "explanation": "Only the sequence 5, 6, 7, 8 increases by one each step.",
+              "hint": "Look for a pattern that adds exactly one."
+            },
+            {
+              "question": "How many numbers do you say when you count from 1 to 100 by ones?",
+              "options": [
+                "99",
+                "100",
+                "101",
+                "98"
+              ],
+              "answerIndex": 1,
+              "explanation": "You start at 1 and end at 100, giving exactly one hundred numbers.",
+              "hint": "Count the steps on a number line from 1 to 100."
+            },
+            {
+              "question": "Write the number you say last when you count to one hundred by ones.",
+              "accepted": [
+                "100",
+                "one hundred"
+              ],
+              "explanation": "The final number in the counting sequence 1, 2, …, 100 is 100.",
+              "hint": "Think of the last step on the number line."
+            },
+            {
+              "question": "If you count 23 apples by ones, what number do you say for the last apple?",
+              "accepted": [
+                "23",
+                "twenty three",
+                "twenty-three"
+              ],
+              "explanation": "Each apple gets one number, so the last apple receives the total count.",
+              "hint": "Match each apple to a counting number."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What does counting by ones mean?",
+              "back": "Saying each whole number in order, adding one each time."
+            },
+            {
+              "front": "What is one‑to‑one correspondence?",
+              "back": "Matching each object you count with exactly one number name."
+            },
+            {
+              "front": "How many numbers are spoken when counting from 1 to 100 by ones?",
+              "back": "One hundred numbers."
+            },
+            {
+              "front": "What is the last number you say when you count to 100 by ones?",
+              "back": "100 (one hundred)."
+            },
+            {
+              "front": "Show counting by ones on a number line.",
+              "back": "Start at 0, move one step to 1, then to 2, continue until 100."
+            },
+            {
+              "front": "If you have 7 toy cars and count them by ones, what number do you finish on?",
+              "back": "7"
+            }
+          ]
+        },
+        {
+          "title": "Counting by tens to 100",
+          "minutes": 8,
+          "searchTerm": "counting by tens to 100 kindergarten",
+          "explanation": [
+            "Counting by tens means saying numbers that are ten apart: 10, 20, 30, and so on. It is like skipping the numbers in between and landing on each group of ten.",
+            "When you count by tens you are adding ten each time. Start at 10, add ten to get 20, add ten again to get 30, and keep going until you reach 100. The pattern always ends with a zero.",
+            "You can picture this with objects. Put ten blocks in a pile, then make another pile of ten, and another. Each pile represents one ten. Counting the piles gives you the tens: one pile is 10, two piles are 20, three piles are 30.",
+            "A number line helps too. Mark 0, then jump ten spaces to 10, another ten to 20, and continue. The jumps show the same pattern and make it easy to see that 100 is ten jumps from 0."
+          ],
+          "keyTerms": [
+            {
+              "term": "ten",
+              "definition": "A group of ten ones; the base unit for counting by tens."
+            },
+            {
+              "term": "skip counting",
+              "definition": "Counting forward by a number other than one, such as counting by twos, fives, or tens."
+            },
+            {
+              "term": "number line",
+              "definition": "A straight line with numbers placed at equal intervals, used to show order and distance between numbers."
+            },
+            {
+              "term": "hundred",
+              "definition": "The number 100, which is ten groups of ten."
+            }
+          ],
+          "example": {
+            "problem": "Count by tens from 10 to 100.",
+            "steps": [
+              "Start at 10.",
+              "Add 10 to get 20.",
+              "Add 10 to get 30.",
+              "Continue adding 10 until you reach 100."
+            ],
+            "answer": "10, 20, 30, 40, 50, 60, 70, 80, 90, 100"
+          },
+          "quiz": [
+            {
+              "question": "What comes after 30 when counting by tens?",
+              "options": [
+                "40",
+                "31",
+                "20",
+                "50"
+              ],
+              "answerIndex": 0,
+              "explanation": "Counting by tens adds ten each step, so 30 + 10 = 40.",
+              "hint": "Think of adding a group of ten."
+            },
+            {
+              "question": "Which number is NOT a multiple of ten?",
+              "options": [
+                "20",
+                "45",
+                "60",
+                "80"
+              ],
+              "answerIndex": 1,
+              "explanation": "Multiples of ten end with zero. 45 ends with five.",
+              "hint": "Look at the last digit."
+            },
+            {
+              "question": "How many tens are in 70?",
+              "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+              ],
+              "answerIndex": 2,
+              "explanation": "70 divided by 10 equals 7.",
+              "hint": "Count how many groups of ten make 70."
+            },
+            {
+              "question": "If you start at 10 and count by tens three times, what number do you land on?",
+              "options": [
+                "20",
+                "30",
+                "40",
+                "50"
+              ],
+              "answerIndex": 3,
+              "explanation": "10 → 20 (1), 20 → 30 (2), 30 → 40 (3). The third jump lands on 40.",
+              "hint": "Count each jump of ten."
+            },
+            {
+              "question": "Write the number that comes after 90 when counting by tens.",
+              "accepted": [
+                "100",
+                "one hundred"
+              ],
+              "explanation": "After 90, adding ten gives 100.",
+              "hint": "Add one more group of ten."
+            },
+            {
+              "question": "How many groups of ten make 100?",
+              "accepted": [
+                "10",
+                "ten"
+              ],
+              "explanation": "100 divided by 10 equals 10 groups.",
+              "hint": "Think of ten piles of ten blocks."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What is the next number after 20 when counting by tens?",
+              "back": "30"
+            },
+            {
+              "front": "How many tens are in 50?",
+              "back": "5"
+            },
+            {
+              "front": "Count by tens from 10 to 100.",
+              "back": "10, 20, 30, 40, 50, 60, 70, 80, 90, 100"
+            },
+            {
+              "front": "Which of these numbers is a multiple of ten? 15, 30, 42",
+              "back": "30"
+            },
+            {
+              "front": "If you have 8 groups of ten, what number do you have?",
+              "back": "80"
+            }
+          ]
+        },
+        {
+          "title": "Using a hundred chart",
+          "minutes": 8,
+          "searchTerm": "hundred chart kindergarten counting",
+          "explanation": [
+            "A hundred chart is a 10‑by‑10 grid that shows the numbers from 1 to 100 in order. Each row holds ten numbers, and each column holds ten numbers that share the same ending digit.",
+            "Children can use the chart to see patterns: moving one space to the right adds 1, moving one space down adds 10, moving left subtracts 1, and moving up subtracts 10.",
+            "To find a number, first locate its row (the tens digit) and then its column (the ones digit). For example, 47 is in the fifth row (40‑49) and the seventh column.",
+            "Practicing with a hundred chart helps students count forward and backward, skip‑count by 2s, 5s, and 10s, and understand place value in a visual way."
+          ],
+          "keyTerms": [
+            {
+              "term": "hundred chart",
+              "definition": "A 10‑row by 10‑column grid that displays the numbers 1 through 100 in order."
+            },
+            {
+              "term": "row",
+              "definition": "A horizontal line of ten consecutive numbers on the chart (e.g., 21‑30)."
+            },
+            {
+              "term": "column",
+              "definition": "A vertical line of ten numbers that all end with the same digit (e.g., 3, 13, 23, …, 93)."
+            }
+          ],
+          "example": {
+            "problem": "Find the number that is 5 more than 23 on a hundred chart.",
+            "steps": [
+              "Locate 23 in the third row, fourth column.",
+              "Move five spaces to the right, staying in the same row.",
+              "If you reach the end of the row, continue at the start of the next row."
+            ],
+            "answer": "28"
+          },
+          "quiz": [
+            {
+              "question": "What does each row on a hundred chart represent?",
+              "options": [
+                "A group of ten numbers",
+                "A group of five numbers",
+                "A group of twenty numbers",
+                "A group of one hundred numbers"
+              ],
+              "answerIndex": 0,
+              "explanation": "Each row contains ten consecutive numbers, such as 1‑10, 11‑20, and so on.",
+              "hint": "Count how many numbers are in the first row."
+            },
+            {
+              "question": "If you start at 34 and move one space to the right, what number do you land on?",
+              "options": [
+                "33",
+                "35",
+                "44",
+                "24"
+              ],
+              "answerIndex": 1,
+              "explanation": "Moving right adds 1, so 34 + 1 = 35.",
+              "hint": "Think about adding one."
+            },
+            {
+              "question": "How many columns are in a standard hundred chart?",
+              "options": [
+                "5",
+                "8",
+                "10",
+                "12"
+              ],
+              "answerIndex": 2,
+              "explanation": "There are ten columns, one for each possible ones digit (0‑9).",
+              "hint": "Count the vertical lines of numbers."
+            },
+            {
+              "question": "Which direction do you move to add 10 on a hundred chart?",
+              "options": [
+                "Up",
+                "Left",
+                "Right",
+                "Down"
+              ],
+              "answerIndex": 3,
+              "explanation": "Moving down one row keeps the same column and adds ten.",
+              "hint": "Look at the numbers 12 and 22."
+            },
+            {
+              "question": "What number comes right after 99 on a hundred chart?",
+              "accepted": [
+                "100",
+                "one hundred"
+              ],
+              "explanation": "The chart ends at 100, which follows 99.",
+              "hint": "The last number on the chart."
+            },
+            {
+              "question": "How many rows are in a standard hundred chart?",
+              "accepted": [
+                "10",
+                "ten"
+              ],
+              "explanation": "There are ten rows, each holding ten numbers.",
+              "hint": "Each row has ten numbers; 100 ÷ 10 = 10 rows."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What is a hundred chart?",
+              "back": "A grid with numbers 1 to 100 arranged in 10 rows and 10 columns."
+            },
+            {
+              "front": "How do you find 10 more than a number on the chart?",
+              "back": "Move down one row (same column)."
+            },
+            {
+              "front": "How do you find 1 more than a number on the chart?",
+              "back": "Move one space to the right; if at the end of a row, go to the first column of the next row."
+            },
+            {
+              "front": "What does each column represent?",
+              "back": "Numbers that end with the same digit (e.g., 2, 12, 22, …, 92)."
+            },
+            {
+              "front": "What number is at the bottom right corner of a hundred chart?",
+              "back": "100"
+            },
+            {
+              "front": "If you are on 57 and move up one row, what number are you on?",
+              "back": "47"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Shapes and Spatial Reasoning",
+      "outline": [
+        "Identifying 2‑D shapes (circle, square, triangle, rectangle)",
+        "Describing shape attributes (sides, corners)",
+        "Composing and decomposing shapes"
+      ],
+      "lessons": [
+        {
+          "title": "Identifying 2‑D shapes (circle, square, triangle, rectangle)",
+          "minutes": 8,
+          "searchTerm": "kindergarten identify 2D shapes circle square triangle rectangle",
+          "explanation": [
+            "A 2‑D shape is a flat figure that has only length and width. In kindergarten we learn four basic shapes: circle, square, triangle, and rectangle. Each shape has special clues that help us name it.",
+            "A **circle** is round with no corners and no straight sides. If you trace a coin or a plate, you get a circle. A **square** has four equal sides and four square corners (right angles). A **rectangle** also has four sides and four corners, but only the opposite sides are the same length. A **triangle** has three sides and three corners.",
+            "To identify a shape, look at the number of sides and corners. Count the sides: 0 sides → circle, 3 sides → triangle, 4 sides → square or rectangle. Then check if all four sides are the same length (square) or only opposite sides match (rectangle).",
+            "Practice by finding these shapes around the classroom: the clock face (circle), a window pane (square or rectangle), a slice of pizza (triangle), and a book cover (rectangle). Saying the name out loud while pointing helps the brain remember the attributes."
+          ],
+          "keyTerms": [
+            {
+              "term": "circle",
+              "definition": "A round 2‑D shape with no corners and no straight sides."
+            },
+            {
+              "term": "square",
+              "definition": "A 2‑D shape with four equal sides and four right‑angle corners."
+            },
+            {
+              "term": "triangle",
+              "definition": "A 2‑D shape with three sides and three corners."
+            },
+            {
+              "term": "rectangle",
+              "definition": "A 2‑D shape with four sides, four right‑angle corners, and opposite sides that are equal in length."
+            }
+          ],
+          "example": {
+            "problem": "Look at the shape below and decide which name fits best.",
+            "steps": [
+              "Count the sides: the shape has four sides.",
+              "Check the corners: all four corners are square (right angles).",
+              "Measure the sides: the opposite sides are the same length, but the adjacent sides are different.",
+              "Match the attributes: four sides, four right angles, only opposite sides equal → rectangle."
+            ],
+            "answer": "The shape is a rectangle."
+          },
+          "quiz": [
+            {
+              "question": "Which shape has no corners and no straight sides?",
+              "options": [
+                "circle",
+                "square",
+                "triangle",
+                "rectangle"
+              ],
+              "answerIndex": 0,
+              "explanation": "A circle is round and has zero corners.",
+              "hint": "Think of a coin or a plate."
+            },
+            {
+              "question": "A shape with three sides and three corners is called a ___.",
+              "options": [
+                "square",
+                "rectangle",
+                "triangle",
+                "circle"
+              ],
+              "answerIndex": 2,
+              "explanation": "Tri‑ means three, so a triangle has three sides.",
+              "hint": "Count the sides: 1‑2‑3."
+            },
+            {
+              "question": "What makes a square different from a rectangle?",
+              "options": [
+                "A square has 5 sides",
+                "A square has all sides equal",
+                "A rectangle has no corners",
+                "A rectangle is round"
+              ],
+              "answerIndex": 1,
+              "explanation": "Both have four right angles, but a square's four sides are the same length.",
+              "hint": "Compare side lengths."
+            },
+            {
+              "question": "If a shape has four sides, four right angles, and only opposite sides are equal, it is a ___.",
+              "options": [
+                "circle",
+                "triangle",
+                "square",
+                "rectangle"
+              ],
+              "answerIndex": 3,
+              "explanation": "That description matches a rectangle.",
+              "hint": "Opposite sides match, adjacent sides differ."
+            },
+            {
+              "question": "How many sides does a triangle have?",
+              "accepted": [
+                "3",
+                "three"
+              ],
+              "explanation": "A triangle always has three sides.",
+              "hint": "Tri‑ means three."
+            },
+            {
+              "question": "Name the shape that looks like a round clock face.",
+              "accepted": [
+                "circle",
+                "Circle"
+              ],
+              "explanation": "A clock face is a perfect example of a circle.",
+              "hint": "Think of something round with no corners."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Circle",
+              "back": "Round shape with no corners or straight sides."
+            },
+            {
+              "front": "Square",
+              "back": "Four equal sides and four right‑angle corners."
+            },
+            {
+              "front": "Triangle",
+              "back": "Three sides and three corners."
+            },
+            {
+              "front": "Rectangle",
+              "back": "Four sides, four right angles, opposite sides equal."
+            },
+            {
+              "front": "Identify the shape: 4 sides, all sides equal, 4 right angles",
+              "back": "Square"
+            },
+            {
+              "front": "Identify the shape: 3 sides, 3 corners",
+              "back": "Triangle"
+            }
+          ]
+        },
+        {
+          "title": "Describing shape attributes (sides, corners)",
+          "minutes": 8,
+          "searchTerm": "kindergarten shape sides corners",
+          "explanation": [
+            "Shapes are flat figures we see every day, like the windows in a house or the tiles on a floor. Each shape is made up of straight lines called sides and points where those lines meet called corners.",
+            "A side is a straight edge that goes from one corner to the next. A corner (also called a vertex) is the point where two sides touch. Counting sides and corners helps us name and compare shapes.",
+            "A triangle has three sides and three corners. A square has four equal sides and four corners. A rectangle also has four sides and four corners, but its opposite sides are the same length. A circle is special because it has no straight sides and no corners at all.",
+            "To describe a shape, first trace its outline with your finger and count each straight edge. Then count each point where two edges meet. The numbers you get are the shape's attributes."
+          ],
+          "keyTerms": [
+            {
+              "term": "side",
+              "definition": "A straight line segment that forms part of the boundary of a flat shape."
+            },
+            {
+              "term": "corner",
+              "definition": "The point where two sides of a shape meet; also called a vertex."
+            },
+            {
+              "term": "vertex",
+              "definition": "Another word for corner; the meeting point of two sides."
+            },
+            {
+              "term": "polygon",
+              "definition": "A flat shape with only straight sides, such as triangles, squares, and rectangles."
+            }
+          ],
+          "example": {
+            "problem": "Look at a triangle. How many sides and corners does it have?",
+            "steps": [
+              "Trace each straight edge of the triangle and count them.",
+              "Trace each point where two edges meet and count them."
+            ],
+            "answer": "A triangle has 3 sides and 3 corners."
+          },
+          "quiz": [
+            {
+              "question": "Which shape has 3 sides and 3 corners?",
+              "options": [
+                "triangle",
+                "square",
+                "circle",
+                "rectangle"
+              ],
+              "answerIndex": 0,
+              "explanation": "A triangle is defined by having exactly three straight sides and three corners.",
+              "hint": "Think of a shape that looks like a slice of pizza."
+            },
+            {
+              "question": "How many sides does a square have?",
+              "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "answerIndex": 1,
+              "explanation": "A square has four equal straight sides.",
+              "hint": "Count the edges of a typical box."
+            },
+            {
+              "question": "Which shape has no corners?",
+              "options": [
+                "triangle",
+                "square",
+                "circle",
+                "pentagon"
+              ],
+              "answerIndex": 2,
+              "explanation": "A circle is round and has no straight edges or corner points.",
+              "hint": "Imagine a round cookie."
+            },
+            {
+              "question": "A rectangle has how many corners?",
+              "options": [
+                "2",
+                "3",
+                "5",
+                "4"
+              ],
+              "answerIndex": 3,
+              "explanation": "A rectangle has four corners where its four sides meet.",
+              "hint": "Picture a door frame."
+            },
+            {
+              "question": "How many sides does a triangle have?",
+              "accepted": [
+                "3",
+                "three"
+              ],
+              "explanation": "A triangle always has three straight sides.",
+              "hint": "Count the edges of a triangle."
+            },
+            {
+              "question": "What do we call the point where two sides meet?",
+              "accepted": [
+                "corner",
+                "vertex",
+                "point"
+              ],
+              "explanation": "The meeting point of two sides is called a corner or vertex.",
+              "hint": "Think of the tip of a slice of pizza."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What is a side of a shape?",
+              "back": "A straight line that forms part of the outline of a shape."
+            },
+            {
+              "front": "What is a corner?",
+              "back": "The point where two sides meet."
+            },
+            {
+              "front": "How many sides does a square have?",
+              "back": "4"
+            },
+            {
+              "front": "Which shape has no sides and no corners?",
+              "back": "A circle"
+            },
+            {
+              "front": "Name a shape with 3 sides and 3 corners.",
+              "back": "Triangle"
+            }
+          ]
+        },
+        {
+          "title": "Composing and decomposing shapes",
+          "minutes": 8,
+          "searchTerm": "compose decompose shapes kindergarten",
+          "explanation": [
+            "When we **compose** shapes, we put smaller shapes together to make a bigger shape. For example, two right‑triangles can be placed with their long sides touching to form a square. You can also join two rectangles side by side to create a longer rectangle.",
+            "When we **decompose** a shape, we break it apart into smaller pieces. A square can be cut along a diagonal to make two triangles. A rectangle can be split into two smaller rectangles or into four small squares. Thinking about how shapes fit together helps us see patterns and solve puzzles.",
+            "Try using pattern blocks or paper cut‑outs. Place a green triangle next to another green triangle so the points meet — you just made a rhombus! Then take a blue rhombus and split it into two triangles. Notice that the same pieces can build different shapes.",
+            "Understanding composing and decomposing builds a foundation for later geometry, fractions, and even algebra. It also strengthens spatial reasoning, which is useful for reading maps, building with blocks, and solving everyday problems."
+          ],
+          "keyTerms": [
+            {
+              "term": "compose",
+              "definition": "To put two or more shapes together to form a new shape."
+            },
+            {
+              "term": "decompose",
+              "definition": "To break a shape into smaller shapes."
+            },
+            {
+              "term": "attribute",
+              "definition": "A property of a shape such as number of sides, side lengths, or angles."
+            }
+          ],
+          "example": {
+            "problem": "Use two identical right triangles to make a square.",
+            "steps": [
+              "Place the triangles so their longest sides (the hypotenuses) touch each other.",
+              "Rotate one triangle if needed so the right angles meet at the center.",
+              "Check that all four sides of the new figure are equal length."
+            ],
+            "answer": "The two triangles form a square."
+          },
+          "quiz": [
+            {
+              "question": "Which two shapes can be joined to make a rectangle?",
+              "options": [
+                "Two squares",
+                "Two circles",
+                "Two triangles",
+                "Two hexagons"
+              ],
+              "answerIndex": 0,
+              "explanation": "Two squares placed side by side create a rectangle with equal opposite sides.",
+              "hint": "Think about shapes with four right angles."
+            },
+            {
+              "question": "If you cut a square along a diagonal, how many triangles do you get?",
+              "options": [
+                "One",
+                "Two",
+                "Three",
+                "Four"
+              ],
+              "answerIndex": 1,
+              "explanation": "A diagonal splits the square into two congruent right triangles.",
+              "hint": "A diagonal connects opposite corners."
+            },
+            {
+              "question": "What shape is formed when you put two identical trapezoids together with their parallel sides touching?",
+              "options": [
+                "Parallelogram",
+                "Triangle",
+                "Circle",
+                "Pentagon"
+              ],
+              "answerIndex": 0,
+              "explanation": "The non‑parallel sides become opposite sides of a parallelogram.",
+              "hint": "Look at the pair of parallel sides."
+            },
+            {
+              "question": "Which action describes decomposing a shape?",
+              "options": [
+                "Drawing a shape",
+                "Combining shapes",
+                "Breaking a shape into parts",
+                "Coloring a shape"
+              ],
+              "answerIndex": 2,
+              "explanation": "Decomposing means taking a shape apart into smaller pieces.",
+              "hint": "The prefix de‑ means “undo”."
+            },
+            {
+              "question": "How many triangles are needed to compose a square?",
+              "accepted": [
+                "2",
+                "two"
+              ],
+              "explanation": "Two right triangles with equal legs form a square when their hypotenuses meet.",
+              "hint": "Think of a square cut corner to corner."
+            },
+            {
+              "question": "What shape do you get when you place two rectangles side by side along their longer sides?",
+              "accepted": [
+                "rectangle",
+                "a rectangle"
+              ],
+              "explanation": "The combined figure still has four right angles and opposite sides equal, so it is a rectangle.",
+              "hint": "The longer sides become the new length."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "Compose",
+              "back": "Put smaller shapes together to make a larger shape."
+            },
+            {
+              "front": "Decompose",
+              "back": "Break a shape into smaller shapes."
+            },
+            {
+              "front": "Two right triangles",
+              "back": "Can be joined to form a square."
+            },
+            {
+              "front": "A rectangle split in half",
+              "back": "Makes two smaller rectangles."
+            },
+            {
+              "front": "Attribute",
+              "back": "A property of a shape such as number of sides or side lengths."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Comparing, Adding, and Subtracting Within 10",
+      "outline": [
+        "Comparing quantities with more, less, equal",
+        "Adding within 10 using objects and pictures",
+        "Subtracting within 10 using objects and pictures"
+      ],
+      "lessons": [
+        {
+          "title": "Comparing quantities with more, less, equal",
+          "minutes": 8,
+          "searchTerm": "kindergarten compare more less equal",
+          "explanation": [
+            "When we look at two groups of objects we can say which group has a larger amount, a smaller amount, or the same amount. This is called comparing quantities.",
+            "The word **more** means a larger quantity. For example, if you have 5 apples and your friend has 3 apples, you have **more** apples. The word **less** means a smaller quantity. In the same example, your friend has **less** apples. The word **equal** (or **same**) means both groups have exactly the same number of objects, like 4 blocks and 4 blocks.",
+            "To compare, first count each group carefully. Then decide: does the first group have a bigger number (more), a smaller number (less), or the same number (equal)? You can also use the symbols > for more, < for less, and = for equal.",
+            "Practice by gathering small collections of toys, snacks, or counters. Count each collection out loud, then say the comparison sentence: \"I have more,\" \"You have less,\" or \"We have equal amounts.\""
+          ],
+          "keyTerms": [
+            {
+              "term": "more",
+              "definition": "A larger quantity or amount than another group."
+            },
+            {
+              "term": "less",
+              "definition": "A smaller quantity or amount than another group."
+            },
+            {
+              "term": "equal",
+              "definition": "Exactly the same quantity or amount as another group."
+            }
+          ],
+          "example": {
+            "problem": "There are 4 red cubes and 6 blue cubes. Which color has more cubes?",
+            "steps": [
+              "Count the red cubes: 1, 2, 3, 4.",
+              "Count the blue cubes: 1, 2, 3, 4, 5, 6.",
+              "Compare the numbers: 6 is larger than 4, so the blue cubes are more."
+            ],
+            "answer": "The blue cubes have more."
+          },
+          "quiz": [
+            {
+              "question": "Which word means a larger amount?",
+              "options": [
+                "more",
+                "less",
+                "equal",
+                "same"
+              ],
+              "answerIndex": 0,
+              "explanation": "\"More\" is the word we use when one group has a bigger number of objects.",
+              "hint": "Think of the word you say when you have extra cookies."
+            },
+            {
+              "question": "You have 2 cookies, your sister has 4 cookies. Who has more?",
+              "options": [
+                "you",
+                "sister",
+                "both",
+                "neither"
+              ],
+              "answerIndex": 1,
+              "explanation": "4 is greater than 2, so the sister has the larger amount.",
+              "hint": "Compare the numbers 2 and 4."
+            },
+            {
+              "question": "Which symbol shows that two groups are equal?",
+              "options": [
+                ">",
+                "<",
+                "=",
+                "+"
+              ],
+              "answerIndex": 2,
+              "explanation": "The equal sign (=) means the two quantities are the same.",
+              "hint": "Look for the symbol with two parallel lines."
+            },
+            {
+              "question": "If you count 5 blocks and your friend counts 5 blocks, what can you say?",
+              "options": [
+                "more",
+                "less",
+                "different",
+                "equal"
+              ],
+              "answerIndex": 3,
+              "explanation": "Both groups have the same number, so they are equal.",
+              "hint": "Same number means equal."
+            },
+            {
+              "question": "Write the word that means the same amount.",
+              "accepted": [
+                "equal",
+                "same"
+              ],
+              "explanation": "Both \"equal\" and \"same\" describe two groups with identical quantities.",
+              "hint": "Think of the word you use when two piles of crayons match."
+            },
+            {
+              "question": "If you have 7 marbles and your friend has 3 marbles, which word describes your amount compared to your friend's?",
+              "accepted": [
+                "more",
+                "greater"
+              ],
+              "explanation": "7 is larger than 3, so you have more (or greater) marbles.",
+              "hint": "Compare 7 and 3."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What does 'more' mean?",
+              "back": "A larger quantity."
+            },
+            {
+              "front": "What does 'less' mean?",
+              "back": "A smaller quantity."
+            },
+            {
+              "front": "What does 'equal' mean?",
+              "back": "The same quantity."
+            },
+            {
+              "front": "If you have 4 crayons and your friend has 6 crayons, who has more?",
+              "back": "Your friend has more."
+            },
+            {
+              "front": "Which symbol shows two groups are equal?",
+              "back": "="
+            }
+          ]
+        },
+        {
+          "title": "Adding within 10 using objects and pictures",
+          "minutes": 8,
+          "searchTerm": "adding within 10 objects pictures kindergarten",
+          "explanation": [
+            "Adding means putting groups together to find how many you have in all. In kindergarten we use real objects like blocks, beads, or fruit, and we also draw pictures to show the groups.",
+            "For example, if you have 3 red apples and you get 2 green apples, you can line up the 3 red apples, then add the 2 green apples next to them. Count every apple: 1, 2, 3, 4, 5. The total is 5 apples.",
+            "A helpful strategy is counting on. Start with the first group (3) and then count forward for each item in the second group: 4, 5. You do not need to recount the first group again.",
+            "Pictures work the same way. Draw 4 circles and then 3 squares. Count the circles first, then continue counting the squares. The last number you say is the sum.",
+            "Practice with different combinations up to 10. Use number bonds like 6 = 4 + 2 or 6 = 5 + 1 to see many ways to make the same total."
+          ],
+          "keyTerms": [
+            {
+              "term": "addend",
+              "definition": "A number that is added to another number."
+            },
+            {
+              "term": "sum",
+              "definition": "The result of adding two or more numbers."
+            },
+            {
+              "term": "counting on",
+              "definition": "Starting from a number and counting forward to add."
+            }
+          ],
+          "example": {
+            "problem": "There are 3 apples and 4 oranges. How many pieces of fruit are there in total?",
+            "steps": [
+              "Place or draw 3 apples.",
+              "Place or draw 4 oranges next to the apples.",
+              "Count all the fruit: 1, 2, 3, 4, 5, 6, 7."
+            ],
+            "answer": "7 pieces of fruit"
+          },
+          "quiz": [
+            {
+              "question": "If you have 2 red blocks and 3 blue blocks, how many blocks do you have in all?",
+              "options": [
+                "4",
+                "5",
+                "6",
+                "7"
+              ],
+              "answerIndex": 1,
+              "explanation": "2 + 3 = 5. Count the two red blocks then count on three more: 3, 4, 5.",
+              "hint": "Start at 2 and count three more."
+            },
+            {
+              "question": "Which picture shows 4 + 2?",
+              "options": [
+                "4 circles and 2 squares",
+                "3 circles and 3 squares",
+                "5 circles and 1 square",
+                "2 circles and 4 squares"
+              ],
+              "answerIndex": 0,
+              "explanation": "The first option has a group of 4 and a group of 2, which matches 4 + 2.",
+              "hint": "Look for a group of four and a group of two."
+            },
+            {
+              "question": "What is the sum of 6 and 1?",
+              "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+              ],
+              "answerIndex": 2,
+              "explanation": "6 + 1 = 7. Counting on from 6 gives 7.",
+              "hint": "Add one more to 6."
+            },
+            {
+              "question": "You have 6 apples and you add 4 more. How many apples now?",
+              "options": [
+                "8",
+                "9",
+                "11",
+                "10"
+              ],
+              "answerIndex": 3,
+              "explanation": "6 + 4 = 10. Count on four numbers after 6: 7, 8, 9, 10.",
+              "hint": "Count four steps forward from 6."
+            },
+            {
+              "question": "What is 2 + 5?",
+              "accepted": [
+                "7",
+                "seven"
+              ],
+              "explanation": "2 + 5 = 7. You can count on from 2: 3, 4, 5, 6, 7.",
+              "hint": "Start at 2 and count five more."
+            },
+            {
+              "question": "What is 4 + 4?",
+              "accepted": [
+                "8",
+                "eight"
+              ],
+              "explanation": "4 + 4 = 8. Counting on from 4 four times gives 8.",
+              "hint": "Double 4."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "3 + 2",
+              "back": "5"
+            },
+            {
+              "front": "Show 4 objects and 3 objects together",
+              "back": "7 objects"
+            },
+            {
+              "front": "What is a sum?",
+              "back": "The total when you add numbers together"
+            },
+            {
+              "front": "Counting on from 5 to add 2",
+              "back": "5, 6, 7 → 7"
+            },
+            {
+              "front": "Number bond for 6",
+              "back": "3 and 3, 4 and 2, 5 and 1"
+            }
+          ]
+        },
+        {
+          "title": "Subtracting within 10 using objects and pictures",
+          "minutes": 8,
+          "searchTerm": "subtract within 10 objects pictures kindergarten",
+          "explanation": [
+            "Subtraction means taking some away from a group. When we work with numbers up to 10 we can use real objects like blocks, beads, or drawings to see what happens.",
+            "First, count how many objects you have in the whole group. That number is the **starting amount**. Then decide how many you will take away. Cross out or remove that many objects.",
+            "After you have taken away the objects, count the ones that are left. The number you count is called the **difference**. For example, if you start with 8 stars and cross out 3, you count the remaining 5 stars. So 8 minus 3 equals 5.",
+            "Pictures work the same way. Draw the total number of items, then draw a line through the ones you subtract. The items without a line are the answer. Using objects or pictures helps you see the subtraction instead of just memorizing facts."
+          ],
+          "keyTerms": [
+            {
+              "term": "subtract",
+              "definition": "To take away a number from another number."
+            },
+            {
+              "term": "difference",
+              "definition": "The result you get after subtracting; the amount left."
+            },
+            {
+              "term": "take away",
+              "definition": "A phrase that means the same as subtract; removing objects from a group."
+            }
+          ],
+          "example": {
+            "problem": "There are 7 apples on a plate. 3 apples are eaten. How many apples are left?",
+            "steps": [
+              "Draw or place 7 apple objects.",
+              "Cross out or remove 3 apples to show they were eaten.",
+              "Count the apples that are not crossed out."
+            ],
+            "answer": "4 apples remain."
+          },
+          "quiz": [
+            {
+              "question": "If you have 6 blocks and take away 2, how many blocks are left?",
+              "options": [
+                "4",
+                "5",
+                "3",
+                "2"
+              ],
+              "answerIndex": 0,
+              "explanation": "Starting with 6 and removing 2 leaves 4 blocks.",
+              "hint": "Count the blocks that stay after crossing out 2."
+            },
+            {
+              "question": "Which picture shows 9 circles with 4 crossed out?",
+              "options": [
+                "Picture A: 9 circles, 4 crossed",
+                "Picture B: 8 circles, 3 crossed",
+                "Picture C: 9 circles, 5 crossed",
+                "Picture D: 10 circles, 4 crossed"
+              ],
+              "answerIndex": 1,
+              "explanation": "Picture A matches the description: 9 total, 4 taken away.",
+              "hint": "Look for the picture with exactly 9 circles before crossing out."
+            },
+            {
+              "question": "What is the difference when you subtract 5 from 10?",
+              "options": [
+                "6",
+                "5",
+                "4",
+                "3"
+              ],
+              "answerIndex": 2,
+              "explanation": "10 minus 5 equals 5, so the difference is 5.",
+              "hint": "Use ten frames or ten fingers to take away five."
+            },
+            {
+              "question": "You draw 8 stars and cross out 6. How many stars are not crossed out?",
+              "options": [
+                "2",
+                "3",
+                "4",
+                "1"
+              ],
+              "answerIndex": 3,
+              "explanation": "8 minus 6 leaves 2 stars.",
+              "hint": "Count the stars without a line through them."
+            },
+            {
+              "question": "Write the number that shows how many are left when you start with 7 and take away 3.",
+              "accepted": [
+                "4",
+                "four"
+              ],
+              "explanation": "7 minus 3 equals 4.",
+              "hint": "Count the remaining objects after removing three."
+            },
+            {
+              "question": "If a picture shows 5 cars and 2 are driven away, what number completes the subtraction sentence 5 - 2 = ?",
+              "accepted": [
+                "3",
+                "three"
+              ],
+              "explanation": "Five cars minus two cars leaves three cars.",
+              "hint": "Cross out two cars and count the rest."
+            }
+          ],
+          "flashcards": [
+            {
+              "front": "What does it mean to subtract?",
+              "back": "To take away a number from another number."
+            },
+            {
+              "front": "What is the difference in 9 - 4?",
+              "back": "5"
+            },
+            {
+              "front": "Show 6 counters, take away 2. How many remain?",
+              "back": "4 counters remain."
+            },
+            {
+              "front": "Draw 8 circles. Cross out 5. How many circles are left?",
+              "back": "3 circles are left."
+            },
+            {
+              "front": "Complete the sentence: 10 - 6 = ___",
+              "back": "4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
